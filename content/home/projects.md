@@ -32,9 +32,17 @@ filter_default = 0
 #   name = "All"
 #   tag = "*"
 #  
+[[filter]]
+name = "Mammals"
+tag = ".mammals"
+#
+[[filter]]
+name = "Bionformatics"
+tag = ".bioinformatics"
+#
 # [[filter]]
-#   name = "Deep Learning"
-#   tag = ".deep-learning"
+#   name = "Environmental Education"
+#   tag = ".environmental-education"
 #
 # [[filter]]
 #   name = "Other"
