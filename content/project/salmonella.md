@@ -1,7 +1,7 @@
 +++
 title = "Salmonella as foodborne pathogen: epidemiology, pathogenesis and prevention"
 date = 2018-02-16T15:14:17Z
-draft = true
+draft = false
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
