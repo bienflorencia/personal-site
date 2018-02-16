@@ -5,7 +5,7 @@ draft = true
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = [bioinformatics]
+tags = ["bioinformatics"]
   
 # Project summary to display on homepage.
 summary = "Salmonella as foodborne pathogen: epidemiology, pathogenesis and prevention"
