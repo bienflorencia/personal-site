@@ -31,6 +31,4 @@ weight = 5
 
 # Biography
 
-During my academic development I have been naturally interested and passionate about several areas, from genetics, genomics and bioinformatics, to environmental education and citizen participation, and also the management of private and public conservation areas. 
-
-The focus of my PhD research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data for Uruguay, the Biodiversity Data Consortium of Uruguay. 
+I am a Uruguayan biologist studying a PhD in Life Sciences in the Evolution and Ecology group of the University of Lincoln (United Kingdom). During my academic development I have been interested and passionate about several areas, from genetics, genomics and bioinformatics, to environmental education and citizen participation, and also the management of private and public conservation areas. The focus of my current research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data of Uruguay. 
