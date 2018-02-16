@@ -36,6 +36,8 @@ We address the place of scientific knowledge and its relation to local knowledge
 Carlos Santos (Head Coordinator); Javier Taks (Head); Gabriel Perazza; Lucía Gaucher; Magdalena Chouhy; Álvaro Soutullo; Florencia Grattarola; Andrea Garay. 
 
 
-**Funding**: Sectorial Commission for Scientific Research – Research and Development Program – UdeLaR.
+### Funding
+Sectorial Commission for Scientific Research – Research and Development Program – UdeLaR.
 
-[More info] (http://www.universidad.edu.uy/retema/?page_id=15)
+
+[More info] (http://udelar.edu.uy/retema/actividades/grupos-de-trabajo/)
