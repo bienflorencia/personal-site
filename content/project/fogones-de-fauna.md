@@ -5,7 +5,7 @@
   
   # Tags: can be used for filtering projects.
   # Example: `tags = ["machine-learning", "deep-learning"]`
-  tags = ["paso-centurion", "participatory-monitoring","camtrap", ]
+  tags = ["participatory-monitoring"]
   
   # Project summary to display on homepage.
   summary = "The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay."
