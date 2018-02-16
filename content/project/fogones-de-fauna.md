@@ -50,8 +50,11 @@ Uruguayan organization. Journal of Wildlife Foundation, No. 134. [PDF] (http://a
 ### Team
 Lucía Gaucher, Florencia Grattarola, Gabriel Perazza, Solana González, Juan Manuel Barreneche, Lucía Rodríguez & Alejandro Duarte.
 
-**Funding**: Global Greengrants Fund & Red Nacional de Educación Ambiental (ReNEA-MEC).
+### Funding
+Global Greengrants Fund & Red Nacional de Educación Ambiental (ReNEA-MEC).
+
 
 [Web] (http://julana.org/)
 [Flickr] (https://www.flickr.com/photos/julana/)
 [Facebook] (https://www.facebook.com/jugandoenlanaturaleza/)
+
