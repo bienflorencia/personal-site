@@ -7,12 +7,6 @@ math = false
 draft = false
 +++
 
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = "yaguarundi.jpg"
-caption = "https://www.flickr.com/photos/julana/28714428404/in/album-72157659145111845/"
-preview = true
-
 Mi nombre es Florencia Grattarola. Nací un 16 de julio, 37 años después del gran Maracanazo, en la ciudad de Montevideo. A los pocos días ya estaba en Paysandú, litoral norte de Uruguay, en donde viví 17 años. Mis primeros años de vida los pasé en una chacra, cercana a la ciudad y lo suficientemente lejos como para sentirme en el medio del campo. Vivía junto a mis padres, mi hermana y mis abuelos.
 
 No hace mucho tiempo pude darme cuenta que fue precisamente en ese lugar donde descubrí mi pasión por el mundo natural. Mi abuela María Mercedes fue mi gran compinche en esta vocación, una naturalista de alma. Una mujer fuerte y dulce, defensora acérrima de las mujeres de la familia, que mientras me enchastraba trasplantando arbolitos fue enseñándome de la vida. Tenía muchísimas plantas, especies de todos los tipos y colores, desde helechos y crasas, hasta bonsais y árboles frutales. Recuerdo una estructura organizativa casi taxonómica del predio, donde cada planta además de su lugar, tenía una historia y cuidado. <!--more-->
@@ -41,7 +35,7 @@ En 2015 una de las cámaras trampa que se encuentra colocada en el predio de un 
 
 Cuando nos dimos cuenta de lo que significaba, desarrollamos la mejor estrategia para hacer el registro disponible. Primero lo conversamos con los vecinos que se mostraron muy intrigados por el nuevo animal, analizando lo que representa este nuevo registro para el país y de lo que implica dar a conocerlo. La reacción natural fue querer mostrarlo para que más personas conocieran este animal. Entonces subimos el archivo a nuestro repositorio online de imágenes licenciadas con Creative Commons, habilitando su reproducción, reutilización y redistribución. Esto generó una sucesión de hechos que enriquecen el registro en sí mismo y hacen que la ciudadanía se apropie de este nuevo mamífero y se manifieste.
 
-#######################
+
 
 La repercusión fue grandísima. Tanto que Claudio Tachino y Numa Moraes compusieron letra y música de una canción inspirada en este registro.
 
@@ -59,3 +53,9 @@ Integrar Julana ha resultado muy enriquecedor a nivel personal. Superamos el cor
 En este momento me encuentro por emprender viaje hacia mi próxima aventura, un PhD en Life Science en la Universidad de Lincoln, Inglaterra. Me tomó unos años luego de finalizar la maestría decidir continuar con la carrera académica y hacerlo fuera del país. Mi idea de proyecto tiene una fuerte vinculación con Uruguay. Uno de los principales retos que enfrenta nuestro país es establecer un mecanismo para medir cuantitativamente la riqueza ambiental y sus cambios, para maximizar la eficiencia de las inversiones públicas. Mi objetivo es desarrollar el primer sistema científico del país para cuantificar dicha información y medir la eficiencia de las políticas de conservación y uso sostenible de la biodiversidad a partir de la inversión en ciencia, tecnología e innovación. Un sistema de almacenamiento, gestión y evaluación de datos científicos de acceso libre para todos los ciudadanos, permitirá maximizar el impacto del desarrollo científico en la sociedad, en tanto desarrollo socialmente integrador y equitativo, y políticamente democrático y transparente.
 
 En cada etapa de mi vida puedo identificar personas claves, pero voy a destacar a esas mujeres que siempre estuvieron y aquellas que hoy en día transforman y marcan mi acción. Por un lado, mi abuela, mi madre y las mujeres de mi familia, ellas  siempre me resultaron figuras femeninas habilitantes, porque en su forma cotidiana me demostraban algo de excepcionalidad al mandato. Por otro, mis amigas de la vida, de convivencia, de fútbol, de militancia. “Si he logrado ver más lejos, ha sido porque he subido a hombros de gigantes”.
+
+# Featured image
+# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
+[header]
+image = "yaguarundi.jpg"
+caption = "https://www.flickr.com/photos/julana/28714428404/in/album-72157659145111845/"
