@@ -11,7 +11,7 @@ tags = ["participatory-monitoring"]
   
 # Project summary to display on homepage.
 
-summary = "The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay. For more information `external_link`"
+summary = "The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay."
   
 # Optional image to display on homepage.
 image_preview = "fogones.jpg"
