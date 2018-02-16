@@ -32,7 +32,9 @@ caption = ""
 
 We address the place of scientific knowledge and its relation to local knowledge on key environmental issues in Uruguay - land use, afforestation, biodiversity conservation and renewable energies - in Paso Centurión, department of Cerro Largo, Uruguay.
 
-**Team**: Carlos Santos (Head Coordinator); Javier Taks (Head); Gabriel Perazza; Lucía Gaucher; Magdalena Chouhy; Álvaro Soutullo; Florencia Grattarola; Andrea Garay. 
+### Team
+Carlos Santos (Head Coordinator); Javier Taks (Head); Gabriel Perazza; Lucía Gaucher; Magdalena Chouhy; Álvaro Soutullo; Florencia Grattarola; Andrea Garay. 
+
 
 **Funding**: Sectorial Commission for Scientific Research – Research and Development Program – UdeLaR.
 
