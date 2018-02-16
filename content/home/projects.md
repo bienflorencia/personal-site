@@ -18,7 +18,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards.
-view = 1
+view = 0
 
 # Filter toolbar.
 
@@ -29,13 +29,13 @@ filter_default = 0
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 
-  [[filter]]
-   name = "All"
-   tag = "*"
+[[filter]]
+  name = "All"
+  tag = "*"
    
- [[filter]]
-   name = "Participatory Monitoring"
-   tag = ".participatory-monitoring"
+[[filter]]
+  name = "Participatory Monitoring"
+  tag = ".participatory-monitoring"
  
 # [[filter]]
 #   name = "Bionformatics"
