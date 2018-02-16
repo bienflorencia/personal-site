@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ {name="Laboratory of Evolutionary Ecology of Adaptations (LEEA)", url="http://selectiondynamics.weebly.com/"}, { name = "University of Lincoln", url = "" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "fGrattarola@lincoln.ac.uk"
   address = "Charlotte Scott Building, University of Lincoln, Brayford Pool, Lincoln, United Kingdom"
   office_hours = ""
