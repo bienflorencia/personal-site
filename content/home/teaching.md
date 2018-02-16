@@ -12,12 +12,10 @@ weight = 60
 
 +++
 
-### Human Resources Training 
+### Thesis Supervision 
 
-Oriented: Enzo Cavalli. 
-
+* Student: Enzo Cavalli.
 Degree in Biological Sciences. School of Sciences - UdeLaR. Montevideo, Uruguay.
-
 Project: Responses of the community of native mammals to cattle and sheep grazing gradients in the locality of Paso Centurión, Cerro Largo, Uruguay. 
 
 
