@@ -37,13 +37,17 @@ filter_default = 0
   name = "Participatory Monitoring"
   tag = ".participatory-monitoring"
  
-# [[filter]]
-#   name = "Bionformatics"
-#   tag = ".bioinformatics"
+[[filter]]
+  name = "Society & Nature"
+  tag = ".society-and-nature"
 
- [[filter]]
-   name = "Other"
-   tag = ".demo"
+[[filter]]
+  name = "PhD Project"
+  tag = ".phd"
+
+[[filter]]
+  name = "Molecular Ecology"
+  tag = ".molecular-ecology"
 
 +++
 
