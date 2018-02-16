@@ -5,7 +5,7 @@ title = "First record of jaguarundi (Puma yagouaroundi) (Mammalia: Carnivora: Fe
 date = "2016-07-28"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Grattarola F.", "Hernández D.", "Duarte A.", "Gaucher L.", "Perazza G.", "González S.", "Bergós L.", "Chouhy M.", "Garay  A.", "Carabio M.", "Rodriguez-Tricot L."]
+authors = ["Grattarola F.", "Hernández D.", "Duarte A.", "Gaucher L.", "Perazza G.", "González S.", "Bergós L.", "Chouhy M.", "Garay A.", "Carabio M.", "Rodriguez-Tricot L."]
 
 # Publication type.
 # Legend:
