@@ -15,3 +15,4 @@ autolink = true
 
 +++
 
+El contenido de este blog está distribuido bajo licencia Creative Commons - Atribución - Compartir Igual 4.0 Internacional (CC BY-SA 4.0). Sos libre de copiar, distribuir y modificar estos contenidos, siempre y cuando las obras derivadas circulen con las mismas condiciones de esta licencia y hagas la correcta atribución a la autora. 2018 Gabriela Mathieu
