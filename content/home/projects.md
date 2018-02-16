@@ -33,8 +33,8 @@ name = "All"
 tag = "*"
   
 [[filter]]
-name = "Mammals"
-tag = ".mammals"
+name = "Participatory Monitoring"
+tag = ".participatory-monitoring"
 
 [[filter]]
 name = "Bionformatics"
