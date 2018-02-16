@@ -14,7 +14,10 @@ weight = 60
 
 ### Human Resources Training 
 
-Oriented: Enzo Cavalli. Degree in Biological Sciences. School of Sciences - UdeLaR. Montevideo, Uruguay. 
+Oriented: Enzo Cavalli. 
+
+Degree in Biological Sciences. School of Sciences - UdeLaR. Montevideo, Uruguay.
+
 Project: Responses of the community of native mammals to cattle and sheep grazing gradients in the locality of Paso Centurión, Cerro Largo, Uruguay. 
 
 
@@ -37,11 +40,11 @@ Project: Responses of the community of native mammals to cattle and sheep grazin
 
 ### Teaching projects
 
-* **2016-2017*. Relationship between society and nature at the boundary: co-production of knowledge towards sustainability. Team: Javier Taks (Head Coordinator); Carlos Santos (Head); Lucía Bergós; Gabriel Perazza; Andrea Garay; Florencia Grattarola; Lucía Gaucher; Magdalena Chouhy. Funding: Education Innovation Fund, Sectorial Commission on Education – University of the Republic.
+* **2016-2017**. Relationship between society and nature at the boundary: co-production of knowledge towards sustainability. Team: Javier Taks (Head Coordinator); Carlos Santos (Head); Lucía Bergós; Gabriel Perazza; Andrea Garay; Florencia Grattarola; Lucía Gaucher; Magdalena Chouhy. Funding: Education Innovation Fund, Sectorial Commission on Education – University of the Republic.
 
-* **2015*. Relations between society and nature at the boundary. People, animals, scientific knowledge and socio-economic development in Paso Centurión, Cerro Largo. Team: Javier Taks (Head), Carlos Santos (Head), Gabriel Perazza, Andrea Garay, Lucía Bergós, Florencia Grattarola, Victoria Evia, Magdalena Chouhy, Lucía Gaucher. Funding: Education Innovation Fund, Sectorial Commission on Education – University of the Republic.
+* **2015**. Relations between society and nature at the boundary. People, animals, scientific knowledge and socio-economic development in Paso Centurión, Cerro Largo. Team: Javier Taks (Head), Carlos Santos (Head), Gabriel Perazza, Andrea Garay, Lucía Bergós, Florencia Grattarola, Victoria Evia, Magdalena Chouhy, Lucía Gaucher. Funding: Education Innovation Fund, Sectorial Commission on Education – University of the Republic.
 
-* **2014*. Introduction to Research in Science and Technology in Media Education. San Miguel Biodiversity National Park: an approach using non-invasive methodology. María Pía Aristimuño (Head Coordinator); Florencia Grattarola; Elina Gregorini. Funding: Prociencia, PEDECIBA ANEP-CODICEN.
+* **2014**. Introduction to Research in Science and Technology in Media Education. San Miguel Biodiversity National Park: an approach using non-invasive methodology. María Pía Aristimuño (Head Coordinator); Florencia Grattarola; Elina Gregorini. Funding: Prociencia, PEDECIBA ANEP-CODICEN.
 
-* **2013*. Implementation of methodologies for group work and collaborative learning with emphasis on interdisciplinarity in an Integrative Formation Course in Centurion Paso, Cerro Largo. Team: Lucía Gutiérrez (Head); Mariana Cosse (Head Coordinator); María Nube Szephegyi (Head); Gabriel Perazza; Lucía Gaucher; Florencia Grattarola; Lucía Bergós; Pablo González; Mónica Cadenazzi (Collaborator); Mariana Ríos (Collaborator). Funding: Education Innovation Fund, Sectorial Commission on Education – University of the Republic.
+* **2013**. Implementation of methodologies for group work and collaborative learning with emphasis on interdisciplinarity in an Integrative Formation Course in Centurion Paso, Cerro Largo. Team: Lucía Gutiérrez (Head); Mariana Cosse (Head Coordinator); María Nube Szephegyi (Head); Gabriel Perazza; Lucía Gaucher; Florencia Grattarola; Lucía Bergós; Pablo González; Mónica Cadenazzi (Collaborator); Mariana Ríos (Collaborator). Funding: Education Innovation Fund, Sectorial Commission on Education – University of the Republic.
 
