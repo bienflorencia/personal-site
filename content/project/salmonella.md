@@ -5,7 +5,7 @@ draft = true
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = [bioinformatics]
   
 # Project summary to display on homepage.
 summary = "Salmonella as foodborne pathogen: epidemiology, pathogenesis and prevention"
@@ -30,7 +30,8 @@ caption = ""
   
 +++
 
-Description
+Salmonellosis is one of the main foodborne diseases. The strains responsible for these infections belong to different serotypes of Salmonella enterica subspecies enterica that differ in their epidemic and pathogenic potential.
+The vast majority of cases of human salmonellosis are caused by a few widely prevalent serovars predominating Enteritidis and Typhimurium. The molecular determinants involved in this epidemic capacity remain to be elucidated.
 
 ### Team
 Laura Betancor (Head Coordinator), Lucía Yim (Head), Alejandro Chabalgoity, Andrés Iriarte, Bruno D’Alessandro, Adriana Martínez, Victoria Pérez, Arací Martínez, Florencia Grattarola.
