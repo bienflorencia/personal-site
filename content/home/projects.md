@@ -18,7 +18,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards.
-view = 1
+view = 0
 
 # Filter toolbar.
 
@@ -37,13 +37,13 @@ tag = "*"
 name = "Participatory Monitoring"
 tag = ".participatory-monitoring"
 
-[[filter]]
-name = "Bionformatics"
-tag = ".bioinformatics"
+# [[filter]]
+# name = "Bionformatics"
+# tag = ".bioinformatics"
 
-[[filter]]
-name = "Environmental Education"
-tag = ".environmental-education"
+#[[filter]]
+#name = "Environmental Education"
+#tag = ".environmental-education"
 
 # [[filter]]
 #   name = "Other"
