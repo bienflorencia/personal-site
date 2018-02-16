@@ -1,12 +1,11 @@
 +++
+title = "Fogones de Fauna"
+
 # Date this page was created.
 date = 2018-02-16T15:14:17Z
 
 # Draft
 draft = false
-
-# Project title.
-title = "Fogones de Fauna"
 
 # Project summary to display on homepage.
 summary = "The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay."
