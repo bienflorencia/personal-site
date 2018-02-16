@@ -5,10 +5,10 @@
   
   # Tags: can be used for filtering projects.
   # Example: `tags = ["machine-learning", "deep-learning"]`
-  tags = []
+  tags = ["biodiversity", "macroecology","data-sharing", ]
   
   # Project summary to display on homepage.
-  summary = ""
+  summary = "The declines of biodiversity embody one of the world’s most pressing challenges. Therefore, scientific efforts have increasingly been directed to mitigate these declines. One of the major challenges Uruguay is facing is to establish a mechanism to quantitatively measure environmental-richness and changes, to maximize the efficiency of public investments. I aim to develop the country’s first scientific system to quantify biodiversity information with GIS-based technology combining data on species distribution, conservation status, protected areas, and levels of investment into their preservation, to quantify the efficiency of policies on the conservation and sustainable use of biodiversity regarding science, technology and innovation."
   
   # Optional image to display on homepage.
   image_preview = ""
