@@ -1,14 +1,14 @@
 +++
-title = "Relations between society and nature at the boundary. People, animals, scientific knowledge and socio-economic development in Paso Centurión, Cerro Largo, Uruguay"
+title = "Relations between society and nature at the boundary"
 date = 2018-02-16T15:14:17Z
 draft = false
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["paso-centurion", "society-and-nature","local-knowledge", "scientific-knowledge"]
+tags = ["society-and-nature"]
   
 # Project summary to display on homepage.
-summary = "We address the place of scientific knowledge and its relation to local knowledge on key environmental issues in Uruguay - land use, afforestation, biodiversity conservation and renewable energies - in Paso Centurión, department of Cerro Largo, Uruguay."
+summary = "People, animals, scientific knowledge and socio-economic development in Paso Centurión, Cerro Largo, Uruguay."
   
 # Optional image to display on homepage.
 image_preview = "soc-nat.jpg"
@@ -29,6 +29,8 @@ image = ""
 caption = ""
   
 +++
+
+We address the place of scientific knowledge and its relation to local knowledge on key environmental issues in Uruguay - land use, afforestation, biodiversity conservation and renewable energies - in Paso Centurión, department of Cerro Largo, Uruguay.
 
 **Team**: Carlos Santos (Head Coordinator); Javier Taks (Head); Gabriel Perazza; Lucía Gaucher; Magdalena Chouhy; Álvaro Soutullo; Florencia Grattarola; Andrea Garay. 
 
