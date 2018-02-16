@@ -29,29 +29,21 @@ filter_default = 0
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 
-[[filter]]
-  name = "All"
-  tag = "*"
-  
-[[filter]]
-  name = "Participatory Monitoring"
-  tag = ".participatory-monitoring"
-
-[[filter]]
-  name = "Other"
-  tag = ".demo"
-
+#  [[filter]]
+#   name = "All"
+#   tag = "*"
+#   
 # [[filter]]
-# name = "Bionformatics"
-# tag = ".bioinformatics"
-
-#[[filter]]
-#name = "Environmental Education"
-#tag = ".environmental-education"
-
+#   name = "Participatory Monitoring"
+#   tag = ".participatory-monitoring"
+# 
 # [[filter]]
-#   name = "Other"
-#   tag = ".demo"
+#   name = "Bionformatics"
+#   tag = ".bioinformatics"
+
+ [[filter]]
+   name = "Other"
+   tag = ".demo"
 
 +++
 
