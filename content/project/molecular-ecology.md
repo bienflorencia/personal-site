@@ -1,23 +1,23 @@
 +++
 
 # Project title.
-title = "Fogones de Fauna"
+title = "Molecular Ecology"
 date = 2018-02-16T15:14:17Z
 draft = false
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["participatory-monitoring"]
+tags = ["molecular-ecology"]
   
 # Project summary to display on homepage.
 
-summary = "The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay."
+summary = ""
   
 # Optional image to display on homepage.
-image_preview = "fogones.jpg"
+image_preview = ""
   
 # Optional external URL for project (replaces project detail page).
-external_link = "http://julana.org/"
+external_link = ""
   
 # Does the project detail page use math formatting?
 math = false
@@ -29,7 +29,7 @@ highlight = true
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 
 [header]
-image = "headers/fogones-wide.jpg"
+image = ""
 caption = ""
 
 +++
