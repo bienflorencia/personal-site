@@ -49,5 +49,9 @@ filter_default = 0
   name = "Molecular Ecology"
   tag = ".molecular-ecology"
 
+[[filter]]
+  name = "Bioinformatics"
+  tag = ".bioinformatics"
+  
 +++
 
