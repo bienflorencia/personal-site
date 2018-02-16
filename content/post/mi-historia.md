@@ -35,7 +35,7 @@ En 2015 una de las cámaras trampa que se encuentra colocada en el predio de un 
 
 Cuando nos dimos cuenta de lo que significaba, desarrollamos la mejor estrategia para hacer el registro disponible. Primero lo conversamos con los vecinos que se mostraron muy intrigados por el nuevo animal, analizando lo que representa este nuevo registro para el país y de lo que implica dar a conocerlo. La reacción natural fue querer mostrarlo para que más personas conocieran este animal. Entonces subimos el archivo a nuestro repositorio online de imágenes licenciadas con Creative Commons, habilitando su reproducción, reutilización y redistribución. Esto generó una sucesión de hechos que enriquecen el registro en sí mismo y hacen que la ciudadanía se apropie de este nuevo mamífero y se manifieste.
 
-
+{{< figure src="/img/yaguarundi.jpg" title="Flickr" >}}
 
 La repercusión fue grandísima. Tanto que Claudio Tachino y Numa Moraes compusieron letra y música de una canción inspirada en este registro.
 
@@ -56,7 +56,7 @@ En cada etapa de mi vida puedo identificar personas claves, pero voy a destacar 
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
+
 image = "yaguarundi.jpg"
 caption = [Flickr] (https://www.flickr.com/photos/julana/28714428404/in/album-72157659145111845/)
 
