@@ -11,7 +11,7 @@
   summary = "The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay."
   
   # Optional image to display on homepage.
-  image_preview = ""
+  image_preview = "fogones.jpg"
   
   # Optional external URL for project (replaces project detail page).
   external_link = "http://julana.org/"
