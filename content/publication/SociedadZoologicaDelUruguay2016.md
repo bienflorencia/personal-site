@@ -1,3 +1,4 @@
++++
 title = "First record of jaguarundi (Puma yagouaroundi) (Mammalia: Carnivora: Felidae) in Uruguay, with comments about participatory monitoring"
 
 # Date first published.
@@ -63,3 +64,4 @@ highlight = true
 [header]
 image = ""
 caption = ""
++++
