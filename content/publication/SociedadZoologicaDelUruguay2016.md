@@ -1,10 +1,10 @@
-title = "A publication title, such as title of a paper"
+title = "First record of jaguarundi (Puma yagouaroundi) (Mammalia: Carnivora: Felidae) in Uruguay, with comments about participatory monitoring"
 
 # Date first published.
-date = "2013-07-01"
+date = "2016-07-28"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["First author's name", "Second author's name"]
+authors = ["Grattarola F.", "Hernández D.", "Duarte A.", "Gaucher L.", "Perazza G.", "González S.", "Bergós L.", "Chouhy M.", "Garay  A.", "Carabio M.", "Rodriguez-Tricot L."]
 
 # Publication type.
 # Legend:
@@ -15,15 +15,15 @@ authors = ["First author's name", "Second author's name"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *International Conference on Academic*. You may use *Markdown* for italics etc."
-publication_short = "In *ICA*"
+publication = "*Boletín de La Sociedad Zoológica Del Uruguay*."
+publication_short = "We present the first record of a wild jaguarundi (Puma yagouaroundi) in Uruguay obtained as part of a participatory monitoring with trap-cameras together with the community of Paso Centurión, Cerro Largo."
 
 # Abstract and optional shortened version.
 abstract = "The abstract. Markdown and math can be used (note that math may require escaping as detailed in the red alert box below)."
-abstract_short = "A short version of the abstract."
+abstract_short = ""
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -38,7 +38,7 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = "pdf/my-paper-name.pdf"
+url_pdf = "pdf/009_25_1.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -61,5 +61,5 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption 😄"
+image = ""
+caption = ""
