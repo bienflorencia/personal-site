@@ -39,7 +39,7 @@ selected = true
 projects = []
 
 # Links (optional).
-url_pdf = "https://link.springer.com/article/10.1007/s13364-017-0328-y"
+url_pdf = "pdf/10.1007s13364-017-0328-y.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
