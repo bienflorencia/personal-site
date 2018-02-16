@@ -10,7 +10,7 @@ title = "Last Publication"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 10
+weight = 20
 
 # List format.
 #   0 = Simple
