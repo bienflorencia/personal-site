@@ -30,12 +30,16 @@ filter_default = 0
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 
 [[filter]]
-name = "All"
-tag = "*"
+  name = "All"
+  tag = "*"
   
 [[filter]]
-name = "Participatory Monitoring"
-tag = ".participatory-monitoring"
+  name = "Participatory Monitoring"
+  tag = ".participatory-monitoring"
+
+[[filter]]
+  name = "Other"
+  tag = ".demo"
 
 # [[filter]]
 # name = "Bionformatics"
