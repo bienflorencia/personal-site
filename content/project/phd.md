@@ -1,5 +1,5 @@
 +++
-title = "Phd"
+title = "Phd Project"
 date = 2018-02-16T15:14:17Z
 draft = false
   
@@ -11,7 +11,7 @@ tags = ["thesis"]
 summary = "Measuring and Monitoring Biodiversity."
   
 # Optional image to display on homepage.
-  image_preview = ""
+image_preview = ""
   
 # Optional external URL for project (replaces project detail page).
 external_link = ""
