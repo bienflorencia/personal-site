@@ -32,7 +32,11 @@ caption = ""
 
 The declines of biodiversity embody one of the world’s most pressing challenges. Therefore, scientific efforts have increasingly been directed to mitigate these declines. One of the major challenges Uruguay is facing is to establish a mechanism to quantitatively measure environmental-richness and changes, to maximize the efficiency of public investments. The focus of my PhD research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data for Uruguay, the Biodiversity Data Consortium of Uruguay.
 
-**Director of Studies**: Daniel Pincheira-Donoso
-**Second Supervisor**: Sandra Vargas
+**Director of Studies**: Daniel Pincheira-Donoso.
+
+**Second Supervisor**: Sandra Vargas.
+
+### Years
+2017-2020.
 
 The research leading to these results has received funding from Agencia Nacional de Investigación e Innovación (ANII POS_EXT_2016_1_136663) and the University of Lincoln (United Kingdom).
