@@ -275,7 +275,7 @@ defaultContentLanguageInSubdir = false
 
 # Taxonomies.
 [taxonomies]
-  #tag = "tags"
+  tag = "tags"
   category = "categories"
   publication_type = "publication_types"
 
