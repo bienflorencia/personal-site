@@ -5,14 +5,13 @@ tags = []
 categories = []
 math = false
 draft = false
++++
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "yaguarundi.jpg"
 caption = "https://www.flickr.com/photos/julana/28714428404/in/album-72157659145111845/"
 preview = true
-
-+++
 
 Mi nombre es Florencia Grattarola. Nací un 16 de julio, 37 años después del gran Maracanazo, en la ciudad de Montevideo. A los pocos días ya estaba en Paysandú, litoral norte de Uruguay, en donde viví 17 años. Mis primeros años de vida los pasé en una chacra, cercana a la ciudad y lo suficientemente lejos como para sentirme en el medio del campo. Vivía junto a mis padres, mi hermana y mis abuelos.
 
