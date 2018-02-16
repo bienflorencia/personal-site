@@ -14,7 +14,7 @@ tags = ["molecular-ecology"]
 summary = "Impact of environmental characteristics in the genetic structure of three species of native mammals."
   
 # Optional image to display on homepage.
-image_preview = ""
+image_preview = "landscape.jpg"
   
 # Optional external URL for project (replaces project detail page).
 external_link = ""
