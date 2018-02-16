@@ -42,6 +42,8 @@ The aim of this project was to evaluate the functional connectivity of the Urugu
 ### Team
 Mariana Cosse (Head Coordinator); Álvaro Soutullo (Head); Natalia Mannise; Susana González; Daniel Hernandez; Florencia Grattarola; Lucia Bartesaghi. 
 
-**Years** 2012 – 2014.
+### Years
+2012 – 2014.
 
-**Funding**: Clemente Stable Fund - National Agency for Research and Innovation (ANII).
+### Funding
+Clemente Stable Fund - National Agency for Research and Innovation (ANII).
