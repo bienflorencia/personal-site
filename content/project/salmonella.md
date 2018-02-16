@@ -11,7 +11,7 @@ tags = []
 summary = "Salmonella as foodborne pathogen: epidemiology, pathogenesis and prevention"
   
 # Optional image to display on homepage.
-image_preview = ""
+image_preview = "salmonela.png"
   
 # Optional external URL for project (replaces project detail page).
 external_link = ""
