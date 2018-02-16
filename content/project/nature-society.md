@@ -11,10 +11,10 @@ tags = ["paso-centurion", "society-and-nature","local-knowledge", "scientific-kn
 summary = "We address the place of scientific knowledge and its relation to local knowledge on key environmental issues in Uruguay - land use, afforestation, biodiversity conservation and renewable energies - in Paso Centurión, department of Cerro Largo, Uruguay."
   
 # Optional image to display on homepage.
-image_preview = ""
+image_preview = "soc-nat.jpg"
   
 # Optional external URL for project (replaces project detail page).
-external_link = "http://julana.org/"
+external_link = ""
   
 # Does the project detail page use math formatting?
 math = false
@@ -29,3 +29,9 @@ image = ""
 caption = ""
   
 +++
+
+**Team**: Carlos Santos (Head Coordinator); Javier Taks (Head); Gabriel Perazza; Lucía Gaucher; Magdalena Chouhy; Álvaro Soutullo; Florencia Grattarola; Andrea Garay. 
+
+**Funding**: Sectorial Commission for Scientific Research – Research and Development Program – UdeLaR.
+
+[More info] (http://www.universidad.edu.uy/retema/?page_id=15)
