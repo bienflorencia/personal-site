@@ -58,4 +58,5 @@ En cada etapa de mi vida puedo identificar personas claves, pero voy a destacar 
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "yaguarundi.jpg"
-caption = "https://www.flickr.com/photos/julana/28714428404/in/album-72157659145111845/"
+caption = [Flickr] (https://www.flickr.com/photos/julana/28714428404/in/album-72157659145111845/)
+
