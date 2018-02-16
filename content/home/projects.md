@@ -42,8 +42,8 @@ filter_default = 0
   tag = ".society-and-nature"
 
 [[filter]]
-  name = "PhD Project"
-  tag = ".phd"
+  name = "Thesis Projects"
+  tag = ".thesis"
 
 [[filter]]
   name = "Molecular Ecology"
