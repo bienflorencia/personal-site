@@ -5,7 +5,7 @@ draft = false
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["paso-centurion", "society-and-nature","local-knowledge", "scientific-knowledge", ]
+tags = ["paso-centurion", "society-and-nature","local-knowledge", "scientific-knowledge"]
   
 # Project summary to display on homepage.
 summary = "We address the place of scientific knowledge and its relation to local knowledge on key environmental issues in Uruguay - land use, afforestation, biodiversity conservation and renewable energies - in Paso Centurión, department of Cerro Largo, Uruguay."
