@@ -20,10 +20,10 @@ publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "*Boletín de La Sociedad Zoológica Del Uruguay*."
-publication_short = "We present the first record of a wild jaguarundi (Puma yagouaroundi) in Uruguay obtained as part of a participatory monitoring with trap-cameras together with the community of Paso Centurión, Cerro Largo."
+publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "The abstract. Markdown and math can be used (note that math may require escaping as detailed in the red alert box below)."
+abstract = "We present the first record of a wild jaguarundi (Puma yagouaroundi) in Uruguay obtained as part of a participatory monitoring with trap-cameras together with the community of Paso Centurión, Cerro Largo."
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -36,7 +36,7 @@ selected = true
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = []
+projects = [fogones-de-fauna]
 
 # Links (optional).
 url_pdf = "pdf/009_25_1.pdf"
