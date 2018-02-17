@@ -1,5 +1,5 @@
 +++
-title = "Comparatie Genomics of Salmonella"
+title = "Comparative Genomics of Salmonella"
 date = 2018-02-16T15:14:17Z
 draft = false
   
