@@ -13,6 +13,8 @@ weight = 5
     "Open Science",
     "Bioinformatics",
     "Macroecology",
+    "GIS",
+    "Camera Trapping",
     "Environmental Education"
   ]
 
