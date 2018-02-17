@@ -11,7 +11,7 @@ tags = ["thesis"]
 summary = "Measuring and Monitoring Biodiversity."
   
 # Optional image to display on homepage.
-image_preview = ""
+image_preview = "phd.jpg"
   
 # Optional external URL for project (replaces project detail page).
 external_link = ""
