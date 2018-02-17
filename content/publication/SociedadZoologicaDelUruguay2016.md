@@ -39,7 +39,7 @@ selected = false
 projects = ["participatory-monitoring"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/009_25_1.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -47,7 +47,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://www.researchgate.net/publication/306031241_First_record_of_jaguarundi_Puma_yagouaroundi_Mammalia_Carnivora_Felidae_in_Uruguay_with_comments_about_participatory_monitoring"
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
