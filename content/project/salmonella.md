@@ -1,5 +1,5 @@
 +++
-title = "Salmonella as foodborne pathogen: epidemiology, pathogenesis and prevention"
+title = "Comparatie Genomics of Salmonella"
 date = 2018-02-16T15:14:17Z
 draft = false
   
@@ -32,6 +32,8 @@ caption = ""
 
 Salmonellosis is one of the main foodborne diseases. The strains responsible for these infections belong to different serotypes of Salmonella enterica subspecies enterica that differ in their epidemic and pathogenic potential.
 The vast majority of cases of human salmonellosis are caused by a few widely prevalent serovars predominating Enteritidis and Typhimurium. The molecular determinants involved in this epidemic capacity remain to be elucidated.
+
+One of my objectives was to determine genomic characteristics common to the prevalent serovars Enteritidis and Typhimurium that differentiate them from the minority serotypes. Another, was to identify, through comparative genomics analysis, genetic particularities of Nontyphoidal salmonellosis serotypes with greater invasive capacity in humans compared to other classically causing gastroenteritis (S. Dublin and S. Choleraesuis versus S. Enteritidis and S. Typhimurium).
 
 ### Team
 Laura Betancor (Head Coordinator), Lucía Yim (Head), Alejandro Chabalgoity, Andrés Iriarte, Bruno D’Alessandro, Adriana Martínez, Victoria Pérez, Arací Martínez, Florencia Grattarola.
