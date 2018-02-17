@@ -19,12 +19,12 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "Msc in Biology. Sub-area Genetics"
-  institution = "PEDECIBA - Universidad de la República"
+  institution = "PEDECIBA - Universidad de la República, Uruguay"
   year = 2015
 
 [[education.courses]]
-  course = "BSc in Biology"
-  institution = "Facultad de Ciencias - Universidad de la República"
+  course = "BSc in Biology. Sub-area Genetics & Evolution"
+  institution = "Facultad de Ciencias - Universidad de la República, Uruguay"
   year = 2012
  
 +++
