@@ -1,5 +1,5 @@
 +++
-title = "Phd Project"
+title = "Phd in Life Sciences Project"
 date = 2018-02-16T15:14:17Z
 draft = false
   
