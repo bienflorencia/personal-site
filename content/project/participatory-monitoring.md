@@ -10,7 +10,7 @@ tags = ["participatory-monitoring"]
   
 # Project summary to display on homepage.
 
-summary = "The project Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay."
+summary = "The project Fogones de Fauna is an experience in collaborative-learning, carried out by JULANA NGO in the village of Paso Centurión, Uruguay."
   
 # Optional image to display on homepage.
 image_preview = "fogones.jpg"
@@ -33,7 +33,7 @@ caption = ""
 
 +++
 
-The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out in the village of Paso Centurión, Uruguay. 
+The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out by JULANA NGO in the village of Paso Centurión, Uruguay. 
 
 ### Press notes
 
