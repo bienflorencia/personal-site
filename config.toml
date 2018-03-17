@@ -222,7 +222,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/bienflorencia"
+    link = "//twitter.com/flograttarola"
 
   [[params.social]]
     icon = "researchgate"
