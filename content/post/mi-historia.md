@@ -1,5 +1,5 @@
 +++
-title = "Mi Historia"
+title = "La ciencia para el cambio - Mi historia"
 date = 2018-02-16T19:18:15Z
 tags = []
 categories = []
@@ -55,4 +55,9 @@ En este momento me encuentro por emprender viaje hacia mi próxima aventura, un 
 
 En cada etapa de mi vida puedo identificar personas claves, pero voy a destacar a esas mujeres que siempre estuvieron y aquellas que hoy en día transforman y marcan mi acción. Por un lado, mi abuela, mi madre y las mujeres de mi familia, ellas  siempre me resultaron figuras femeninas habilitantes, porque en su forma cotidiana me demostraban algo de excepcionalidad al mandato. Por otro, mis amigas de la vida, de convivencia, de fútbol, de militancia. “Si he logrado ver más lejos, ha sido porque he subido a hombros de gigantes”.
 
+**Esta nota fue parte de [Transformadoras en Movimiento](https://www.facebook.com/Transformadorasenmovimiento/)**
+
+Transformadoras en movimiento es el proyecto de una arquitecta-emprendedora uruguaya, de alma viajera y curiosa, quien cuenta con un mes y medio para comenzar a utilizar la bicicleta como medio de transporte y entrenar para unirse a Warmifonías, un grupo de mujeres con semejantes intereses, ideales y curiosidades, embarcadas en un viaje inspirador: 10.000km en bicicleta por Sudamérica, desde Quito a Río de Janeiro en búsqueda de historias de mujeres transformadoras.
+
+Hacé click acá para ver la nota completa [La ciencia para el cambio](https://transformadoras.wixsite.com/inicio/florenciagrattarola) y muchas otras historias más.
 
