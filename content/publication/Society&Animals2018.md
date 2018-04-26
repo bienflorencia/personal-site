@@ -1,5 +1,5 @@
 +++
-title = "A novel primer set for mammal species identification from feces samples."
+title = "Fogones de Fauna: An Experience of Participatory Monitoring of Wildlife in Rural Uruguay."
 
 # Date first published.
 date = "2018-02-26"
