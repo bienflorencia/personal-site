@@ -19,7 +19,7 @@ authors = ["Bergós, L.", "Grattarola, F.", "Barreneche, J. M.", "Hernández, D.
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Society & animals*."
+publication = "*Society & animals. Special Issue on Wildlife Conservation*."
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -30,7 +30,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
