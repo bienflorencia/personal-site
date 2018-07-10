@@ -2,7 +2,7 @@
 title = "Fogones de Fauna: An Experience of Participatory Monitoring of Wildlife in Rural Uruguay."
 
 # Date first published.
-date = "2018-02-26"
+date = "2018-07-10"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Bergós, L.", "Grattarola, F.", "Barreneche, J. M.", "Hernández, D.", "González, S."]
@@ -19,7 +19,7 @@ authors = ["Bergós, L.", "Grattarola, F.", "Barreneche, J. M.", "Hernández, D.
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Society & animals. Special Issue on Wildlife Conservation*."
+publication = "*Society & Animals. Special Issue: Tracking the Human-Wildlife-Conservation Nexus Across the Human-Animal Studies (HAS) Landscape*."
 publication_short = ""
 
 # Abstract and optional shortened version.
