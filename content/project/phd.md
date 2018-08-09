@@ -8,7 +8,7 @@ draft = false
 tags = ["thesis"]
   
 # Project summary to display on homepage.
-summary = "Measuring and Monitoring Biodiversity."
+summary = "Phd Project"
   
 # Optional image to display on homepage.
 image_preview = "phd.jpg"
