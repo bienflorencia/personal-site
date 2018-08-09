@@ -39,4 +39,6 @@ I aim to develop a collaborative strategic association of specialists in differe
 ### Years
 2017-2020.
 
-The research leading to these results has received funding from Agencia Nacional de Investigación e Innovación (ANII POS_EXT_2016_1_136663) and the University of Lincoln (United Kingdom).
+### Funding
+National Agency for Research and Innovation (ANII), Uruguay.
+University of Lincoln, United Kingdom.
