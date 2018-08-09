@@ -1,5 +1,5 @@
 +++
-title = "Phd Project - Macroecological patterns of biodiversity across the Tree of Life: Uruguay as a model region"
+title = "PhD Project"
 date = 2018-02-16T15:14:17Z
 draft = false
   
@@ -8,7 +8,7 @@ draft = false
 tags = ["thesis"]
   
 # Project summary to display on homepage.
-summary = "Phd Project"
+summary = "Macroecological patterns of biodiversity across the Tree of Life: Uruguay as a model region"
   
 # Optional image to display on homepage.
 image_preview = "phd.jpg"
