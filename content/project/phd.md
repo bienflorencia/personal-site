@@ -1,5 +1,5 @@
 +++
-title = "Phd in Life Sciences Project"
+title = "Phd Project - Macroecological patterns of biodiversity across the Tree of Life: Uruguay as a model region"
 date = 2018-02-16T15:14:17Z
 draft = false
   
@@ -30,7 +30,7 @@ caption = ""
   
 +++
 
-The declines of biodiversity embody one of the world’s most pressing challenges. Therefore, scientific efforts have increasingly been directed to mitigate these declines. One of the major challenges Uruguay is facing is to establish a mechanism to quantitatively measure environmental-richness and changes, to maximize the efficiency of public investments. The focus of my PhD research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data for Uruguay, the Biodiversity Data Consortium of Uruguay.
+I aim to develop a collaborative strategic association of specialists in different biological groups for data collection of the biodiversity of Uruguay - the Uruguayan Consortium of Biodiversity Data. To quantify in an innovative way the efficiency of science investment policies represents an extraordinary and an exceptional opportunity, not only at the national level but for international impact, and for the future of Uruguay’s methods of conservation and evaluation.
 
 **Director of Studies**: Daniel Pincheira-Donoso.
 
