@@ -29,6 +29,6 @@ El futuro de la biodiversidad en Uruguay (y el mundo) depende en gran medida de 
 * Mora, C., D. P. Tittensor, S. Adl, A. G. Simpson, and B. Worm. 2011. How many species are there on Earth and in the ocean? PLoS biology 9:e1001127.
 
 
-### Esta nota fue publicada el 3 de setiembre de 2018 en la web de [Creative Commons Uruguay] (http://www.creativecommons.uy/biodiversidata-una-propuesta-de-ciencia-abierta-en-uruguay/)
+#### Esta nota fue publicada el 3 de setiembre de 2018 en la web de [Creative Commons Uruguay] (http://www.creativecommons.uy/biodiversidata-una-propuesta-de-ciencia-abierta-en-uruguay/)
 
 
