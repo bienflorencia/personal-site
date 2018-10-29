@@ -1,5 +1,5 @@
 +++
-title = "My - 11th RDA Plenary Meeting"
+title = "My experience at the 11th RDA Plenary Meeting"
 date = 2018-04-10T19:38:15Z
 tags = []
 categories = []
