@@ -21,6 +21,8 @@ Project: Responses of the community of native mammals to cattle and sheep grazin
 
 ### Teaching courses 
 
+* **2018**. Management and analysis of fauna records with trap cameras using R software. Montevideo, Uruguay. [Program] (http://julana.org/taller-camptrapr/)
+
 * **2017**. Integrative Formation Course: Relations between society and nature at the boundary (School of Sciences, School of Social Sciences, Central Extension Service and School of Humanities and Education Sciences - University of the Republic). For Anthropology, Biology, Geography, Social Sciences, Education Sciences and Psychology degree.
 
 * **2017**. Class: Modern mammals: a study case in Uruguay. Theoretical class for the Palaeontology course of Biology and Geology degree (School of Sciences - University of the Republic).
