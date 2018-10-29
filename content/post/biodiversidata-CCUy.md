@@ -21,9 +21,14 @@ Enmarcado en esto surge Biodiversidata, una nueva asociación científica colabo
 
 El futuro de la biodiversidad en Uruguay (y el mundo) depende en gran medida de nuestra capacidad de abrazar la cultura de colaboración. Una ciencia comprometida socialmente debe ser abierta, debe habilitar la participación y apostar a democratizar el conocimiento. Ciencia abierta es ciencia por todes y para todes.
 
- 
+![mazama](/img/mazama.jpg)
+[Fuente en Flickr] (https://flic.kr/p/KKoXaN)
+
 
 * Dirzo, R., H. S. Young, M. Galetti, G. Ceballos, N. J. Isaac, and B. Collen. 2014. Defaunation in the Anthropocene. Science 345:401-406.
 * Mora, C., D. P. Tittensor, S. Adl, A. G. Simpson, and B. Worm. 2011. How many species are there on Earth and in the ocean? PLoS biology 9:e1001127.
+
+
+### Esta nota fue publicada el 3 de setiembre de 2018 en la web de [Creative Commons Uruguay] (http://www.creativecommons.uy/biodiversidata-una-propuesta-de-ciencia-abierta-en-uruguay/)
 
 
