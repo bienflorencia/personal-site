@@ -7,5 +7,8 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
-# Redirect default Netlify subdomain to primary domain
-https://flograttarola.netlify.com/* https://flograttarola.com/:splat 301!
+
+[[redirect]]
+  from = "https://flograttarola.netlify.com/" #old path
+  to = "https://flograttarola.com/" #new path
+
