@@ -6,3 +6,6 @@
   HUGO_VERSION = "0.30.2"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+
+# Redirect default Netlify subdomain to primary domain
+https://flograttarola.netlify.com/* https://flograttarola.com/:splat 301!
