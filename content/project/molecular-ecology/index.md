@@ -13,15 +13,19 @@ tags = ["molecular-ecology"]
 
 summary = "Impact of environmental characteristics in the genetic structure of three species of native mammals."
   
-# Optional image to display on homepage.
-image_preview = "landscape.jpg"
-  
 # Optional external URL for project (replaces project detail page).
 external_link = ""
-  
-# Does the project detail page use math formatting?
-math = false
-  
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+#url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+
 # Does the project detail page use source code highlighting?
 highlight = true
   
@@ -33,7 +37,9 @@ highlight = true
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  focal_point = "Smart"
+  
+  preview_only = false
 
 +++
 
