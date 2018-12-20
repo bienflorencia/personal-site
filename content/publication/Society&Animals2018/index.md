@@ -2,7 +2,8 @@
 title = "Fogones de Fauna: An Experience of Participatory Monitoring of Wildlife in Rural Uruguay."
 
 # Date first published.
-date = "2018-07-10"
+date = 2018-07-10T00:00:00
+
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Bergós, L.", "Grattarola, F.", "Barreneche, J. M.", "Hernández, D.", "González, S."]
@@ -53,11 +54,11 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 url_custom = [{name = "Article", url = "http://booksandjournals.brillonline.com/content/journals/10.1163/15685306-12341497"}]
 
+# Digital Object Identifier (DOI)
+doi = "10.1163/15685306-12341497"
+
 # Does the content use math formatting?
 math = true
-
-# Does the content use source code highlighting?
-highlight = false
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
