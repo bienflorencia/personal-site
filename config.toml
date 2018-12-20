@@ -30,7 +30,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS" ]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
@@ -39,15 +39,9 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+  extensions = ["backslashLineBreak"]
 
 [params]
-  # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "forest"
-
-  # Font style.
-  #   Choose from `default`, `classic`, or `playfair`.
-  font = "classic"
 
   # Your details.
   name = "Florencia Grattarola"
@@ -59,6 +53,8 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  
+  # Details for the Contact Widget
   email = "fGrattarola@lincoln.ac.uk"
   address = "Charlotte Scott Building, University of Lincoln, Brayford Pool, Lincoln, United Kingdom"
   office_hours = ""
@@ -98,8 +94,20 @@ defaultContentLanguageInSubdir = false
   longitude = "-0.55625"
   zoom = 15
  
-  #SET-UP
+  # SITE SETUP
+  
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
+  color_theme = "forest"
+ 
+  # Enable users to switch between day and night mode?
   day_night = true
+  
+  # Font style.
+  #   Choose from `default`, `classic`, or `playfair`.
+  font = "default"
+  # Twitter username (without @). Used when a vistor shares your site on Twitter.
+  twitter = "flograttarola"
   
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -153,7 +161,12 @@ defaultContentLanguageInSubdir = false
   
   # Enable native social sharing buttons?
   sharing = true
-
+  
+  # Privacy pack
+  #   Show a cookie consent message to visitors
+  #   Anonymize IP in Google Analytics (if enabled)
+  privacy_pack = false
+  
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
@@ -192,12 +205,24 @@ defaultContentLanguageInSubdir = false
     # List publications and talks related to the project?
     list_children = true
 
+    # Post list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = Stream
+    post_format = 2
+
     # Publication list format.
     #   0 = Simple
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
     publication_format = 3
+    
+    # Talk list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = Stream
+    #talk_format = 2
 
   # Social/Academic Networking
   #
@@ -286,6 +311,14 @@ defaultContentLanguageInSubdir = false
   name = "Contact"
   url = "#contact"
   weight = 6
+
+# Search.
+[params.search]
+  # Search provider:
+  #   0: No search engine
+  #   1: Built-in (Fuse)
+  #   2: Algolia (https://www.algolia.com)
+  engine = 1
 
 # Taxonomies.
 [taxonomies]
