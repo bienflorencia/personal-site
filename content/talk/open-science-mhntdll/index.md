@@ -1,7 +1,7 @@
 +++
 title = "Open Science: The importance of sharing data in the context of biodiversity crisis"
 date = 2017-01-01T00:00:00  # Schedule page publish date.
-draft = true
+draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
