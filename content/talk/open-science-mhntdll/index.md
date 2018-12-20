@@ -67,3 +67,5 @@ math = true
 +++
 
 # SciComm
+
+![open-science](/img/open-science-mhntdll.jpg)
