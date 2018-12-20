@@ -2,7 +2,7 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = "2016-04-20T00:00:00"
+date = 2016-04-20T00:00:00
 
 title = "Projects"
 subtitle = ""
@@ -20,6 +20,10 @@ folder = "project"
 # Legend: 0 = list, 1 = cards.
 view = 1
 
+# Widget layout
+# Legend: 0 = two columns (default), 1 = single column
+widget_layout = 0
+
 # Filter toolbar.
 
 # Default filter index (e.g. 0 corresponds to the first `[[filter]]` instance below).
@@ -35,23 +39,23 @@ filter_default = 0
    
 [[filter]]
   name = "Participatory Monitoring"
-  tag = ".participatory-monitoring"
+  tag = "participatory-monitoring"
  
 [[filter]]
   name = "Society & Nature"
-  tag = ".society-and-nature"
+  tag = "society-and-nature"
 
 [[filter]]
   name = "Thesis Projects"
-  tag = ".thesis"
+  tag = "thesis"
 
 [[filter]]
   name = "Molecular Ecology"
-  tag = ".molecular-ecology"
+  tag = "molecular-ecology"
 
 [[filter]]
   name = "Bioinformatics"
-  tag = ".bioinformatics"
+  tag = "bioinformatics"
   
 +++
 

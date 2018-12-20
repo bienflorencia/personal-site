@@ -5,7 +5,7 @@ draft = false
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["bioinformatics"]
   
 # Project summary to display on homepage.
 summary = "Pioneers of the Computing Age"
@@ -38,5 +38,4 @@ highlight = true
   
   preview_only = true
 
-  
 +++
