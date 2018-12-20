@@ -43,9 +43,9 @@ url_pdf = "pdf/009_25_1.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = ""
+url_project = "http://julana.org/category/paso-centurion/"
 url_slides = ""
-url_video = ""
+url_video = "https://youtu.be/Zva9m9hmXCc"
 url_poster = ""
 url_source = ""
 
@@ -53,11 +53,11 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
+# Digital Object Identifier (DOI)
+doi = ""
+
 # Does the content use math formatting?
 math = true
-
-# Does the content use source code highlighting?
-highlight = true
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.

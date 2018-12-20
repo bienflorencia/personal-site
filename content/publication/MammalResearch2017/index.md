@@ -2,7 +2,7 @@
 title = "A novel real-time TaqMan™ PCR assay for simultaneous detection of Neotropical fox species using noninvasive samples based on cytochrome c oxidase subunit II"
 
 # Date first published.
-date = "2017-07-21"
+date = 2017-07-21T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["M. Cosse", "F. Grattarola", "N. Mannise"]
@@ -39,7 +39,7 @@ selected = false
 projects = ["molecular-ecology"]
 
 # Links (optional).
-url_pdf = "pdf/10.1007s13364-017-0328-y.pdf"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -53,11 +53,11 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
+# Digital Object Identifier (DOI)
+doi = "10.1007/s13364-017-0328-y"
+
 # Does the content use math formatting?
 math = false
-
-# Does the content use source code highlighting?
-highlight = true
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.

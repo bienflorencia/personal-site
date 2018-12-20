@@ -2,7 +2,7 @@
 title = "A novel primer set for mammal species identification from feces samples."
 
 # Date first published.
-date = "2014-10-18"
+date = 2018-10-18T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Grattarola, F.", "González, S.", "Cosse, M."]
@@ -53,11 +53,12 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
+
+# Digital Object Identifier (DOI)
+doi = "10.1007/s12686-014-0359-5"
+
 # Does the content use math formatting?
 math = true
-
-# Does the content use source code highlighting?
-highlight = false
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
