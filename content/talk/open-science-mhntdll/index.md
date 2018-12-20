@@ -12,8 +12,8 @@ time_start = 2018-10-01T19:00:00
 authors = ["Florencia Grattarola"]
 
 # Abstract and optional shortened version.
-abstract = "La diversidad biológica se encuentra en un fuerte proceso de declive a nivel global y Uruguay no es ajeno a esa tendencia. En este marco resulta clave generar mecanismos para medir cuantitativamente la riqueza ambiental y sus cambios, para un amplio conjunto de utilidades científicas, educativas y políticas. La práctica de compartir datos fortalece la cultura de colaboración y promueve el progreso del conocimiento científico. Pero ¿cuál es el panorama de datos abiertos de biodiversidad en Uruguay? Presentación de Biodiversidata, una nueva asociación científica colaborativa para la consolidación del conocimiento de la biodiversidad del Uruguay."
-abstract_short = ""
+abstract = ""
+abstract_short = "SciComm Talk in the Museo de Historia Natural Carlos A. Torres de la Llosa"
 
 # Name of event and optional event URL.
 event = "SciComm"
@@ -69,3 +69,6 @@ math = true
 # SciComm
 
 ![open-science](/img/open-science-mhntdll.jpg)
+
+La diversidad biológica se encuentra en un fuerte proceso de declive a nivel global y Uruguay no es ajeno a esa tendencia. En este marco resulta clave generar mecanismos para medir cuantitativamente la riqueza ambiental y sus cambios, para un amplio conjunto de utilidades científicas, educativas y políticas. La práctica de compartir datos fortalece la cultura de colaboración y promueve el progreso del conocimiento científico. Pero ¿cuál es el panorama de datos abiertos de biodiversidad en Uruguay? Presentación de Biodiversidata, una nueva asociación científica colaborativa para la consolidación del conocimiento de la biodiversidad del Uruguay.
+
