@@ -97,7 +97,10 @@ defaultContentLanguageInSubdir = false
   latitude = "53.22876"
   longitude = "-0.55625"
   zoom = 15
-
+ 
+  #SET-UP
+  day_night = true
+  
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
@@ -147,7 +150,7 @@ defaultContentLanguageInSubdir = false
   highlight = true
   highlight_languages = []
   # highlight_style = "github"
-
+  
   # Enable native social sharing buttons?
   sharing = true
 
