@@ -9,27 +9,35 @@ draft = false
 tags = ["participatory-monitoring"]
   
 # Project summary to display on homepage.
-
 summary = "The project Fogones de Fauna is an experience in collaborative-learning, carried out by JULANA NGO in the village of Paso Centurión, Uruguay."
-  
-# Optional image to display on homepage.
-image_preview = "fogones.jpg"
   
 # Optional external URL for project (replaces project detail page).
 external_link = ""
-  
-# Does the project detail page use math formatting?
-math = false
-  
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+#url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+
 # Does the project detail page use source code highlighting?
 highlight = true
   
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
 
-[header]
-image = ""
-caption = ""
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
+  
+  preview_only = true
 
 +++
 

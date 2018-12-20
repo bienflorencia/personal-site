@@ -9,7 +9,10 @@ tags = ["thesis"]
   
 # Project summary to display on homepage.
 summary = "Contributions of molecular ecology to the study of mammals in Uruguay"
-  
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
 # Links (optional).
 url_pdf = ""
 url_slides = ""
@@ -26,20 +29,22 @@ highlight = true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
-# Caption (optional)
-caption = ""
+  # Caption (optional)
+  caption = ""
 
-# Focal point (optional)
-# Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-focal_point = "Smart"
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
+  
+  preview_only = true
 
-preview_only = true
   
 +++
 
 On the one hand, we identified the presence of mammals and their genetic variability through different molecular tools, and on the other, we evaluated the level of gene flow of the individuals of a particular species, the crab-eating fox (*Cerdocyon thous*), in the Uruguayan territory.
 
 **Director**: Dra. Mariana Cosse.
+
 **Second and Third Supervisors**: Dra. Susana González & Dr. Federico Hoffman.
 
 
