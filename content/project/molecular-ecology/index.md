@@ -39,11 +39,11 @@ highlight = true
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
   
-  preview_only = false
+  preview_only = true
 
 +++
 
-Impact of environmental characteristics in the genetic structure of three species of native mammals.
+# Impact of environmental characteristics in the genetic structure of three species of native mammals.
 
 The aim of this project was to evaluate the functional connectivity of the Uruguayan landscape through the analysis of the degree of population fragmentation in three indicator species of Neotropical mammals, crab-eating fox (*Cerdocyon thous*), gray brocket (*Mazama gouazoubira*) and geoffroy's cats (*Leopardus geoffroyi*).
 
