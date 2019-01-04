@@ -33,8 +33,9 @@ weight = 5
 
 # Biography
 
-I am a Uruguayan biologist studying a PhD in Life Sciences in the Evolution and Ecology group of the University of Lincoln (United Kingdom). 
+I am a Uruguayan biologist studying a PhD in Life Sciences in Evolution and Ecology at the University of Lincoln (United Kingdom). 
 
-During my academic development I have been interested and passionate about several areas, from genetics, genomics and bioinformatics, to environmental education and citizen participation, and also the management of private and public conservation areas. 
+During my academic development I have been interested and passionate about several areas, from molecular ecology, conservation genetics, genomics and bioinformatics, to environmental education and relationships society- nature, and open science and knowledge democratization. I’m co-founder of JULANA NGO and the new association Biodiversidata. 
 
 The focus of my current research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data of Uruguay. 
+
