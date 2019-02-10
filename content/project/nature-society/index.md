@@ -1,5 +1,5 @@
 +++
-title = "Relations between society and nature at the boundary"
+title = "Relationships between society and nature at the boundary"
 date = 2018-02-16T15:14:17Z
 draft = false
   
