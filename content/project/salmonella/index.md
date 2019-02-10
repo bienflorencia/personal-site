@@ -45,6 +45,8 @@ The vast majority of cases of human salmonellosis are caused by a few widely pre
 
 One of my objectives was to determine genomic characteristics common to the prevalent serovars Enteritidis and Typhimurium that differentiate them from the minority serotypes. Another, was to identify, through comparative genomics analysis, genetic particularities of Nontyphoidal salmonellosis serotypes with greater invasive capacity in humans compared to other classically causing gastroenteritis (S. Dublin and S. Choleraesuis versus S. Enteritidis and S. Typhimurium).
 
+[More info] (http://www.higiene.edu.uy/ddbp/index.html)
+
 ### Team
 Laura Betancor (Head Coordinator), Lucía Yim (Head), Alejandro Chabalgoity, Andrés Iriarte, Bruno D’Alessandro, Adriana Martínez, Victoria Pérez, Arací Martínez, Florencia Grattarola.
 
@@ -54,4 +56,6 @@ Laura Betancor (Head Coordinator), Lucía Yim (Head), Alejandro Chabalgoity, And
 ### Funding
 R & D Projects Program. Sectorial Commission of Research (Comisión Sectorial de Investigación Científica, CSIC).
 
-[More info] (http://www.higiene.edu.uy/ddbp/index.html)
+### GitHub repository
+Collection of scripts for comparative genomics of Bacteria [GitHub] (https://github.com/bienflorencia/genomica_comparativa)
+
