@@ -1,5 +1,5 @@
 +++
-title = "Useful scripts - Biodiversidata"
+title = "Useful scripts for biodiversity data"
 date = 2019-03-28T14:15:15Z
 tags = ["Biodiversidata"]
 categories = []
