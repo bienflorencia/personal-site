@@ -1,14 +1,13 @@
 +++
 title = "Useful scripts - Biodiversidata"
 date = 2019-03-28T14:15:15Z
-tags = []
-categories = ["Biodiversidata"]
+tags = ["Biodiversidata"]
+categories = []
 math = false
 draft = false
 +++
 
 As part of my PhD project I have written some useful scripts for biodiversity-data cleaning, processing and quality controlling.
-
 Here I present your the first three scripts for:
 
 1. Retrieving Conservation Status and Population Trend (IUCN).
