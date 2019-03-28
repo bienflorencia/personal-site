@@ -9,9 +9,6 @@ draft = false
 
 As part of my PhD project I'm gathering lots of Biodiversity data 
 
+<blockquote class="embedly-card"><h4><a href="https://github.com/bienflorencia/rBiodiversidata">bienflorencia/rBiodiversidata</a></h4><p>Code for Biodiversidata Project.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
-
-<div class="github-card" data-user="bienflorencia" data-repo="rBiodiversidata"></div>
-<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
-
-https://github.com/bienflorencia/rBiodiversidata
