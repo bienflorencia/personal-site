@@ -37,7 +37,5 @@ I am a Uruguayan biologist studying a PhD in Life Sciences in Evolution and Ecol
 
 During my academic development I have been interested and passionate about several areas, from molecular ecology, conservation genetics, genomics and bioinformatics, to environmental education and relationships society- nature, and open science and knowledge democratization. 
 
-I’m co-founder of [JULANA](http://julana.org/) and the new association [Biodiversidata](http://biodiversidata.netlify.com/). 
-
 The focus of my current research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data of Uruguay. 
 
