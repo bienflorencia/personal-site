@@ -1,7 +1,7 @@
 +++
 title = "Biodiversidata – Una propuesta de ciencia abierta en Uruguay"
 date = 2018-09-03
-tags = []
+tags = ["Biodiversidata"]
 categories = []
 math = false
 draft = false
