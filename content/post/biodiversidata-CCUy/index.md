@@ -21,8 +21,7 @@ Enmarcado en esto surge Biodiversidata, una nueva asociación científica colabo
 
 El futuro de la biodiversidad en Uruguay (y el mundo) depende en gran medida de nuestra capacidad de abrazar la cultura de colaboración. Una ciencia comprometida socialmente debe ser abierta, debe habilitar la participación y apostar a democratizar el conocimiento. Ciencia abierta es ciencia por todes y para todes.
 
-<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/julana/albums/72157659145111845" title="Cámaras Trampa"><img src="https://farm1.staticflickr.com/704/21546947209_e3773a84e5_n.jpg" width="320" height="240" alt="Cámaras Trampa"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
+<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/julana/albums/72157659145111845" title="Cámaras Trampa"><img src="https://live.staticflickr.com/704/21546947209_e3773a84e5_c.jpg" width="800" height="600" alt="Cámaras Trampa"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 * Dirzo, R., H. S. Young, M. Galetti, G. Ceballos, N. J. Isaac, and B. Collen. 2014. Defaunation in the Anthropocene. Science 345:401-406.
 * Mora, C., D. P. Tittensor, S. Adl, A. G. Simpson, and B. Worm. 2011. How many species are there on Earth and in the ocean? PLoS biology 9:e1001127.
