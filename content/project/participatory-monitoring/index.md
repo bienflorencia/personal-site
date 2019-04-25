@@ -6,7 +6,7 @@ date = 2018-02-16T15:14:17Z
 draft = false
   
 # Tags: can be used for filtering projects.
-tags = ["participatory-monitoring"]
+tags = ["society-and-nature"]
   
 # Project summary to display on homepage.
 summary = "The project Fogones de Fauna is an experience in collaborative-learning, carried out by JULANA NGO in the village of Paso Centurión, Uruguay."

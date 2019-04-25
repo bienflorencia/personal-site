@@ -1,11 +1,11 @@
 +++
 title = "Biodiversidata"
-date = 2018-12-20T15:14:17Z
+date = 2019-04-25T00:00:00Z
 draft = false
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["open-data"]
+tags = ["open-science"]
   
 # Project summary to display on homepage.
 summary = "The Uruguayan Consortium of Biodiversity Data"

@@ -36,7 +36,7 @@ selected = false
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["participatory-monitoring"]
+projects = ["society-and-nature"]
 
 # Links (optional).
 url_pdf = ""
@@ -51,7 +51,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Article", url = "http://booksandjournals.brillonline.com/content/journals/10.1163/15685306-12341497"}]
+url_custom = [{name = "Article", url = "http://booksandjournals.brillonline.com/content/journals/10.1163/15685306-12341497"}]
 
 # Digital Object Identifier (DOI)
 doi = "10.1163/15685306-12341497"

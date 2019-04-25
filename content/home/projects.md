@@ -38,10 +38,6 @@ filter_default = 0
   tag = "*"
    
 [[filter]]
-  name = "Participatory Monitoring"
-  tag = "participatory-monitoring"
- 
-[[filter]]
   name = "Society & Nature"
   tag = "society-and-nature"
 
@@ -54,8 +50,11 @@ filter_default = 0
   tag = "molecular-ecology"
 
 [[filter]]
-  name = "Bioinformatics"
+  name = "Computer Science"
   tag = "bioinformatics"
   
+[[filter]]
+  name = "Open Science"
+  tag = "open-science"
 +++
 
