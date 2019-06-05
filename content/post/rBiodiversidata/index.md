@@ -13,7 +13,8 @@ This are useful scripts for biodiversity data cleaning, processing and quality c
 1. **Retrieving Conservation Status and Population Trend (IUCN).**
 2. **Checking Species Names.**
 3. **Retrieving Taxonomic Information for a Species.**
-4. **Get Scientific Name Authorship for a Species.**  
+4. **Get Scientific Name Authorship for a Species.**    
+
 
 You can find the scripts, explanations and examples in my Github repository.  
 
