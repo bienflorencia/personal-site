@@ -21,7 +21,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/biodiversidata"}]
 
 # Does the project detail page use source code highlighting?
 highlight = true
@@ -49,5 +49,5 @@ I aim to develop a collaborative strategic association of specialists in differe
 2017-2020.
 
 ### Funding
-National Agency for Research and Innovation (ANII), Uruguay.
-University of Lincoln, United Kingdom.
+Agencia Nacional de Investigación e Innovación (ANII), Uruguay.
+University of Lincoln (UoL), United Kingdom.
