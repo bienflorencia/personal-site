@@ -5,7 +5,7 @@ draft = false
   
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["thesis"]
+tags = ["thesis", "Biodiversidata"]
   
 # Project summary to display on homepage.
 summary = "Macroecological patterns of biodiversity across the Tree of Life: Uruguay as a model region"
