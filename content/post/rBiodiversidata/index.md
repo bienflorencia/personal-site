@@ -22,5 +22,5 @@ You can find the scripts, explanations and examples in my Github repository.
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 <br>
-I hope they are helpful to you! Any comments are more than welcomed :)
+I hope they are helpful to you! Any comments are more than welcome :)
 More may come, stay tunned.
