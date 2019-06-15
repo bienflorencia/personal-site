@@ -12,6 +12,7 @@ weight = 5
   interests = [
     "Open Science",
     "Bioinformatics",
+    "Genomics",
     "Macroecology",
     "GIS",
     "Camera Trapping",
@@ -35,7 +36,7 @@ weight = 5
 
 I am a Uruguayan biologist studying a PhD in Life Sciences in Evolution and Ecology at the University of Lincoln (United Kingdom). 
 
-During my academic development I have been interested and passionate about several areas, from molecular ecology, conservation genetics, genomics and bioinformatics, to environmental education and relationships society- nature, and open science and knowledge democratization. 
+During my academic development I have been interested in several areas, from molecular ecology, conservation genetics and bioinformatics, to environmental education, citizen science and knowledge democratization. 
 
 The focus of my current research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data of Uruguay. 
 
