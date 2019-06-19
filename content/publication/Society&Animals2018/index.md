@@ -19,7 +19,7 @@ authors = ["Bergós, L.", "Grattarola, F.", "Barreneche, J. M.", "Hernández, D.
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Society & Animals. Special Issue: Tracking the Human-Wildlife-Conservation Nexus Across the Human-Animal Studies (HAS) Landscape*."
+publication = "*Society & Animals. Special Issue: Tracking the Human-Wildlife-Conservation Nexus Across the Human-Animal Studies (HAS) Landscape*"
 publication_short = ""
 
 # Abstract and optional shortened version.
