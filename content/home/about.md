@@ -34,7 +34,7 @@ weight = 5
 
 # Biography
 
-I am a Uruguayan biologist studying a PhD in Life Sciences in Evolution and Ecology at the University of Lincoln (United Kingdom). 
+I am a Uruguayan biologist studying a PhD in Life Sciences at the University of Lincoln (United Kingdom). 
 
 During my academic development I have been interested in several areas, from molecular ecology, conservation genetics and bioinformatics, to environmental education, citizen science and knowledge democratization. 
 
