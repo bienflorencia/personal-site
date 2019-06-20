@@ -2,7 +2,7 @@
 title = "Biodiversidata:An Open-Access Biodiversity Database for Uruguay"
 
 # Date first published.
-date = 2019-06-14T00:00:00
+date = 2019-06-20T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["F. Grattarola", "G. Botto", "I.da Rosa", "N. Gobel", "E. González", "J. González", "D. Hernández", "G. Laufer", "R. Maneyro", "J. Martínez-Lanfranco", "D. Naya", "A. Rodales", "L. Ziegler", "D. Pincheira-Donoso"]
@@ -54,7 +54,7 @@ url_source = ""
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "https://doi.org/10.3897/BDJ.7.e36226"
 
 # Does the content use math formatting?
 math = false
@@ -66,5 +66,3 @@ image = ""
 caption = ""
 
 +++
-
-## In press
