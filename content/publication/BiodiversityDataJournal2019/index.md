@@ -54,7 +54,7 @@ url_source = ""
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = "https://doi.org/10.3897/BDJ.7.e36226"
+doi = "10.3897/BDJ.7.e36226"
 
 # Does the content use math formatting?
 math = false
