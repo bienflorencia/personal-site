@@ -39,7 +39,7 @@ selected = true
 projects = ["biodiversidata"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/BDJ_article_36226.pdf"
 url_preprint = ""
 url_code = "https://github.com/bienflorencia/rBiodiversidata"
 url_dataset = "https://doi.org/10.5281/zenodo.2650169"
@@ -47,7 +47,7 @@ url_project = "https://biodiversidata.org/"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://bdj.pensoft.net/article/36226/list/1/"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
