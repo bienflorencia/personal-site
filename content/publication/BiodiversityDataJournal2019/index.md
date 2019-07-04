@@ -47,7 +47,7 @@ url_project = "https://biodiversidata.org/"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://bdj.pensoft.net/article/36226/list/1/"
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
