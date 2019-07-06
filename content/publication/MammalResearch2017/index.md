@@ -5,7 +5,7 @@ title = "A novel real-time TaqMan™ PCR assay for simultaneous detection of Neo
 date = 2017-07-21T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["M. Cosse", "F. Grattarola", "N. Mannise"]
+authors = ["Cosse M.", "Grattarola F.", "Mannise N."]
 
 # Publication type.
 # Legend:
