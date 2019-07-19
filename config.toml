@@ -45,7 +45,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Florencia Grattarola"
-  role = "PhD student - Evolution & Ecology"
+  role = "PhD Student in Life Sciences"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = false
   email = "fGrattarola@lincoln.ac.uk"
   address = "Charlotte Scott Building, University of Lincoln, Brayford Pool, Lincoln, United Kingdom"
   office_hours = ""
-  phone = "+44 (0) 7936507495"
+  phone = ""
   skype = ""
   telegram = "bienflorencia"
 
