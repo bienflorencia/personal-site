@@ -2,7 +2,7 @@
 title = "Data-Sharing en Uruguay, la visión de los colectores y usuarios de datos"
 
 # Date first published.
-date = 2019-01-01T00:00:00
+date = 2019-07-30T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Grattarola F.", "Pincheira-Donoso D."]
@@ -36,10 +36,10 @@ selected = false
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["thesis"]
+projects = ["phd"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/SZU2019.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -66,6 +66,3 @@ image = ""
 caption = ""
 
 +++
-
-
-## In press
