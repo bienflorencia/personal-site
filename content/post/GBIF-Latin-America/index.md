@@ -7,10 +7,22 @@ math = false
 draft = false
 +++
 
-In our recent [Data Paper](https://doi.org/10.3897/BDJ.7.e36226), we showed that Uruguay ranks amongst the countries of Latin America with the lowest levels of available data on their biodiversity in the Global Biodiversity Information Facility [GBIF](https://www.gbif.org/). Also, that most of the records that we found in GBIF belong to the [eBird](https://ebird.org/home) iniciative, the world’s largest biodiversity-related citizen science project. The extensive contribution provided by eBird to GBIF highlights the enormous role that data provided by citizens play in the development of global biodiversity datasets, while at the same time, points out the critical taxonomical biases encountered in GBIF for the region.   
+In our recent [Data Paper](https://doi.org/10.3897/BDJ.7.e36226), we
+showed that Uruguay ranks amongst the countries of Latin America with
+the lowest levels of available data on their biodiversity in the Global
+Biodiversity Information Facility [GBIF](https://www.gbif.org/). Also,
+that most of the records that we found in GBIF belong to the
+[eBird](https://ebird.org/home) initiative, the world’s largest
+biodiversity-related citizen science project. The extensive contribution
+provided by eBird to GBIF highlights the enormous role that data
+provided by citizens play in the development of global biodiversity
+datasets, while at the same time, points out the critical taxonomical
+biases encountered in GBIF for the region.
 
-
-Here is the code to build the data table from scratch using the [rgbif](https://ropensci.org/tutorials/rgbif_tutorial/) package to retrieve data from GBIF. **Let's start!** To run this code you will need the following R packages:
+Here is the code to build the data table from scratch using the
+[rgbif](https://ropensci.org/tutorials/rgbif_tutorial/) package to
+retrieve data from GBIF. **Let's start!** To run this code, you will need
+the following R packages:
 
     library(rgbif)
     library(ggrepel)
@@ -20,19 +32,26 @@ Here is the code to build the data table from scratch using the [rgbif](https://
 
 ## Latin America
 
-First we create a list of latin american countries and codes, and a variable for the eBird dataset key. Find the ISO CODES of countries [here](https://countrycode.org/).  
+First, we create a list of Latin American countries and codes, and a
+variable for the eBird dataset key. Find the ISO CODES of countries
+[here](https://countrycode.org/).
 
     LatinAmerica <- data.frame(country= c('Mexico', 'Brazil', 'Costa Rica', 'Colombia', 'Peru', 'Argentina', 'Ecuador', 'Panama', 'Chile', 'Venezuela', 'Belize', 'Honduras', 'Bolivia', 'Guatemala', 'Cuba', 'Nicaragua', 'Paraguay', 'Bahamas', 'Jamaica', 'Trinidad and Tobago', 'Guyana', 'Dominican Republic', 'El Salvador', 'Suriname', 'Uruguay', 'Haití'), code=c('MX', 'BR', 'CR', 'CO', 'PE', 'AR', 'EC', 'PA', 'CL', 'VE', 'BZ', 'HN', 'BO', 'GT', 'CU', 'NI', 'PY', 'BS', 'JM', 'TT', 'GY', 'DO', 'SV', 'SR', 'UY', 'HT'))
 
     eBirdKey <- '4fa7b334-ce0d-4e88-aaae-2e0c138d049e'
-    
-If you wanted to search other dataset sources and don't know the key value, you could check the function `datasets()` and return a list of datasets matching the query search  
+
+If you wanted to search other dataset sources and don't know the key
+value, you could check the function `datasets()` and return a list of
+datasets matching the query search
 
     datasets(data='all', query='eBird')
 
+
 ## Function
 
-Next we declare the function, that takes a list of countries and codes, and returns for each country the count of the **total number of occurrence records** and the number of those that belong to **eBird**.  
+Next, we declare the function, that takes a list of countries and codes,
+and returns for each country the count of the **total number of
+occurrence records** and the number of those that belong to **eBird**.
 
     count_country_records <- function(List){
       CountryList <- data.frame(country = character(),
@@ -51,14 +70,17 @@ Next we declare the function, that takes a list of countries and codes, and retu
       return(CountryList)
     }
 
-Now we run the function to create the data  
+Now we run the function to create the data
 
     LatinAmerica <- count_country_records(LatinAmerica)
 
 
 ## Plot
 
-We will plot the distribution of the number of occurrence records available GBIF (as for the date of the query) for each country of Latin America, relative to the number of records that have been submitted by eBird users. The respective proportion will be shown in the green scale.  
+We will plot the distribution of the number of occurrence records
+available GBIF (as for the date of the query) for each country of Latin
+America, relative to the number of records that have been submitted by
+eBird users. The respective proportion will be shown in the green scale.
 
     ggplot(LatinAmerica, aes(eBirdRecords, numberOfRecords, label = country)) +
       geom_point(aes(fill= eBirdRecords*100/numberOfRecords)) +
@@ -74,7 +96,7 @@ We will plot the distribution of the number of occurrence records available GBIF
       theme(text=element_text(family='Calibri', size=12))
 
 
-![](img/GBIF_eBird.png)
+![](/img/GBIF_eBird.png)
 
 
 ## And that's all !
