@@ -104,7 +104,11 @@ eBird users. The respective proportion will be shown in the green scale.
 ---
   
 
-**Check our Data Paper for more info:**  
+**Check our Data Paper for more info:**
 
-Grattarola F, Botto G, da Rosa I, Gobel N, González E, González J, Hernández D, Laufer G, Maneyro R, Martínez-Lanfranco J, Naya D, Rodales A, Ziegler L, Pincheira-Donoso D (2019) Biodiversidata: An Open-Access Biodiversity Database for Uruguay. Biodiversity Data Journal 7: e36226. https://doi.org/10.3897/BDJ.7.e36226
+Grattarola F, Botto G, da Rosa I, Gobel N, González E, González J,
+Hernández D, Laufer G, Maneyro R, Martínez-Lanfranco J, Naya D, Rodales
+A, Ziegler L, Pincheira-Donoso D (2019) Biodiversidata: An Open-Access
+Biodiversity Database for Uruguay. Biodiversity Data Journal 7: e36226.
+<https://doi.org/10.3897/BDJ.7.e36226>
 
