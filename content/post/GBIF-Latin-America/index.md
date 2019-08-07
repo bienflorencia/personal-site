@@ -36,7 +36,14 @@ First, we create a list of Latin American countries and codes, and a
 variable for the eBird dataset key. Find the ISO CODES of countries
 [here](https://countrycode.org/).
 
-    LatinAmerica <- data.frame(country= c('Mexico', 'Brazil', 'Costa Rica', 'Colombia', 'Peru', 'Argentina', 'Ecuador', 'Panama', 'Chile', 'Venezuela', 'Belize', 'Honduras', 'Bolivia', 'Guatemala', 'Cuba', 'Nicaragua', 'Paraguay', 'Bahamas', 'Jamaica', 'Trinidad and Tobago', 'Guyana', 'Dominican Republic', 'El Salvador', 'Suriname', 'Uruguay', 'Haití'), code=c('MX', 'BR', 'CR', 'CO', 'PE', 'AR', 'EC', 'PA', 'CL', 'VE', 'BZ', 'HN', 'BO', 'GT', 'CU', 'NI', 'PY', 'BS', 'JM', 'TT', 'GY', 'DO', 'SV', 'SR', 'UY', 'HT'))
+    LatinAmerica <- data.frame(country= c('Mexico', 'Brazil', 'Costa Rica', 'Colombia', 
+    'Peru', 'Argentina', 'Ecuador', 'Panama', 'Chile', 'Venezuela', 
+    'Belize', 'Honduras', 'Bolivia', 'Guatemala', 'Cuba', 
+    'Nicaragua', 'Paraguay', 'Bahamas', 'Jamaica', 'Trinidad and Tobago', 
+    'Guyana', 'Dominican Republic', 'El Salvador', 'Suriname', 'Uruguay', 'Haití'), 
+    code=c('MX', 'BR', 'CR', 'CO', 'PE', 'AR', 'EC', 'PA', 
+    'CL', 'VE', 'BZ', 'HN', 'BO', 'GT', 'CU', 'NI', 'PY', 'BS', 
+    'JM', 'TT', 'GY', 'DO', 'SV', 'SR', 'UY', 'HT'))
 
     eBirdKey <- '4fa7b334-ce0d-4e88-aaae-2e0c138d049e'
 
