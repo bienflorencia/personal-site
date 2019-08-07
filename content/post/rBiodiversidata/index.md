@@ -9,12 +9,13 @@ draft = false
 
 As part of my PhD project I have written some scripts for the Biodiversidata Project.
 This are useful scripts for biodiversity data cleaning, processing and quality controlling.  
+<br>
 
 ## 1) Retrieving Conservation Status and Population Trend (IUCN)
 
 The script contains a function that takes a species list as input and returns a dataframe with 3 columns containing Species Name, Conservation Status and Popultaion Trend, according to the IUCN Red List. The run will return the result of the search for each species in the list, printing in the console screen a 'CHECK' warning when the species name is not found in the Red List search. This may happen for two reasons, either the species has not been assessed by the IUCN or the species name needs to be checked. To check species name, see [Checking Species Names](#2-checking-species-names).  
 
-This script uses the rl_search() function from the [rredlist](https://CRAN.R-project.org/package=rredlist) package and works with the IUCN Red List API.  
+This script uses the `rl_search()` function from the [**rredlist**](https://CRAN.R-project.org/package=rredlist) package and works with the IUCN Red List API.  
 
 - To use the API:
   1. Create a token http://apiv3.iucnredlist.org/api/v3/token
