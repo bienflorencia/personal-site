@@ -47,10 +47,7 @@ This script uses the function `gnr_resolve()` from the R package [**taxize**](ht
 
 You can find the scripts, explanations and examples in my Github repository.  
 
-<a class="embedly-card" data-card-controls="0" href="https://github.com/bienflorencia/rBiodiversidata">bienflorencia/rBiodiversidata</a>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-
-<div class="github-card" data-github="bienflorencia/rBiodiversidata/Useful Scripts" data-width="400" data-height="280" data-theme="medium"></div>
+<div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 <br>
