@@ -1,7 +1,7 @@
 +++
 title = "GBIF data in Latin America"
 date = 2019-08-06
-tags = ["Biodiversidata"]
+tags = ["Biodiversidata", "R"]
 categories = []
 math = false
 draft = false
@@ -98,6 +98,7 @@ eBird users. The respective proportion will be shown in the green scale.
 
 ![](/img/GBIF_eBird.png)
 
+Maybe you should zoom in to see the details :)  
 
 ## And that's all !
 
