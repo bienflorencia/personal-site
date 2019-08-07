@@ -1,7 +1,7 @@
 +++
 title = "R Code used for the Biodiversidata Project"
 date = 2019-03-28T14:15:15Z
-tags = ["Biodiversidata"]
+tags = ["Biodiversidata", "R"]
 categories = []
 math = false
 draft = false
@@ -47,7 +47,7 @@ This script uses the function `gnr_resolve()` from the R package [**taxize**](ht
 
 You can find the scripts, explanations and examples in my Github repository.  
 
-<div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
+<div class="github-card" data-github="bienflorencia/rBiodiversidata/Useful Scripts" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 <br>
