@@ -18,20 +18,13 @@ Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y cre�
 
 <br>
 
-[![iNaturalist.org]]
+<div class="inat-widget">
 
-<table>
-<tbody>
-<tr class="odd">
-<td><a href="https://www.inaturalist.org/observations/flo_grattarola"><img src="https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273" class="usericon" alt="Thumb" /></a></td>
-<td><strong><a href="https://www.inaturalist.org/observations/flo_grattarola">View flo_grattarola's observations »</a></strong></td>
-</tr>
-</tbody>
-</table>
+<div class="inat-widget-header">[![iNaturalist.org](https://www.inaturalist.org/assets/logo-small-9571bdf43f2c4dc05eb536a8c06d7c4b.gif)](https://www.inaturalist.org)</div>
 
-  [iNaturalist.org]: https://www.inaturalist.org/assets/logo-small-9571bdf43f2c4dc05eb536a8c06d7c4b.gif
-  [![iNaturalist.org]]: https://www.inaturalist.org
+| [![Thumb](https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273)](https://www.inaturalist.org/observations/flo_grattarola) | **[View flo_grattarola's observations »](https://www.inaturalist.org/observations/flo_grattarola)** |
 
+</div>
 
 
 
