@@ -22,7 +22,21 @@ Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y cre�
 
 <div class="inat-widget-header">[![iNaturalist.org](https://www.inaturalist.org/assets/logo-small-9571bdf43f2c4dc05eb536a8c06d7c4b.gif)](https://www.inaturalist.org)</div>
 
-| [![Thumb](https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273)](https://www.inaturalist.org/observations/flo_grattarola) | **[View flo_grattarola's observations »](https://www.inaturalist.org/observations/flo_grattarola)** |
+<table class="inat-footer">
+
+<tbody>
+
+<tr class="inat-user">
+
+<td class="inat-user-image">[![Thumb](https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273)](https://www.inaturalist.org/observations/flo_grattarola)</td>
+
+<td class="inat-value">**[View flo_grattarola's observations »](https://www.inaturalist.org/observations/flo_grattarola)**</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 </div>
 
