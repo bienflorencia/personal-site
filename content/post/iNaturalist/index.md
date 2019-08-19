@@ -10,7 +10,7 @@ draft = false
 [iNaturalist](https://www.inaturalist.org) es la comunidad de naturalistas más grande del mundo trabajando para registrar e identificar organismos observados en la naturaleza. 
 
 
-![](/img/iNatrualist.png)
+![](/img/iNaturalist.png)
 
 
 Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y creá datos valiosos para la ciencia.  
@@ -39,7 +39,7 @@ Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y cre�
     <div class="inat-widget-header">
       <a href="https://www.inaturalist.org"><img alt="iNaturalist.org" src="https://www.inaturalist.org/assets/logo-small-27dadf5468502c764c7a2cf8e30617d3.png" /></a>  
     </div>
-  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/flo_grattarola.widget?layout=small&limit=18&order=asc&order_by=observed_on"></script>
+  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/flo_grattarola.widget?layout=small&limit=5&order=asc&order_by=observed_on"></script>
   <table class="inat-footer">
     <tr class="inat-user">
         <td class="inat-user-image">
@@ -53,4 +53,5 @@ Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y cre�
     </tr>
   </table>
 </div>
+
 
