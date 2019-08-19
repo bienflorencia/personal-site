@@ -39,7 +39,7 @@ Unite a la plataforma, ayud√° a conectar a las personas con la naturaleza y cre√
     <div class="inat-widget-header">
       <a href="https://www.inaturalist.org"><img alt="iNaturalist.org" src="https://www.inaturalist.org/assets/logo-small-9571bdf43f2c4dc05eb536a8c06d7c4b.gif" /></a>  
     </div>
-  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/flo_grattarola.widget?layout=small&limit=5&order=asc&order_by=observed_on"></script>
+  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/flo_grattarola.widget?layout=large&limit=10&order=asc&order_by=created_at"></script>
   <table class="inat-footer">
     <tr class="inat-user">
         <td class="inat-user-image">
@@ -53,6 +53,7 @@ Unite a la plataforma, ayud√° a conectar a las personas con la naturaleza y cre√
     </tr>
   </table>
 </div>
+
 
 
 
