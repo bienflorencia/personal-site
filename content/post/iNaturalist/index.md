@@ -18,12 +18,20 @@ Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y cre�
 
 <br>
 
-.inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;} .inat-widget-header {margin-bottom: 10px;} .inat-widget td {vertical-align: top; padding-bottom: 10px;} .inat-label { color: #888; } .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;} .inat-observation-body, .inat-user-body { padding-left: 10px; } .inat-observation-image {text-align: center;} .inat-observation-image, .inat-user-image { width: 48px; display: inline-block; } .inat-observation-image img, .inat-user-image img { max-width: 48px; } .inat-observation-image img { vertical-align: middle; } .inat-widget-small .inat-observation-image { display:block; float: left; margin: 0 3px 3px 0; height:48px;} .inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; } .inat-user-body {vertical-align: middle;} .inat-widget td.inat-user-body {vertical-align: middle;} .inat-widget .inat-footer td.inat-value {vertical-align: middle; padding-left: 10px;}
+[![iNaturalist.org]]
 
-[![iNaturalist.org](https://www.inaturalist.org/assets/logo-small-27dadf5468502c764c7a2cf8e30617d3.png)](https://www.inaturalist.org)
+<table>
+<tbody>
+<tr class="odd">
+<td><a href="https://www.inaturalist.org/observations/flo_grattarola"><img src="https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273" class="usericon" alt="Thumb" /></a></td>
+<td><strong><a href="https://www.inaturalist.org/observations/flo_grattarola">View flo_grattarola's observations »</a></strong></td>
+</tr>
+</tbody>
+</table>
 
-[![Thumb](https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273)](https://www.inaturalist.org/observations/flo_grattarola)
+  [iNaturalist.org]: https://www.inaturalist.org/assets/logo-small-9571bdf43f2c4dc05eb536a8c06d7c4b.gif
+  [![iNaturalist.org]]: https://www.inaturalist.org
 
-**[View flo\_grattarola's observations »](https://www.inaturalist.org/observations/flo_grattarola)**
+
 
 
