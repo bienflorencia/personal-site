@@ -7,13 +7,15 @@ math = false
 draft = false
 +++
 
-[iNaturalist](https://www.inaturalist.org) es la comunidad de naturalistas más grande del mundo trabajando para registrar e identificar organismos observados en la naturaleza. 
+[iNaturalist](https://www.inaturalist.org) es la comunidad de naturalistas más grande del mundo trabajando para registrar e identificar organismos observados en la naturaleza. Desde Biodiversidata estamos trabajando para generar sinergias con la Red de iNaturalist. 
+
+### Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y creá datos valiosos para la ciencia.  
+
 
 
 ![](/img/iNaturalist.png)
 
-
-Unite a la plataforma, ayudá a conectar a las personas con la naturaleza y creá datos valiosos para la ciencia.  
+**Acá podés ver algunos de mis registros**
 
 
 <br>
