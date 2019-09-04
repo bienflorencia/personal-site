@@ -46,7 +46,7 @@ tags = ["Open Data"]
 #slides = "example-slides"
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/Charlas_Uy2018.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""
