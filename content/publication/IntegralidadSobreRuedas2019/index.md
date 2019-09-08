@@ -36,7 +36,7 @@ selected = false
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["society-and-nature"]
+projects = ["nature-society"]
 
 # Links (optional).
 url_pdf = "pdf/integralidad_sobre_ruedas_Article.pdf"
