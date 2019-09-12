@@ -16,8 +16,8 @@ abstract = ""
 abstract_short = "Presentación en la 3era edición de Datos y Cogollos"
 
 # Name of event and optional event URL.
-event = "Biodiversity_Next 2019"
-event_url = "https://biodiversitynext.org"
+event = "Datos y Cogollos - Datacamp 2019"
+event_url = "https://www.meetup.com/es-ES/Cafes-de-DATA/events/264458512/"
 
 # Location of event.
 location = "Montevideo, Uruguay"
@@ -66,7 +66,7 @@ math = true
   
 +++
 
-# Datos y Cogollos - Datacamp 2019
+# Datos y Cogollos
 
 Llega la tercera edición de este evento para conocer y dar a conocer lo que se está haciendo con datos abiertos, esta vez Cómo evento paralelo del Datacamp 2019 de AGESIC y con la presencia de invitados internacionales😎🔝.
 
