@@ -5,13 +5,13 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Talks"
-subtitle = "SciComm & Presentations"
+subtitle = "Academic & SciComm Presentations"
 
 # Order that this section will appear in.
 weight = 40
 
 # Number of talks to list.
-count = 10
+count = 5
 
 # List format.
 #   0 = Simple
