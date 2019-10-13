@@ -11,22 +11,22 @@ weight = 5
 [interests]
   interests = [
     "Open Science",
-    "Bioinformatics",
-    "Genomics",
     "Macroecology",
     "GIS",
+    "Bioinformatics",
+    "Genomics",
     "Camera Trapping",
     "Environmental Education"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Msc in Biology. Sub-area Genetics"
+  course = "Masters in Biological Sciences (Genetics)"
   institution = "PEDECIBA - Universidad de la República, Uruguay"
   year = 2015
 
 [[education.courses]]
-  course = "BSc in Biology. Sub-area Genetics & Evolution"
+  course = "BSc (Honours) in Biological Sciences"
   institution = "Facultad de Ciencias - Universidad de la República, Uruguay"
   year = 2012
  
