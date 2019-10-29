@@ -47,7 +47,7 @@ tags = ["Open Data"]
 
 # Links (optional).
 url_pdf = "pdf/BISS_article_37715.pdf"
-url_slides = ""
+url_slides = "pdf/Grattarola_and_Pincheira-Donoso_BiodNext_SS73"
 url_video = ""
 url_code = ""
 
