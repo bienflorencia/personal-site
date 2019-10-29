@@ -7,7 +7,7 @@ math = false
 draft = false
 +++
 
-El Conferencia internacional [Biodiversity_Next](https://biodiversitynext.org/) se desarrolló en la ciudad de Leiden de los Países Bajos del 22 al 25 de noviembre de 2019. Fue un evento que reunió, por primera vez a las principales organizaciones internacionales, investigadores/as y comunidades para identificar conjuntamente desafíos y oportunidades en torno a la investigación intensiva de datos de biodiversidad.
+El Conferencia internacional [Biodiversity_Next](https://biodiversitynext.org/) se desarrolló en la ciudad de Leiden de los Países Bajos del 22 al 25 de noviembre de 2019. Fue un evento que reunió, por primera vez, a las principales organizaciones internacionales, investigadores/as y comunidades para identificar conjuntamente desafíos y oportunidades en torno a la investigación intensiva de datos de biodiversidad.
 
 **Biodiversidata** se hizo presente en la sesión dedicada a las ‘Perspectivas del Sur Global’, denominación que nuclea aquellos países con historia colonialista, los llamados del tercer mundo o en vías de desarrollo. Este término agrupa realidades sociales y económicas muy diferentes, pero en la diversidad igualmente fue posible apreciar paralelismos entre nuestros países y su panorama respecto a la situación de datos de biodiversidad. 
 
