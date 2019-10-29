@@ -1,11 +1,11 @@
 +++
 title = "iNaturalist como herramienta para potenciar el impacto de la ciencia ciudadana en la conservación de la biodiversidad del Uruguay"
-date = 2019-10-29T00:00:00  # Schedule page publish date.
+date = 2019-10-28T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2019-10-22T14:00:00
+time_start = 2019-10-25T10:00:00
 #time_end = 2030-06-01T15:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -31,11 +31,11 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["Biodiversidata"]
+projects = ["phd"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Citizen-Science"]
+tags = ["citizen-science"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
