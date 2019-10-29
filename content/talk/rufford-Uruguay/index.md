@@ -13,7 +13,7 @@ authors = ["Florencia Grattarola"]
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = "Charla en la Conferencia Rufford - Uruguay
+abstract_short = "Charla en la Conferencia Rufford - Uruguay"
 
 # Name of event and optional event URL.
 event = "Conferencia Rufford - Uruguay"
