@@ -19,13 +19,9 @@ Presentaron trabajos 10 personas, de África, sudeste asiático y Sudamérica (i
 Pudimos notar que nuestro país se ve en un panorama bastante crítico incluso respecto a países con los que nos deberíamos parecer un poco más. Europa, Estados Unidos y Australia, tienen una trayectoria y avance que hoy es imposible de comparar con el nuestro. Incluso México, Brasil, Colombia y Costa Rica, se encuentran ya mucho más encaminados en el tema. Pero Uruguay es  quizás el único país sin registros propios en GBIF (la infraestructura global de datos de biodiversidad), y el único sin conjuntos de datos digitalizados y disponibles online. Más allá de esto, la experiencia de Biodiversidata fue muy bien recibida, se resaltó el esfuerzo hecho para estandarizar datos muy heterogéneos y lo clave que resultó reunir personas que estuvieran dispuestas a compartir sus datos y darles crédito por hacerlo. Comparto la presentación con uds.  
 
 
-# Tabset {.tabset .tabset-fade .tabset-pills}
-## Tab 1
-
-# Tabset {.tabset .tabset-fade .tabset-pills}
 ## [Presentación de Biodiversidata](https://flograttarola.com/pdf/Grattarola_and_Pincheira-Donoso_BiodNext_SS73.pdf)
 
-[Presentación de Biodiversidata](https://flograttarola.com/pdf/Grattarola_and_Pincheira-Donoso_BiodNext_SS73.pdf)  
+{{% staticref "pdf/Grattarola_and_Pincheira-Donoso_BiodNext_SS73.pdf" "newtab" %}}Ver Presentación{{% /staticref %}}
 
 A modo de reflexión personal, creo que sería importante ver el ejemplo de África y su proceso, porque nuestros desafíos y oportunidades resultan similares. Los países del ‘Norte Global’ pasaron por la etapa en la que nosotros estamos y hoy se encuentran enfocados en nuevos desafíos, como por ejemplo como automatizar la digitalización de especímenes con inteligencia artificial, el desarrollo de identificadores universales para especímenes de colecciones, el crowdsourcing de ciencia ciudadana para la transcripción de etiquetas o colecta de datos, el desarrollo de infraestructura de datos integrando registros, personas e instituciones, etc. Uruguay necesita integrarse a la conversación global. Estamos por lo menos 10 años atrasados respecto a nuestra región, y si pensamos en cuándo México comenzó con esto, estamos 30 años atrás. La sensación, sin embargo, es que tenemos la oportunidad de hacerlo lo mejor posible, porque hay experiencias que ya pasaron por el ensayo y error, y nosotros podemos evitar pasar por esos cuellos de botella y faciliar nuestro camino.  
 
