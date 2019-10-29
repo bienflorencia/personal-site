@@ -46,8 +46,8 @@ tags = ["Open Data"]
 #slides = "example-slides"
 
 # Links (optional).
-url_pdf = "https://biodiversidata.org/files/PresentationBiodiversidata.pdf"
-url_slides = ""
+url_pdf = ""
+url_slides = "https://biodiversidata.org/files/PresentationBiodiversidata.pdf"
 url_video = ""
 url_code = ""
 
