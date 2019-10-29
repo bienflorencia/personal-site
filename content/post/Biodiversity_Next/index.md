@@ -28,7 +28,7 @@ A modo de reflexión personal, creo que sería importante ver el ejemplo de Áfr
 
 ## Algunas cosas que deberían ocurrir en **Uruguay** a un (medianamente) corto plazo:  
 
-+ Digitalización de todas nuestras colecciones y herbarios nacionales, estandarización y apertura digital de los datos (a través del Portal de GBIF)
++ Digitalización de todas nuestras colecciones y herbarios nacionales, estandarización y apertura digital de los datos (a través del Portal de GBIF).
 + Inversión en el desarrollo de infraestructura adaptada al país: Sistema de Información de Biodiversidad del Uruguay.
 + Capacitación de recursos humanos en manejo y administración de datos de biodiversidad. Cursos universitarios de Informática de la Biodiversidad (datos primarios, estándares y herramientas + infraestructura).
 + Promoción a nivel institucional de estructuras de incentivo para la apertura de datos científicos. Considerar la publicación de datos en las evaluaciones académicas y de investigación.
