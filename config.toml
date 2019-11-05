@@ -274,6 +274,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "ai"
     link = "https://exportcvuy.anii.org.uy/cv/?64557324135cff87cc3e5ad8bacbba7aeebce4442a2d42a89b8d1413e12d942fca50a711b8ab97d2c4539d97430f48d25ff422df8fc55917e2d7c2451b6f4815#0"
 
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0001-8282-5732"
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
