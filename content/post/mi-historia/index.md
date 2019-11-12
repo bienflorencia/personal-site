@@ -33,8 +33,7 @@ Partimos de la base de que existen diversas formas y expresiones que dan cuenta 
 
 En 2015 una de las cámaras trampa que se encuentra colocada en el predio de un vecino tomó la siguiente fotografía, que resultó ser el primer registro de yaguarundí para Uruguay. Se trata de una especie de felino que hasta el momento no había sido documentada para el país.
 
-![yaguarundi](/img/yaguarundi.jpg)
-[Fuente en Flickr] (https://flic.kr/p/KKoXaN)
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/julana/28714428404/" title="Yaguarundí (Puma yagouaroundi)"><img src="https://live.staticflickr.com/7762/28714428404_efa07d202a_z.jpg" width="640" height="480" alt="Yaguarundí (Puma yagouaroundi)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Cuando nos dimos cuenta de lo que significaba, desarrollamos la mejor estrategia para hacer el registro disponible. Primero lo conversamos con los vecinos que se mostraron muy intrigados por el nuevo animal, analizando lo que representa este nuevo registro para el país y de lo que implica dar a conocerlo. La reacción natural fue querer mostrarlo para que más personas conocieran este animal. Entonces subimos el archivo a nuestro repositorio online de imágenes licenciadas con Creative Commons, habilitando su reproducción, reutilización y redistribución. Esto generó una sucesión de hechos que enriquecen el registro en sí mismo y hacen que la ciudadanía se apropie de este nuevo mamífero y se manifieste.
 
