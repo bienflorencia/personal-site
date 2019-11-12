@@ -39,11 +39,11 @@ Cuando nos dimos cuenta de lo que significaba, desarrollamos la mejor estrategia
 
 La repercusión fue grandísima. Tanto que Claudio Tachino y Numa Moraes compusieron letra y música de una canción inspirada en este registro.
 
-> *“Con su pelaje medio barcino, anda en la noche el yaguarundí
-> Cruzando campos llegó a este suelo, mora en el Paso del Centurión
-> Cuando la tarde regala sombras, va a tomar agua en el Yaguarón
-> …
-> Quedate yaguarundí, aquerenciate a este suelo
+> *“Con su pelaje medio barcino, anda en la noche el yaguarundí  
+> Cruzando campos llegó a este suelo, mora en el Paso del Centurión  
+> Cuando la tarde regala sombras, va a tomar agua en el Yaguarón  
+> …  
+> Quedate yaguarundí, aquerenciate a este suelo  
 > Siempre hay lugar para todos, bajo la luz de este cielo”*  
 
 Además, Tito y sus Supersonicos también escribieron un tema! 
