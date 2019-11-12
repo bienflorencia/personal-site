@@ -33,10 +33,10 @@ Partimos de la base de que existen diversas formas y expresiones que dan cuenta 
 
 En 2015 una de las cámaras trampa que se encuentra colocada en el predio de un vecino tomó la siguiente fotografía, que resultó ser el primer registro de yaguarundí para Uruguay. Se trata de una especie de felino que hasta el momento no había sido documentada para el país.
 
-Cuando nos dimos cuenta de lo que significaba, desarrollamos la mejor estrategia para hacer el registro disponible. Primero lo conversamos con los vecinos que se mostraron muy intrigados por el nuevo animal, analizando lo que representa este nuevo registro para el país y de lo que implica dar a conocerlo. La reacción natural fue querer mostrarlo para que más personas conocieran este animal. Entonces subimos el archivo a nuestro repositorio online de imágenes licenciadas con Creative Commons, habilitando su reproducción, reutilización y redistribución. Esto generó una sucesión de hechos que enriquecen el registro en sí mismo y hacen que la ciudadanía se apropie de este nuevo mamífero y se manifieste.
-
 ![yaguarundi](/img/yaguarundi.jpg)
 [Fuente en Flickr] (https://flic.kr/p/KKoXaN)
+
+Cuando nos dimos cuenta de lo que significaba, desarrollamos la mejor estrategia para hacer el registro disponible. Primero lo conversamos con los vecinos que se mostraron muy intrigados por el nuevo animal, analizando lo que representa este nuevo registro para el país y de lo que implica dar a conocerlo. La reacción natural fue querer mostrarlo para que más personas conocieran este animal. Entonces subimos el archivo a nuestro repositorio online de imágenes licenciadas con Creative Commons, habilitando su reproducción, reutilización y redistribución. Esto generó una sucesión de hechos que enriquecen el registro en sí mismo y hacen que la ciudadanía se apropie de este nuevo mamífero y se manifieste.
 
 La repercusión fue grandísima. Tanto que Claudio Tachino y Numa Moraes compusieron letra y música de una canción inspirada en este registro.
 
