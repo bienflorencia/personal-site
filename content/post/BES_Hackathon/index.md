@@ -11,14 +11,14 @@ The one-day [BES Quantitative Ecology Hackathon](https://www.eventbrite.co.uk/e/
 
 ![Hackathon-Group](/img/hackathon.jpg)
 
-Me and my team ([Lea](https://twitter.com/LeaDambly), [Jack](https://twitter.com/JackHHatfield), [Philipp](https://twitter.com/pboesu)) worked in the following challenge:
+Me and my team ([Lea](https://twitter.com/LeaDambly), [Jack](https://twitter.com/JackHHatfield) & [Philipp](https://twitter.com/pboesu)) worked in the following challenge:
 
 > So you’re a citizen scientist in the UK - where should you go to record?
-> The idea would be to implement a dynamic map of Britain/UK to highlight areas where additional citizen science biodiversity records might be particularly valuable for filling in knowledge gaps. 
+> The idea would be to implement a dynamic map of Britain/UK to highlight areas where additional citizen science biodiversity records might be particularly valuable for filling in knowledge gaps.   
 
-For this, we implemented a dynamic map using bird occurrence records from Wales between years 2015-2018. To set a priority value for each area of the country, we calculated two different measures for each year: the level of isolation (as the amount of accumulated records in time for the area) and the inventory completeness (as the curvilinearity of the species accumulation curves per area). Finally, we combined this in a Shiny app.
+For this, we implemented a dynamic map using bird occurrence records from Wales between years 2015-2018. To set a priority value for each area of the country, we calculated two different measures for each year: the level of isolation (as the amount of accumulated records in time for the area) and the inventory completeness (as the curvilinearity of the species accumulation curves per area). Finally, we combined this in a Shiny app.  
 
-We were awarded overall winners !
+*We were awarded overall winners !*
 
 ![Hackathon-Award](/img/hackathon-award.jpg)
 
