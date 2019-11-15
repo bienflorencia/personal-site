@@ -16,7 +16,7 @@ abstract = ""
 abstract_short = "Charla en el marco del curso de Paleontología de la Licenciatura en Biología "
 
 # Name of event and optional event URL.
-event = "Conferencia Rufford - Uruguay"
+event = "Curso de Paleontología para la Licenciatura en Biología"
 event_url = ""
 
 # Location of event.
@@ -31,7 +31,7 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["Julana"]
+projects = ["participatory-monitoring"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -65,8 +65,6 @@ math = true
   focal_point = "Smart"
   
 +++
-
-# Curso de Paleontología para la Licenciatura en Biología
 
 Esta charla fue presentada por invitación del docente Richard Fariña en el marco del curso de Paleontología para estudiantes de la Licenciatura en Biología de la Universidad de la República. Con foco en mamíferos modernos se presentó un caso de ciencia uruguaya con datos abiertos y licencias libres que llevó adelante [Julana](www.julana.org) en el marco del proyecto Fogones de Fauna en la localidad de Paso Centurión, departamento de Cerro Largo.
 
