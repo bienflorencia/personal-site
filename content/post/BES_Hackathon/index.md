@@ -7,9 +7,11 @@ math = false
 draft = false
 +++
 
-The one-day [BES Quantitative Ecology Hackathon](https://www.eventbrite.co.uk/e/bes-quantitative-ecology-hackathon-tickets-65182749358) was led by the Quantitative Ecology SIG in partnership with the Citizen Science SIG of the British Ecological Society and saw small teams work together on challenges that combined ecological and sociological data.
+The one-day [BES Quantitative Ecology Hackathon](https://www.eventbrite.co.uk/e/bes-quantitative-ecology-hackathon-tickets-65182749358) was led by the Quantitative Ecology SIG in partnership with the Citizen Science SIG of the British Ecological Society and saw small teams work together on challenges that combined ecological and sociological data.  
 
-My team worked with the following challenge:
+![Hackathon-Group](/img/hackathon.jpg)
+
+Me and my team ([Lea](https://twitter.com/LeaDambly), [Jack](https://twitter.com/JackHHatfield), [Philipp](https://twitter.com/pboesu)) worked in the following challenge:
 
 > So you’re a citizen scientist in the UK - where should you go to record?
 > The idea would be to implement a dynamic map of Britain/UK to highlight areas where additional citizen science biodiversity records might be particularly valuable for filling in knowledge gaps. 
