@@ -1,11 +1,11 @@
 +++
-title = "Ciclo Género y TIC del Plan Ceibal"
-date = 2019-10-28T00:00:00  # Schedule page publish date.
+title = "6ta. Videoconferencia del Ciclo Género y TIC"
+date = 2019-11-21T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2019-10-25T10:00:00
+time_start = 2019-11-28T10:00:00
 #time_end = 2030-06-01T15:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -16,7 +16,7 @@ abstract = ""
 abstract_short = "Charla en Ciclo Género y TIC del Plan Ceibal, para difundir la labor de mujeres en tecnología y promover que más niños, niñas y jóvenes conozcan diferentes posibilidades e historias de vida"
 
 # Name of event and optional event URL.
-event = "6ta. Videoconferencia del Ciclo Género y TIC"
+event = "Ciclo Género y TIC del Plan Ceibal"
 event_url = "https://www.ceibal.edu.uy/es/articulo/ciclo-genero-y-tic"
 
 # Location of event.
