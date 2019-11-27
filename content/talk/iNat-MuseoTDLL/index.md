@@ -1,5 +1,5 @@
 +++
-title = "iNaturalist como herramienta para potenciar el impacto de la ciencia ciudadana en la conservación de la biodiversidad del Uruguay"
+title = "iNaturalist como herramienta de ciencia ciudadana para mejorar el conocimiento de la biodiversidad en el Uruguay"
 date = 2019-11-21T00:00:00  # Schedule page publish date.
 draft = false
 
