@@ -70,9 +70,11 @@ math = true
 
 # iNaturalist - Una herramienta de ciencia ciudadana para mejorar el conocimiento de la biodiversidad en el Uruguay
 
-¿Te gusta sacar fotos de bichos y plantas? Alguna vez te hiciste la pregunta, ¿qué especie estás viendo? ¿Sabías que existe un espacio donde subir tus observaciones y conocer más sobre las especies? Si todavía no conocés iNaturalist entonces,¡esta charla taller puede interesarte!
+¿Te gusta sacar fotos de bichos y plantas? Alguna vez te hiciste la pregunta, ¿qué especie estás viendo? ¿Sabías que existe un espacio donde subir tus observaciones y conocer más sobre las especies? Si todavía no conocés iNaturalist entonces,¡esta charla/taller te puede interesar! 
 
-El objetivo de este evento es introducir a las personas a la ciencia ciudadana, mostrar cuál es la importancia de esta práctica para la ciencia y la ciudadanía, presentar la plataforma iNaturalist y demostrar las funcionalidades básicas de la herramienta para promover su uso. Para esto invitaremos a naturalistas top observadores e identificadores de iNaturalist para Uruguay, para que expongan su experiencia utilizando ejemplos en línea.
+El objetivo es introducir a las personas a la ciencia ciudadana, mostrar cuál es la importancia de esta práctica para la ciencia y la ciudadanía, presentar la plataforma iNaturalist y demostrar las funcionalidades básicas de la herramienta para promover su uso. Para esto invitaremos a naturalistas top observadores e identificadores de iNaturalist en Uruguay, para que expongan su experiencia utilizando ejemplos en línea
+
+
 
 ## Naturalist a citizen science tool to improve biodiversity knowledge in Uruguay
 
