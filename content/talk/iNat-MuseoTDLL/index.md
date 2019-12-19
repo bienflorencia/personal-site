@@ -47,7 +47,7 @@ tags = ["citizen-science"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "pdf/NaturalistaUy.pdf"
 url_video = ""
 url_code = ""
 
