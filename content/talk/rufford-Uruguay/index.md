@@ -48,7 +48,7 @@ tags = ["citizen-science"]
 # Links (optional).
 url_pdf = ""
 url_slides = "pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf"
-url_video = ""
+url_video = "https://youtu.be/3_lM-gPNLWY"
 url_code = ""
 
 # Does the content use math formatting?
@@ -69,3 +69,6 @@ math = true
 # Conferencia Rufford - Uruguay
 
 La Fundación Rufford, con sede en Reino Unido, financia proyectos de conservación de la naturaleza llevados adelante por organizaciones en países de desarrollo. Ha otorgado financiamiento a más de 400 proyectos en 156 países. Las Conferencias Rufford fomentan el intercambio de experiencias entre todos los beneficiados por las becas Rufford en una región determinada. Esta será la primera conferencia de este tipo organizada en el país. Se darán a conocer los trabajos de investigación y conservación de la biodiversidad en Uruguay y se analizarán posibles herramientas y metodologías para generar impactos positivos. Durante la conferencia, se contará con representantes de cada uno de los proyectos Rufford así como con invitados vinculados a la conservación de la biodiversidad en nuestro país. Todas las presentaciones serán abiertas al público.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3_lM-gPNLWY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
