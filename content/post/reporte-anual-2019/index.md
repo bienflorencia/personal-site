@@ -475,9 +475,9 @@ A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciud
 </style>
 <div class="inat-widget">
     <div class="inat-widget-header">
-      <a href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://www.inaturalist.org/assets/logo-small-07f1d55e02e592c643a9bd7d52f8c926.gif" /></a>  
+      <a href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://www.inaturalist.org/assets/logo-small-c1caecf8d38ed3d4ddeb7a1da076ec97.png" /></a>  
     </div>
-  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations.widget?layout=small&limit=18&order=desc&order_by=observed_on&place_id=7259"></script>
+  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations.widget?layout=small&limit=18&order=asc&order_by=observed_on&place_id=7259"></script>
   <table class="inat-footer">
     <tr class="inat-user">
       <td class="inat-value" colspan="2">
@@ -489,6 +489,8 @@ A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciud
   </table>
 </div>
 
+
+<br>
 
 En noviembre asistimos a la reunión Latinoamericana de iNaturalist con una invitación de **National Geographic**. En esa instancia se conversó sobre los objetivos y metas de cada país en la [Global Network](https://www.inaturalist.org/pages/network). Planteamos para **Uruguay** la posibilidad de generar el nodo local de la plataforma en el marco de Biodiversidata. Asimismo, se marcó como objetivo mejorar la cantidad y calidad de los datos en la plataforma para nuestro país.  
 
