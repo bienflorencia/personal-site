@@ -363,7 +363,7 @@ datos usados en el Data Paper y para el análisis de datos del último paper en 
 <div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>  
 
-<a href="#-" style="float: right;">:arrow_up_small:</a> 
+<a href="#-" style="float: right; font-size:50px"">:arrow_up_small:</a>
 
 ---
 
@@ -424,7 +424,7 @@ total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en n
 
 **PREGUNTAS**: ¿Cuál es el uso que deberíamos darle a este boletín de noticias? ¿Deberíamos ampliarlo y comunicar a todo público? ¿Deberíamos poner otro tipo de contenido? ¿Qué tal una sección de novedades sobre quienes integran el consorcio?  
 
-<a href="#-" style="float: right;">:arrow_up_small:</a> 
+<a href="#-" style="float: right; font-size:50px"">:arrow_up_small:</a> 
 
 ---
 
@@ -445,7 +445,7 @@ total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en n
 
 Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., González J., Hernández D., Laufer G., Mai P., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. Large-scale patterns of vertebrate biodiversity of Uruguay: are diversity hotspots real or fabricated? (***in prep***)    
 
-<a href="#-" style="float: right;">:arrow_up_small:</a> 
+<a href="#-" style="float: right; font-size:50px"">:arrow_up_small:</a>
 
 ----
 
@@ -456,38 +456,7 @@ Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., Gonz�
 
 A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [Ciencia ciudadana for export de Uruguay blog post](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [presentación](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [presentación](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [nota](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [entrevista](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
 
-<style type="text/css" media="screen">
-.inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
-.inat-widget-header {margin-bottom: 10px;}
-.inat-widget td {vertical-align: top; padding-bottom: 10px;}
-.inat-label { color: #888; }
-.inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
-.inat-observation-body, .inat-user-body { padding-left: 10px; }
-.inat-observation-image {text-align: center;}
-.inat-observation-image, .inat-user-image { width: 48px; display: inline-block; }
-.inat-observation-image img, .inat-user-image img { max-width: 48px; }
-.inat-observation-image img { vertical-align: middle; }
-.inat-widget-small .inat-observation-image { display:block; float: left; margin: 0 3px 3px 0; height:48px;}
-.inat-label, .inat-value, .inat-user { font-family: "Trebuchet MS", Arial, sans-serif; }
-.inat-user-body {vertical-align: middle;}
-.inat-widget td.inat-user-body {vertical-align: middle;}
-.inat-widget .inat-footer td.inat-value {vertical-align: middle; padding-left: 10px;}
-</style>
-<div class="inat-widget">
-    <div class="inat-widget-header">
-      <a href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://www.inaturalist.org/assets/logo-small-c1caecf8d38ed3d4ddeb7a1da076ec97.png" /></a>  
-    </div>
-  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations.widget?layout=small&limit=18&order=asc&order_by=observed_on&place_id=7259"></script>
-  <table class="inat-footer">
-    <tr class="inat-user">
-      <td class="inat-value" colspan="2">
-        <strong>
-            <a href="https://www.inaturalist.org/places/uruguay">Ver más observaciones cerca de Uruguay en <nobr>iNaturalist »</nobr></a>
-        </strong>
-      </td>
-    </tr>
-  </table>
-</div>
+
 
 
 <br>
@@ -503,5 +472,5 @@ Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationa
 
 ---
 
-<a href="#-" style="float: right; font-size:50px"">Volver al Inicio :arrow_up_small:</a>
+<a href="#-" style="float: right; font-size:50px"">:arrow_up_small:</a>
 
