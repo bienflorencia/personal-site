@@ -16,11 +16,11 @@ draft = false
 
 ---
 
-## 1) Datos
+## 1) Datos  
 
 +   **Registros colectados**
 
-El número total de registros es **82,711** para todos los grupos.
+El número total de registros es **82,711** para todos los grupos.  
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -66,7 +66,7 @@ Vertebrados
 
 +   **Registros recibidos / Personas que enviaron**
 
-Han enviado datos **21** personas.
+Han enviado datos **21** personas.  
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -243,7 +243,7 @@ María Martínez
 
 <br>
 En total (para todos los grupos) son **6,922** registros recibidos y representan un total de **7,8%** del total de registros colectados hasta
-el momento.
+el momento.  
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -299,7 +299,7 @@ Integrantes de Biodiversidata
 
 +   **Registros extraídos de bibliografía**
 
-Se llevan extraídos en total **10,873** registros de tetrápodos y plantas, que representan un total de **12,2%** del total de registros colectados hasta el momento.
+Se llevan extraídos en total **10,873** registros de tetrápodos y plantas, que representan un total de **12,2%** del total de registros colectados hasta el momento.  
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -344,30 +344,28 @@ Vertebrados
 
 +   **Especies ingresadas**
 
-Se crearon listas de especies para vertebrados tetrápodos. Son **673** especies en total. Los listados están disponibles en la [web](https://biodiversidata.org/es/project/tetrapods/) y se pueden descargar en la página web. Incluyen **nombre científico**, **nombre común**, y **estado de conservación Global** y **estado de conservación Nacional** según la Lista Roja de Especies Amenazadas de la UICN.
+Se crearon listas de especies para vertebrados tetrápodos. Son **673** especies en total. Los listados están disponibles en la [web](https://biodiversidata.org/es/project/tetrapods/) y se pueden descargar en la página web. Incluyen **nombre científico**, **nombre común**, y **estado de conservación Global** y **estado de conservación Nacional** según la Lista Roja de Especies Amenazadas de la UICN.  
 
-<br>
 +   **Bases de datos generadas**
 
 La primera, y hasta el momento única, base de datos puesta a disposición es la base de vertebrados tetrápodos. 
-Está disponible en Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2650169.svg)](https://doi.org/10.5281/zenodo.2650169)
+Está disponible en Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2650169.svg)](https://doi.org/10.5281/zenodo.2650169)  
 
 
 +   **Scripts de R en GitHub**
 
 Todos lo scripts utilizados para los diferentes análisis de Biodiversidata se pusieron a disposición de manera abierta en
 **GitHub**. Entre ellos códigos en R para limpieza y sistematización de datos, análisis con datos extraídos de GBIF, código para el análisis de
-datos del data paper y los códigos para el análisis del último paper en preparación. Pueden encontrarse en nuesto repositorio:
+datos del data paper y los códigos para el análisis del último paper en preparación. Pueden encontrarse en nuesto repositorio:  
 
 <div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-<a href="#-">`^`</a> - (Ir al inicio)
+<a href="#-" style="float: right;">:arrow_up_small:</a> 
 
 ---
 
-## 2) Comunicación
-
+## 2) Comunicación  
 
 +   **Página Web**
 
@@ -378,12 +376,12 @@ La página web de Biodiversidata [biodiversidata.org](https://biodiversidata.org
 
 +   **Redes sociales**
 
-Se creó sólo un perfil de [Twitter](https://twitter.com/biodiversidata), con la finalidad de difundir el trabajo relativo a Biodiversidata, publicaciones, charlas y novedades. El perfil tiene **183** seguidores. La comunicación se hace tanto Inglés como en Español.
+Se creó sólo un perfil de [Twitter](https://twitter.com/biodiversidata), con la finalidad de difundir el trabajo relativo a Biodiversidata, publicaciones, charlas y novedades. El perfil tiene **183** seguidores. La comunicación se hace tanto Inglés como en Español.  
 
 <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Our new Paper is out! Biodiversidata: An Open-Access Biodiversity Database for Uruguay, <a href="https://t.co/rykPQRjHPD">https://t.co/rykPQRjHPD</a> published in <a href="https://twitter.com/BioDataJournal?ref_src=twsrc%5Etfw">@BioDataJournal</a></p>&mdash; Biodiversidata (@biodiversidata) <a href="https://twitter.com/biodiversidata/status/1141675294459387904?ref_src=twsrc%5Etfw">June 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
-También se creo un perfil de [Flickr](https://www.flickr.com/gp/biodiversidata/0qDct1), para divulgar fotografías y material infográfico con licencia Creative Commons.
+También se creo un perfil de [Flickr](https://www.flickr.com/gp/biodiversidata/0qDct1), para divulgar fotografías y material infográfico con licencia Creative Commons.  
 
 <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/biodiversidata/albums/72157709124750472" title="Inforgraphics"><img src="https://live.staticflickr.com/65535/48120334908_c169ceba93.jpg" width="500" height="354" alt="Inforgraphics"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
@@ -412,43 +410,40 @@ En el marco del proyecto de Doctorado de Florencia Grattarola se hicieron una se
 
 > Grattarola F. & D. Pincheira-Donoso. 2019. Macroecological Patterns of biodiversity across the tree of Life: Uruguay as a model region. Postgraduate Showcase of the University of Lincoln. Lincoln, United Kingdom. Poster.
 
-**PREGUNTAS**: ¿Algún integrante ha presentado trabajos relativos a Biodiversidata? ¿Sería útil tener algún tipo de plantilla de presentación para difundir el trabajo de Biodiversidata por parte de quienes integran el Consorcio?
+**PREGUNTAS**: ¿Algún integrante ha presentado trabajos relativos a Biodiversidata? ¿Sería útil tener algún tipo de plantilla de presentación para difundir el trabajo de Biodiversidata por parte de quienes integran el Consorcio?  
 <br>
 
 +   **Newsletter – Boletín de Noticias**
 
 Se generó un Newsletter (**Boletín de Noticias**) para compartir las novedades de Biodiversidata. El mismo se hizo mediante *MailChimp* y se
 envía a más de 60 destinatarios/as, que son todas aquellas personas que dijeron estar interesadas en integrar la iniciativa. Se enviaron en
-total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en novedades sobre los datos, publicaciones y presentaciones. 
+total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en novedades sobre los datos, publicaciones y presentaciones.  
 
-
-**PREGUNTAS**: ¿Cuál es el uso que deberíamos darle a este boletín de noticias? ¿Deberíamos ampliarlo y comunicar a todo público? ¿Deberíamos poner otro tipo de contenido? ¿Qué tal una sección de novedades sobre quienes integran el consorcio?
+**PREGUNTAS**: ¿Cuál es el uso que deberíamos darle a este boletín de noticias? ¿Deberíamos ampliarlo y comunicar a todo público? ¿Deberíamos poner otro tipo de contenido? ¿Qué tal una sección de novedades sobre quienes integran el consorcio?  
 
 <a href="#-" style="float: right;">:arrow_up_small:</a> 
 
 ---
 
-## 3) Publicaciones
-
+## 3) Publicaciones  
 
 +   **Data Paper de Tetrápodos**
 
-[Grattarola F., Botto G., da Rosa I., Gobel N., González E., González J., Hernández D., Laufer G., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. (2019) Biodiversidata: An Open-Access Biodiversity Database for Uruguay. *Biodiversity Data Journal* 7: e36226.](https://doi.org/10.3897/BDJ.7.e36226) 
+[Grattarola F., Botto G., da Rosa I., Gobel N., González E., González J., Hernández D., Laufer G., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. (2019) Biodiversidata: An Open-Access Biodiversity Database for Uruguay. *Biodiversity Data Journal* 7: e36226.](https://doi.org/10.3897/BDJ.7.e36226)   
 
 +   **Manuscrito sobre Data-Sharing**
 
-[Grattarola F. & D. Pincheira-Donoso. (2019) Data-Sharing en Uruguay, la Visión de los Colectores y Usuarios de Datos. *Boletín de la Sociedad Zoológica del Uruguay*, 28(1):1-14](https://doi.org/10.26462/28.1.1)
+[Grattarola F. & D. Pincheira-Donoso. (2019) Data-Sharing en Uruguay, la Visión de los Colectores y Usuarios de Datos. *Boletín de la Sociedad Zoológica del Uruguay*, 28(1):1-14](https://doi.org/10.26462/28.1.1)  
 
 +   **Manuscrito sobre Hotspots de Tetrápodos**
 
-Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., González J., Hernández D., Laufer G., Mai P., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. Large-scale patterns of vertebrate biodiversity of Uruguay: are diversity hotspots real or fabricated? (***in prep***)
+Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., González J., Hernández D., Laufer G., Mai P., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. Large-scale patterns of vertebrate biodiversity of Uruguay: are diversity hotspots real or fabricated? (***in prep***)  
 
-<a href="#-" style="float: right;">`:arrow_up_small:`</a> 
+<a href="#-" style="float: right;">:arrow_up_small:</a> 
 
 ----
 
-## 4) Interacción con otras organizaciones
-
+## 4) Interacción con otras organizaciones  
 
 +   **iNaturalist**
 
@@ -465,5 +460,5 @@ Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationa
 
 ---
 
-<a href="#-">`^`</a> - (Ir al inicio)
+<a href="#-" style="float: right;">Volver al Inicio :arrow_up_small:</a>
 
