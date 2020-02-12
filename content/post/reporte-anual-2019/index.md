@@ -361,7 +361,7 @@ Todos lo *scripts* de **R** utilizados para los diferentes análisis de Biodiver
 datos usados en el Data Paper y para el análisis de datos del último paper en preparación. Pueden encontrarse en nuesto repositorio:  
 
 <div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>  
 
 <a href="#-" style="float: right;">:arrow_up_small:</a> 
 
@@ -501,5 +501,5 @@ Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationa
 
 ---
 
-<a href="#-" style="float: right;">Volver al Inicio :arrow_up_small:</a>
+<a href="#-" style="float: right; font-size:50px"">Volver al Inicio :arrow_up_small:</a>
 
