@@ -345,20 +345,19 @@ Vertebrados
 
 +   **Especies ingresadas**
 
-Se crearon listas de especies para vertebrados tetrápodos. Son **673** especies en total. Los listados están disponibles y se pueden descargar en la [web](https://biodiversidata.org/es/project/tetrapods/). Incluyen **nombre científico**, **nombre común**, **estado de conservación Global** y **estado de conservación Nacional** según la Lista Roja de Especies Amenazadas de la UICN.  
+Se crearon listas de especies para vertebrados tetrápodos. Son **673** especies en total. Los listados de especies por grupo (anfibios, reptiles, aves y mamíferos) están disponibles y se pueden descargar en la [web](https://biodiversidata.org/es/project/tetrapods/). Incluyen **nombre científico**, **nombre común**, **estado de conservación Global** y **estado de conservación Nacional** según la Lista Roja de Especies Amenazadas de la UICN.  
 
 
 +   **Bases de datos generadas**
 
-La primera y hasta el momento única base de datos puesta a disposición es la base de vertebrados tetrápodos. 
+La primera y hasta el momento única base de datos puesta a disposición es la base de **vertebrados tetrápodos**. Luego de publicar la primera versión del conjunto de datos, se realizó una revisión anual de la base, incluyendo nuevos registros y nueva información relativa a las **categorías nacionales de conservación** según informes de Listas Rojas de UICN. 
+
 Se puede encontrar en **Zenodo** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2650169.svg)](https://doi.org/10.5281/zenodo.2650169)  
 
 
 +   **Scripts de R en GitHub**
 
-Todos lo *scripts* de **R** utilizados para los diferentes análisis de Biodiversidata se pusieron a disposición de manera abierta en
-**GitHub**. Entre ellos códigos para limpieza y sistematización de datos, análisis con datos extraídos de GBIF, códigos para el análisis de
-datos usados en el Data Paper y para el análisis de datos del último paper en preparación. Pueden encontrarse en nuesto repositorio:  
+Todos lo *scripts* de **R** utilizados para los diferentes análisis de Biodiversidata se pusieron a disposición de manera abierta en **GitHub**. Entre ellos códigos para limpieza y sistematización de datos, análisis con datos extraídos de GBIF, códigos para el análisis de datos usados en el Data Paper y para el análisis de datos del último paper en preparación. Pueden encontrarse en nuesto repositorio:  
 
 <div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>  
@@ -430,20 +429,26 @@ total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en n
 
 ## 3) Publicaciones  
 
+Se llevan publicados 2 trabajos y  
 
 +   **Data Paper de Tetrápodos**
 
-Grattarola F., Botto G., da Rosa I., Gobel N., González E., González J., Hernández D., Laufer G., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. (2019) [Biodiversidata: An Open-Access Biodiversity Database for Uruguay](https://doi.org/10.3897/BDJ.7.e36226). *Biodiversity Data Journal* 7: e36226.   
+Grattarola F., Botto G., da Rosa I., Gobel N., González E., González J., Hernández D., Laufer G., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. (2019) [Biodiversidata: An Open-Access Biodiversity Database for Uruguay](https://doi.org/10.3897/BDJ.7.e36226). *Biodiversity Data Journal* 7: e36226.  
+
+El objetivo de este artículo fue llenar los vacíos de información sobre la biodiversidad del Uruguay mediante el desarrollo de la primera base de datos de acceso abierto de registros de vertebrados del país, resultado de una colaboración a gran escala con la participación de expertos y expertas que trabajan en toda la gama de diversidad taxonómica encontrada en el país. Como parte de la primera fase de Biodiversidata, se presentó una base de datos completa de registros de ocurrencia de tetrápodos nativos de Uruguay, con las últimas actualizaciones taxonómicas.  
 
 
 +   **Manuscrito sobre Data-Sharing**
 
 Grattarola F. & D. Pincheira-Donoso. (2019) [Data-Sharing en Uruguay, la Visión de los Colectores y Usuarios de Datos](https://doi.org/10.26462/28.1.1). *Boletín de la Sociedad Zoológica del Uruguay*, 28(1):1-14  
 
+Este estudio explora la visión de los colectores y usuarios de datos analizando tanto las razones de la reticencia a compartirlos, como las motivaciones para hacerlo. Este trabajo resultó un insumo de gran importancia para la estrategia desarrollada en el marco de Biodiversidata a la hora de invitar a expertos/as, ya que nos enfocamos en uno de los mayores desafíos reconocidos por quienes investigan, el reconocimiento en tanto crédito académico por el trabajo y esfuerzo desarrollado para la colecta de datos.  
 
 +   **Manuscrito sobre Hotspots de Tetrápodos**
 
 Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., González J., Hernández D., Laufer G., Mai P., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. Large-scale patterns of vertebrate biodiversity of Uruguay: are diversity hotspots real or fabricated? (***in prep***)    
+
+Nuestros análisis revelan que los hotspots de riqueza de especies, amenaza y endemismo no son espacialmente congruentes al analizar las clases de tetrápodos por separado o en combinación. Además, mostramos que la mayor parte de la superficie del país permanece sin estudiar, mientras que algunas áreas han sido muestreadas históricamente con mayor intensidad. También proporcionamos una línea de base extremadamente detallada para mejorar los esfuerzos de monitoreo de la biodiversidad en áreas que permanecen constantemente ignoradas.   
 
 <a href="#-" style="float: right; font-size:50px"">:arrow_up_small:</a>
 
@@ -454,15 +459,15 @@ Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., Gonz�
 
 +   **iNaturalist**
 
-A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [**Ciencia ciudadana for export de Uruguay blog post**](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [**presentación**](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [**presentación**](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [**nota**](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [**entrevista**](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
-
-**Ver observaciones de Uruguay:**
-<a href="https://www.inaturalist.org/observations?place_id=7259"> <img alt="Ver observaciones de Uruguay" src="https://static.inaturalist.org/wiki_page_attachments/1419-original.png" width=350></a>  
-
-<br>
-En noviembre asistimos a la reunión Latinoamericana de iNaturalist con una invitación de **National Geographic**. En esa instancia se conversó sobre los objetivos y metas de cada país en la [Global Network](https://www.inaturalist.org/pages/network). Planteamos para **Uruguay** la posibilidad de generar el nodo local de la plataforma en el marco de Biodiversidata. Asimismo, se marcó como objetivo mejorar la cantidad y calidad de los datos en la plataforma para nuestro país.  
+En junio del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma **iNaturalist**. Entramos en contacto con Carrie Seltzer, coordinadora de la [Global Network](https://www.inaturalist.org/pages/network), con el fin de trabajar para integrar a Uruguay en esta comunidad de ciencia ciudadana de nivel mundial, y mejorar la cantidad y calidad de los datos provenientes para nuestro país. A raíz de este vínculo, Florencia Grattarola fue invitada como delegada por Uruguay a la **reunión Latinoamericana de iNaturalist** realizada el 1ro de Noviembre en Mérida, México. Esta reunión tuvo por objetivos: i) compartir prioridades individuales hasta 2020 para identificar oportunidades de sinergia y colaboración, ii) mejorar las técnicas y recursos de construcción comunitaria y, iii) identificar formas de medir el impacto individual y colectivo. Planteamos para **Uruguay** la posibilidad de generar el nodo local de la plataforma en el marco de Biodiversidata. Asimismo, se marcó como objetivo mejorar la cantidad y calidad de los datos en la plataforma para nuestro país.  
 
 ![](https://static.inaturalist.org/wiki_page_attachments/1438-original.png)
+
+
+En este sentido, comenzamos por promover la herramienta a través de una nota: [**Ciencia ciudadana for export de Uruguay blog post**](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [**presentación**](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [**presentación**](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [**nota**](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [**entrevista**](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
+
+**Ver observaciones de Uruguay**
+<a href="https://www.inaturalist.org/observations?place_id=7259"> <img alt="Ver observaciones de Uruguay" src="https://static.inaturalist.org/wiki_page_attachments/1419-original.png" width=350></a>  
 
 
 +   **NatGeo - JULANA**
