@@ -456,7 +456,7 @@ Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., Gonz�
 
 A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [Ciencia ciudadana for export de Uruguay blog post](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [presentación](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [presentación](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [nota](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [entrevista](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
 
-**Ver observaciones de Uruguay** ![](https://static.inaturalist.org/wiki_page_attachments/1419-original.png)](https://www.inaturalist.org/observations?place_id=7259) 
+[![Ver observaciones de Uruguay](https://static.inaturalist.org/wiki_page_attachments/1419-original.png =50x)](https://www.inaturalist.org/observations?place_id=7259) 
 
 <br>
 
@@ -469,7 +469,6 @@ En noviembre asistimos a la reunión Latinoamericana de iNaturalist con una invi
 
 Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationalgeographic.org/funding-opportunities/grants/what-we-fund/#Exploration) de **National Geographic** en asociación con la ONG de Educación Ambiental [JULANA](https://www.julana.org), con el objetivo de contribuir a mejorar el estado del conocimiento nacional de la biodiversidad a través de la participación ciudadana. La propuesta incluye la realización de eventos de observación, registro e identificación de flora y fauna que se localicen en áreas donde i) Falta de información sobre biodiversidad, ii) Existe una fuerte presencia de una ONG local.  
 
----
 
 <a href="#-" style="float: right; font-size:50px"">:arrow_up_small:</a>
 
