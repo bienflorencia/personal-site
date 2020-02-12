@@ -7,13 +7,11 @@ math = false
 draft = false
 +++
 
-
 1. [Datos](#1-datos)  
 2. [Comunicación](#2-comunicacion)
 3. [Publicaciones](#3-publicaciones)
-4. [Interacción con otras organizaciones](4#-interacción-con-otras-organizaciones)
+4. [Interacción con otras organizaciones](#4-interacción-con-otras-organizaciones)
 
----
 ---
 
 ## 1) Datos
@@ -299,7 +297,7 @@ Integrantes de Biodiversidata
 
 +   **Registros extraídos de bibliografía**
 
-Se llevan extraídos en total **10,873** registros (para todos los grupos), que representan un total de **12,2%** del total de registros colectados hasta el momento.
+Se llevan extraídos en total **10,873** registros de tetrápodos y plantas, que representan un total de **12,2%** del total de registros colectados hasta el momento.
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -353,7 +351,7 @@ La primera, y hasta el momento única, base de datos puesta a disposición es la
 Está disponible en Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2650169.svg)](https://doi.org/10.5281/zenodo.2650169)
 
 
--   **Scripts de R en GitHub**
++   **Scripts de R en GitHub**
 
 Todos lo scripts utilizados para los diferentes análisis de Biodiversidata se pusieron a disposición de manera abierta en
 **GitHub**. Entre ellos códigos en R para limpieza y sistematización de datos, análisis con datos extraídos de GBIF, código para el análisis de
@@ -361,6 +359,8 @@ datos del data paper y los códigos para el análisis del último paper en prepa
 
 <div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+<a href="#-">`^`</a> - (Ir al inicio)
 
 ---
 
@@ -439,6 +439,8 @@ total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en n
 
 Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., González J., Hernández D., Laufer G., Mai P., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. Large-scale patterns of vertebrate biodiversity of Uruguay: are diversity hotspots real or fabricated? (***in prep***)
 
+<a href="#-">`^`</a> - (Ir al inicio)
+
 ----
 
 ## 4) Interacción con otras organizaciones
@@ -459,4 +461,5 @@ Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationa
 
 ---
 
-<a href="#-">`^`</a> - (Inicio)
+<a href="#-">`^`</a> - (Ir al inicio)
+
