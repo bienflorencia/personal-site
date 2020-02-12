@@ -7,8 +7,9 @@ math = false
 draft = false
 +++
 
+<a id="-"/>
 1. [Datos](#1-datos)  
-2. [Comunicación](#2-comunicacion)
+2. [Comunicación](#2-comunicación)
 3. [Publicaciones](#3-publicaciones)
 4. [Interacción con otras organizaciones](#4-interacción-con-otras-organizaciones)
 
@@ -439,7 +440,7 @@ total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en n
 
 Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., González J., Hernández D., Laufer G., Mai P., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. Large-scale patterns of vertebrate biodiversity of Uruguay: are diversity hotspots real or fabricated? (***in prep***)
 
-<a href="#-">`^`</a> - (Ir al inicio)
+<a href="#-" style="float: right;">`^`</a> Volver al inicio
 
 ----
 
