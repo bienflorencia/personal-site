@@ -366,6 +366,7 @@ datos del data paper y los códigos para el análisis del último paper en prepa
 
 ## 2) Comunicación
 
+
 +   **Página Web**
 
 La página web de Biodiversidata [biodiversidata.org](https://biodiversidata.org/) (disponible en Inglés y Español) fue creada el **30 de abril de 2019**. El contenido de la web incluye noticias, un listado de integrantes, recursos (bases de datos y listados de especies), publicaciones y un espacio de contacto. Por el momento no tiene un rastreador de cantidad de visitas o tráfico, pero le agregamos usando *Google Analytics* en el sitio.
@@ -458,3 +459,4 @@ Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationa
 
 ---
 
+<a href="#-">`^`</a> - (Inicio)
