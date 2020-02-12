@@ -456,11 +456,10 @@ Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., Gonz�
 
 A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [Ciencia ciudadana for export de Uruguay blog post](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [presentación](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [presentación](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [nota](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [entrevista](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
 
-Ver observaciones de Uruguay <a href="https://www.inaturalist.org/observations?place_id=7259"> <img alt="Ver observaciones de Uruguay" src="https://static.inaturalist.org/wiki_page_attachments/1419-original.png" width=350"></a>
-
+**Ver observaciones de Uruguay:**  
+<a href="https://www.inaturalist.org/observations?place_id=7259"> <img alt="Ver observaciones de Uruguay" src="https://static.inaturalist.org/wiki_page_attachments/1419-original.png" width=350"></a>  
 
 <br>
-
 En noviembre asistimos a la reunión Latinoamericana de iNaturalist con una invitación de **National Geographic**. En esa instancia se conversó sobre los objetivos y metas de cada país en la [Global Network](https://www.inaturalist.org/pages/network). Planteamos para **Uruguay** la posibilidad de generar el nodo local de la plataforma en el marco de Biodiversidata. Asimismo, se marcó como objetivo mejorar la cantidad y calidad de los datos en la plataforma para nuestro país.  
 
 ![](https://static.inaturalist.org/wiki_page_attachments/1438-original.png)
