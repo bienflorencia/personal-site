@@ -372,7 +372,7 @@ datos usados en el Data Paper y para el análisis de datos del último paper en 
 
 +   **Página Web**
 
-La página web de Biodiversidata [biodiversidata.org](https://biodiversidata.org/) (disponible en Inglés y Español) fue creada el **30 de abril de 2019**. El contenido de la web incluye noticias, un listado de integrantes, recursos (bases de datos y listados de especies), publicaciones y un espacio de contacto. Hemos incorporado *Google Analytics* en el sitio para medir el tráfico web.
+La página web [**biodiversidata.org**](https://biodiversidata.org/) (disponible en Inglés y Español) fue creada el **30 de abril de 2019**. El contenido de la web incluye noticias, un listado de integrantes, recursos (bases de datos y listados de especies), publicaciones y un espacio de contacto. Hemos incorporado *Google Analytics* en el sitio para medir el tráfico web.
 
 **PREGUNTAS**: ¿Les resulta una buena herramienta? ¿Le harían algún cambio?  
 
@@ -433,12 +433,12 @@ total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en n
 
 +   **Data Paper de Tetrápodos**
 
-[Grattarola F., Botto G., da Rosa I., Gobel N., González E., González J., Hernández D., Laufer G., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. (2019) Biodiversidata: An Open-Access Biodiversity Database for Uruguay. *Biodiversity Data Journal* 7: e36226.](https://doi.org/10.3897/BDJ.7.e36226)   
+Grattarola F., Botto G., da Rosa I., Gobel N., González E., González J., Hernández D., Laufer G., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. (2019) [Biodiversidata: An Open-Access Biodiversity Database for Uruguay](https://doi.org/10.3897/BDJ.7.e36226). *Biodiversity Data Journal* 7: e36226.   
 
 
 +   **Manuscrito sobre Data-Sharing**
 
-[Grattarola F. & D. Pincheira-Donoso. (2019) Data-Sharing en Uruguay, la Visión de los Colectores y Usuarios de Datos. *Boletín de la Sociedad Zoológica del Uruguay*, 28(1):1-14](https://doi.org/10.26462/28.1.1)  
+Grattarola F. & D. Pincheira-Donoso. (2019) [Data-Sharing en Uruguay, la Visión de los Colectores y Usuarios de Datos](https://doi.org/10.26462/28.1.1). *Boletín de la Sociedad Zoológica del Uruguay*, 28(1):1-14  
 
 
 +   **Manuscrito sobre Hotspots de Tetrápodos**
@@ -454,10 +454,10 @@ Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., Gonz�
 
 +   **iNaturalist**
 
-A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [Ciencia ciudadana for export de Uruguay blog post](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [presentación](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [presentación](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [nota](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [entrevista](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
+A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [**Ciencia ciudadana for export de Uruguay blog post**](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [**presentación**](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [**presentación**](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [**nota**](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [**entrevista**](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
 
-**Ver observaciones de Uruguay:**  
-<a href="https://www.inaturalist.org/observations?place_id=7259"> <img alt="Ver observaciones de Uruguay" src="https://static.inaturalist.org/wiki_page_attachments/1419-original.png" width=350"></a>  
+**Ver observaciones de Uruguay:**
+<a href="https://www.inaturalist.org/observations?place_id=7259"> <img alt="Ver observaciones de Uruguay" src="https://static.inaturalist.org/wiki_page_attachments/1419-original.png" width=350></a>  
 
 <br>
 En noviembre asistimos a la reunión Latinoamericana de iNaturalist con una invitación de **National Geographic**. En esa instancia se conversó sobre los objetivos y metas de cada país en la [Global Network](https://www.inaturalist.org/pages/network). Planteamos para **Uruguay** la posibilidad de generar el nodo local de la plataforma en el marco de Biodiversidata. Asimismo, se marcó como objetivo mejorar la cantidad y calidad de los datos en la plataforma para nuestro país.  
@@ -467,7 +467,7 @@ En noviembre asistimos a la reunión Latinoamericana de iNaturalist con una invi
 
 +   **NatGeo - JULANA**
 
-Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationalgeographic.org/funding-opportunities/grants/what-we-fund/#Exploration) de **National Geographic** en asociación con la ONG de Educación Ambiental [JULANA](https://www.julana.org), con el objetivo de contribuir a mejorar el estado del conocimiento nacional de la biodiversidad a través de la participación ciudadana. La propuesta incluye la realización de eventos de observación, registro e identificación de flora y fauna que se localicen en áreas donde i) Falta de información sobre biodiversidad, ii) Existe una fuerte presencia de una ONG local.  
+Se presentó un proyecto a los [fondos](https://www.nationalgeographic.org/funding-opportunities/grants/what-we-fund/#Exploration) de Ciencia Ciudadana de **National Geographic** en asociación con la ONG de Educación Ambiental [JULANA](https://www.julana.org), con el objetivo de contribuir a mejorar el estado del conocimiento nacional de la biodiversidad a través de la participación ciudadana. La propuesta incluye la realización de eventos de observación, registro e identificación de flora y fauna que se localicen en áreas donde i) Falta de información sobre biodiversidad, ii) Existe una fuerte presencia de una ONG local.  
 
 
 <a href="#-" style="float: right; font-size:50px"">:arrow_up_small:</a>
