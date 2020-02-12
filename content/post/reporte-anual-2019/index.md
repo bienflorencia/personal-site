@@ -381,7 +381,7 @@ La página web de Biodiversidata [biodiversidata.org](https://biodiversidata.org
 
 Se creó sólo un perfil de [**Twitter**](https://twitter.com/biodiversidata), con la finalidad de difundir el trabajo relativo a Biodiversidata, publicaciones, charlas y novedades. El perfil tiene **188** seguidores. La comunicación se hace tanto Inglés como en Español.  
 
-<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Our new Paper is out! Biodiversidata: An Open-Access Biodiversity Database for Uruguay, <a href="https://t.co/rykPQRjHPD">https://t.co/rykPQRjHPD</a> published in <a href="https://twitter.com/BioDataJournal?ref_src=twsrc%5Etfw">@BioDataJournal</a></p>&mdash; Biodiversidata (@biodiversidata) <a href="https://twitter.com/biodiversidata/status/1141675294459387904?ref_src=twsrc%5Etfw">June 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Our new Paper is out! Biodiversidata: An Open-Access Biodiversity Database for Uruguay, <a href="https://t.co/rykPQRjHPD">https://t.co/rykPQRjHPD</a> published in <a href="https://twitter.com/BioDataJournal?ref_src=twsrc%5Etfw">@BioDataJournal</a></p>&mdash; Biodiversidata (@biodiversidata) <a href="https://twitter.com/biodiversidata/status/1141675294459387904?ref_src=twsrc%5Etfw">June 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 
 También se creo un perfil de [**Flickr**](https://www.flickr.com/gp/biodiversidata/0qDct1), para divulgar fotografías y material infográfico con licencia Creative Commons.  
@@ -456,7 +456,7 @@ Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., Gonz�
 
 A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [Ciencia ciudadana for export de Uruguay blog post](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la **Conferencia Rufford-Uruguay** [presentación](https://flograttarola.com/pdf/iNaturalist_en_Uruguay_Rufford_Conference_2019.pdf) y otra en el **Museo de Historia Natural Torres de la Llosa** [presentación](https://flograttarola.com/pdf/NaturalistaUy.pdf). También, nos hicieron notas en prensa escrita (diario El País [nota](https://www.elpais.com.uy/vida-actual/busca-uruguayos-participen-plataforma-ayuda-cientificos.html)) y radio (Radio Uruguay [entrevista](https://radiouruguay.uy/inaturalist-una-apuesta-a-la-ciencia-ciudadana/)).  
 
-[![Ver observaciones de Uruguay](https://static.inaturalist.org/wiki_page_attachments/1419-original.png)](https://www.inaturalist.org/observations?place_id=7259) 
+**Ver observaciones de Uruguay** ![](https://static.inaturalist.org/wiki_page_attachments/1419-original.png)](https://www.inaturalist.org/observations?place_id=7259) 
 
 <br>
 
