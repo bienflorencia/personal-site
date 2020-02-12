@@ -458,7 +458,9 @@ A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciud
 
 <a href="https://www.inaturalist.org/observations?place_id=7259" style="size:50px"">https://static.inaturalist.org/wiki_page_attachments/1419-original.png</a>
 
-[![Ver observaciones de Uruguay](https://static.inaturalist.org/wiki_page_attachments/1419-original.png =250x)](https://www.inaturalist.org/observations?place_id=7259) 
+<img src="https://static.inaturalist.org/wiki_page_attachments/1419-original.png" alt="Ver observaciones de Uruguay" width="200"/>
+
+[![Ver observaciones de Uruguay](https://static.inaturalist.org/wiki_page_attachments/1419-original.png =250x)](https://www.inaturalist.org/observations?place_id=7259){ width=50% }
 
 <br>
 
