@@ -16,9 +16,9 @@ draft = false
 ---
 ---
 
-### 1) Datos
+## 1) Datos
 
-+   ### Registros colectados
++   **Registros colectados**
 
 El número total de registros es **82,711** para todos los grupos.
 
@@ -62,9 +62,9 @@ Vertebrados
 </table>
 
 ![](2019_Report_files/figure-markdown_strict/unnamed-chunk-2-1.png)
-
 <br>
--   ### Registros recibidos / Personas que enviaron
+
++   *Registros recibidos / Personas que enviaron**
 
 Han enviado datos **21** personas.
 
@@ -295,9 +295,9 @@ Integrantes de Biodiversidata
 </tr>
 </tbody>
 </table>
-
 <br>
--   ### Registros extraídos de bibliografía
+
++   **Registros extraídos de bibliografía**
 
 Se llevan extraídos en total **10,873** registros (para todos los grupos), que representan un total de **12,2%** del total de registros colectados hasta el momento.
 
@@ -340,20 +340,20 @@ Vertebrados
 </tr>
 </tbody>
 </table>
-
 <br>
--   ### Especies ingresadas
+
++   **Especies ingresadas**
 
 Se crearon listas de especies para vertebrados tetrápodos. Son **673** especies en total. Los listados están disponibles en la [web](https://biodiversidata.org/es/project/tetrapods/) y se pueden descargar en la página web. Incluyen **nombre científico**, **nombre común**, y **estado de conservación Global** y **estado de conservación Nacional** según la Lista Roja de Especies Amenazadas de la UICN.
 
 <br>
--   ### Bases de datos generadas
+-   **Bases de datos generadas**
 
 La primera, y hasta el momento única, base de datos puesta a disposición es la base de vertebrados tetrápodos. 
 Está disponible en Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2650169.svg)](https://doi.org/10.5281/zenodo.2650169)
-
 <br>
--   ### Scripts de R en GitHub
+
+-   **Scripts de R en GitHub**
 
 Todos lo scripts utilizados para los diferentes análisis de Biodiversidata se pusieron a disposición de manera abierta en
 **GitHub**. Entre ellos códigos en R para limpieza y sistematización de datos, análisis con datos extraídos de GBIF, código para el análisis de
@@ -362,12 +362,11 @@ datos del data paper y los códigos para el análisis del último paper en prepa
 <div class="github-card" data-github="bienflorencia/rBiodiversidata" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-
 ---
 
 ## 2) Comunicación
 
-+   ### Página Web
++   **Página Web**
 
 La página web de Biodiversidata [biodiversidata.org](https://biodiversidata.org/) (disponible en Inglés y Español) fue creada el **30 de abril de 2019**. El contenido de la web incluye noticias, un listado de integrantes, recursos (bases de datos y listados de especies), publicaciones y un espacio de contacto. Por el momento no tiene un rastreador de cantidad de visitas o tráfico, pero le agregamos usando *Google Analytics* en el sitio.
 
@@ -375,7 +374,7 @@ La página web de Biodiversidata [biodiversidata.org](https://biodiversidata.org
 
 <br>
 
-+   ### Redes sociales
++   **Redes sociales**
 
 Se creó sólo un perfil de [Twitter](https://twitter.com/biodiversidata), con la finalidad de difundir el trabajo relativo a Biodiversidata, publicaciones, charlas y novedades. El perfil tiene **183** seguidores. La comunicación se hace tanto Inglés como en Español.
 
@@ -390,7 +389,7 @@ También se creo un perfil de [Flickr](https://www.flickr.com/gp/biodiversidata/
 **PREGUNTAS**: ¿Les parece que deberíamos tener otro perfil (ej.: **Instagram**, **Facebook**)? ¿Qué otro tipo de contenido podría divulgarse?
 <br>
 
--   ### Reuniones virtuales
+-   **Reuniones virtuales**
 
 En el correr de un año se convocaron 3 reuniones virtuales, en torno a 1) **Integración de Biodiversidata** (definición de criterios que deben cumplir las personas para integrar la iniciativa), 2) **Datos, Metadatos y Data Papers** (determinación de campos a ser sistematizados para los datos y metadatos, e introducción de la modalidad de data papers), y 3) **Registros de Ciencia Ciudadana** (colaboración con la plataforma global iNaturalist e integración de Uruguay a la red).
 
@@ -399,7 +398,7 @@ Por cada reunión se puso a disposición tanto el material usando en las charlas
 **PREGUNTAS**: ¿Les resulta una buena herramienta? ¿Qué tal resulta el esquema de funcionamiento de las reuniones? ¿Es posible comprometerse a reunirnos una vez cada 3 meses? ¿Creen que hay algún tema que deberíamos tratar a futuro?
 <br>
 
-+   ### Presentaciones en eventos
++   **Presentaciones en eventos**
 
 En el marco del proyecto de Doctorado de Florencia Grattarola se hicieron una serie de presentaciones, tanto de la iniciativa en sí misma como de los resultados alcanzados. Éstas incluyen:
 
@@ -412,7 +411,7 @@ En el marco del proyecto de Doctorado de Florencia Grattarola se hicieron una se
 **PREGUNTAS**: ¿Algún integrante ha presentado trabajos relativos a Biodiversidata? ¿Sería útil tener algún tipo de plantilla de presentación para difundir el trabajo de Biodiversidata por parte de quienes integran el Consorcio?
 <br>
 
-+   ### Newsletter – Boletín de Noticias
++   **Newsletter – Boletín de Noticias**
 
 Se generó un Newsletter (Boletín de Noticias) para compartir las novedades de Biodiversidata. El mismo se hizo mediante MailChimp y se
 envía a más de 60 destinatarios/as, que son todas aquellas personas que dijeron estar interesadas en integrar la iniciativa. Se enviaron en
@@ -421,20 +420,20 @@ total 4 (Abril, Junio, Agosto y Octubre) uno cada 2 meses. Se estructuraron en n
 
 **PREGUNTAS**: ¿Cuál es el uso que deberíamos darle a este boletín de noticias? ¿Deberíamos ampliarlo y comunicar a todo público? ¿Deberíamos poner otro tipo de contenido? ¿Qué tal una sección de novedades sobre quienes integran el consorcio?
 
-------------------------------------------------------------------------
+---
 
 ## 3) Publicaciones
 
 
-+   ### Data Paper de Tetrápodos
++   **Data Paper de Tetrápodos**
 
 [Grattarola F., Botto G., da Rosa I., Gobel N., González E., González J., Hernández D., Laufer G., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. (2019) Biodiversidata: An Open-Access Biodiversity Database for Uruguay. *Biodiversity Data Journal* 7: e36226.](https://doi.org/10.3897/BDJ.7.e36226) 
 
-+   ### Manuscrito sobre Data-Sharing
++   **Manuscrito sobre Data-Sharing**
 
 [Grattarola F. & D. Pincheira-Donoso. (2019) Data-Sharing en Uruguay, la Visión de los Colectores y Usuarios de Datos. *Boletín de la Sociedad Zoológica del Uruguay*, 28(1):1-14](https://doi.org/10.26462/28.1.1)
 
-+   ### Manuscrito sobre Hotspots de Tetrápodos
++   **Manuscrito sobre Hotspots de Tetrápodos**
 
 Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., González J., Hernández D., Laufer G., Mai P., Maneyro R., Martínez-Lanfranco J., Naya D., Rodales A., Ziegler L., Pincheira-Donoso D. Large-scale patterns of vertebrate biodiversity of Uruguay: are diversity hotspots real or fabricated? (**in prep**)
 
@@ -443,18 +442,22 @@ Grattarola F., Botto G., da Rosa I., Gobel N., González A., González E., Gonz�
 ## 4) Interacción con otras organizaciones
 
 
-+   ### iNaturalist
++   **iNaturalist**
 
 A mediados del 2019 decidimos explorar los datos provenientes de la ciencia ciudadana, en especial los generados a partir de la plataforma iNaturalist. Comenzamos por difundir la herramienta a través de una nota: [Ciencia ciudadana for export de Uruguay blog pos](https://biodiversidata.org/es/post/inaturalist/). Presentamos una charla en la Conferencia Rufford-Uruguay video-charla y otra en el Museo Torres de la Llosa presentación. También, nos hicieron notas en prensa escrita (diario El País nota) y radio (Radio Uruguay entrevista).
 
+En noviembre asistimos a la reunión Latinoamericana de iNaturalist con una invitación de National Geographic. En esa instancia se conversó sobre los objetivos y metas de cada país en la [Global Network](https://www.inaturalist.org/pages/network). Planteamos para **Uruguay** la posibilidad de generar el nodo local de la plataforma en el marco de Biodiversidata. Asimismo, se marcó como objetivo mejorar la cantidad y calidad de los datos en la plataforma para nuestro país.
 
-+   ### NatGeo - JULANA
+![](https://static.inaturalist.org/wiki_page_attachments/1438-original.png)
 
-Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationalgeographic.org/funding-opportunities/grants/what-we-fund/#Exploration) de **National Geographic** con el objetivo de contribuir a mejorar el estado del conocimiento nacional de la biodiversidad a través de la participación ciudadana. La propuesta incluye la realización de eventos de observación, registro e identificación de flora y fauna que se localicen en áreas donde i) Falta de información sobre biodiversidad, ii) Existe una fuerte presencia de una ONG local.
+
++   **NatGeo - JULANA**
+
+Se presentó un proyecto a los fondos de [Ciencia Ciudadana](https://www.nationalgeographic.org/funding-opportunities/grants/what-we-fund/#Exploration) de **National Geographic** en asociación con la ONG de Educación Ambiental [JULANA](https://www.julana.org), con el objetivo de contribuir a mejorar el estado del conocimiento nacional de la biodiversidad a través de la participación ciudadana. La propuesta incluye la realización de eventos de observación, registro e identificación de flora y fauna que se localicen en áreas donde i) Falta de información sobre biodiversidad, ii) Existe una fuerte presencia de una ONG local.
 
 ---
 
-Hacia el final del reporte les dejamos planteadas algunas preguntas que surgen del trabajo realizado hasta el momento.
+Hacia el final del reporte les dejamos planteadas algunas preguntas que surgen del trabajo realizado en este año 2019.
 
 ### Preguntas para la Discusión:
 
