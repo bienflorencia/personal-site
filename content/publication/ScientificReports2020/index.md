@@ -5,7 +5,7 @@ title = "Comparative genomics of Salmonella enterica serovar Enteritidis ST-11 i
 date = 2020-02-07T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["D’Alessandro, B.", "Pérez Escanda, V.", "Balestrazzi, L.", "Grattarola F.", "Iriarte, A." "Pickard, D.", "Yim, L.", "Chabalgoity, J. A.", "Betancor, L."]
+authors = ["D’Alessandro, B.", "Pérez Escanda, V.", "Balestrazzi, L.", "Grattarola F.", "Iriarte, A.", "Pickard, D.", "Yim, L.", "Chabalgoity, J. A.", "Betancor, L."]
 
 # Publication type.
 # Legend:
