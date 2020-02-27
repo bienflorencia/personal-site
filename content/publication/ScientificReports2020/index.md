@@ -2,7 +2,7 @@
 title = "Comparative genomics of Salmonella enterica serovar Enteritidis ST-11 isolated in Uruguay reveals lineages associated with particular epidemiological traits"
 
 # Date first published.
-date = 2020-02-07T00:00:00
+date = 2020-02-27T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["D’Alessandro, B.", "Pérez Escanda, V.", "Balestrazzi, L.", "Grattarola F.", "Iriarte, A.", "Pickard, D.", "Yim, L.", "Chabalgoity, J. A.", "Betancor, L."]
@@ -39,7 +39,7 @@ selected = false
 projects = ["salmonella"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/s41598-020-60502-8.pdf"
 url_preprint = ""
 url_code = "https://github.com/bienflorencia/genomica_comparativa"
 url_dataset = ""
@@ -54,7 +54,7 @@ url_source = ""
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "https://doi.org/10.1038/s41598-020-60502-8"
 
 # Does the content use math formatting?
 math = false
@@ -66,5 +66,3 @@ image = ""
 caption = ""
 
 +++
-
-(**in press**)
