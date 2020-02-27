@@ -39,7 +39,7 @@ selected = false
 projects = ["salmonella"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/s41598-020-60502-8.pdf"
 url_preprint = ""
 url_code = "https://github.com/bienflorencia/genomica_comparativa"
 url_dataset = ""
@@ -54,7 +54,7 @@ url_source = ""
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "https://doi.org/10.1038/s41598-020-60502-8"
 
 # Does the content use math formatting?
 math = false
@@ -66,5 +66,3 @@ image = ""
 caption = ""
 
 +++
-
-(**in press**)
