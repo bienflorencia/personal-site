@@ -11,6 +11,9 @@ draft = false
 
 Les dejo un pequeño análisis visual de estos primeros 10,000 registros. 
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/biodiversidata/49852815662/in/album-72157709124750472/" title="Intro 10 mil primers Observaciones en iNaturalist en Uruguay"><img src="https://live.staticflickr.com/65535/49852815662_192b34b213_c.jpg" width="800" height="373" alt="Intro 10 mil primers Observaciones en iNaturalist en Uruguay"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
 Incluyen más de **2,240 especies** reportadas por más de **725 usuarios**. El grupo más registrado son los plantas, seguidos por los insectos y las aves. La mayoría de los registros se concentran en los departamentos de la costa. El departamento con mayor número de observaciones es Maldonado, seguido de Montevideo y Rocha. El litoral se encuentra bien representado por Río Negro, que reúne casi el 10% de los registros para el país.
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/biodiversidata/49751166323/in/album-72157709124750472/" title="Especies y Localización"><img src="https://live.staticflickr.com/65535/49751166323_222eeee4a9_c.jpg" width="800" height="559" alt="Especies y Localización"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
