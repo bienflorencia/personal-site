@@ -1,5 +1,5 @@
 +++
-title = "10 mil observaciones de iNaturalist en Uruguay"
+title = "10 mil Primeras Observaciones de iNaturalist en Uruguay"
 date = 2020-04-09
 tags = ["citizen-science"]
 categories = []
@@ -7,9 +7,9 @@ math = false
 draft = false
 +++
 
-### En Uruguay alcanzamos las primeras **10,000** observaciones en iNaturalist. 
+### En Uruguay alcanzamos las primeras **10,000** observaciones en iNaturalist 
 
-Les dejo un pequeño análisis visual de estos primeros 10,000 registros. 
+Les dejo un pequeño análisis visual  
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/biodiversidata/49852815662/in/album-72157709124750472/" title="Intro 10 mil primers Observaciones en iNaturalist en Uruguay"><img src="https://live.staticflickr.com/65535/49852815662_192b34b213_c.jpg" width="800" height="373" alt="Intro 10 mil primers Observaciones en iNaturalist en Uruguay"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
