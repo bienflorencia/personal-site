@@ -1,7 +1,7 @@
 +++
 
 # Project title.
-title = "Participatory Monitoring"
+title = "Fogones de Fauna"
 date = 2018-02-16T15:14:17Z
 draft = false
   
@@ -9,7 +9,7 @@ draft = false
 tags = ["society-and-nature"]
   
 # Project summary to display on homepage.
-summary = "The project Fogones de Fauna is an experience in collaborative-learning, carried out by JULANA NGO in the village of Paso Centurión, Uruguay."
+summary = "The project Fogones de Fauna is an experience in collaborative-learning, carried out by JULANA NGO in the locality of Paso Centurión in Cerro Largo, Uruguay."
   
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -53,7 +53,6 @@ Lucía Gaucher, Florencia Grattarola, Gabriel Perazza, Solana González, Juan Ma
 Global Greengrants Fund & Red Nacional de Educación Ambiental (ReNEA-MEC).
 
 
-[Web] (http://julana.org/)
-[Flickr] (https://www.flickr.com/photos/julana/)
-[Facebook] (https://www.facebook.com/jugandoenlanaturaleza/)
+
+<a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/julana/albums/72157659145111845" title="Cámaras Trampa en Paso Centurión"><img src="https://live.staticflickr.com/704/21546947209_e3773a84e5_z.jpg" width="640" height="480" alt="Cámaras Trampa en Paso Centurión"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
