@@ -38,7 +38,7 @@ filter_default = 0
   tag = "*"
    
 [[filter]]
-  name = "Society & Nature"
+  name = "Environmental Education"
   tag = "society-and-nature"
 
 [[filter]]
