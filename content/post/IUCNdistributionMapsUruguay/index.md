@@ -109,7 +109,7 @@ Lets run the function with our data:
     IUCNSpeciesInUy <- getIUCNSpeciesInUy(speciesList_Tetrapods)
 
 This function might take a while to run, depending on the size of your
-species list :coffee:
+species list :mate:
 
 <br>
 </br>
