@@ -35,6 +35,9 @@ function `rl_occ_country` from the package
 [`rredlist`](https://ropensci.org/tutorials/rredlist_tutorial/). This
 function enables us to get country occurrence by species name.
 
+<br>
+</br>
+
 #### Function
 
 Let's create a function (`getIUCNSpeciesInUy`) to find if the species
@@ -82,11 +85,11 @@ IUCN.
     }
 
 The function needs an object (dataframe) with a column named `species`,
-which will be uses for the search.
+which will be used for the search.
 
 -   If the species is not found within the IUCN database, a **'NOT
-    FOUND'** message will be retrieved, and we will need to check if it
-    is in IUCN by its synonym scientific name.
+    FOUND'** message will be retrieved, and we will later need to check if
+    we can find a synonym species in IUCN.
 -   Else, if the species name is found in IUCN, the function will search
     if it is recorded in Uruguay (code = 'UY').
 -   Then, if the species is found in Uruguay the function will retrieve
@@ -94,7 +97,11 @@ which will be uses for the search.
     (`establishmentMeans`) and just as a curiosity, the number of
     countries the species is recorded in (`numCountries`).
 -   Else, if the species is not found in Uruguay, it will retrieve
-    **'Not recorded in UY'** for those columns.
+    **'Not recorded in UY'**.
+
+<br>
+</br>
+
 
 #### Run
 
@@ -104,6 +111,10 @@ Lets run the function with our data:
 
 This function might take a while to run, depending on the size of your
 species list :coffee:
+
+<br>
+</br>
+
 
 #### Explore
 
@@ -165,6 +176,10 @@ function to check for these species again.
 
 Once we have checked if the synonyms are still not found in the IUCN
 database - therefore not assessed - we have all the information we need.  
+
+<br>
+</br>
+
 
 So, let's explore the final results:
 
@@ -247,6 +262,8 @@ Around 12% of the species recorded in Uruguay are not represented in the
 distribution maps of IUCN.
 
 <br>
+</br>
+
 
 And, that's all !
 -----------------
