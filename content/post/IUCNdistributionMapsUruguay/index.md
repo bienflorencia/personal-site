@@ -14,8 +14,8 @@ of the globe. Uruguay, in particular, has a severe lack of information
 on the distribution of its species. Luckily, last year the [first
 comprehensive open-access biodiversity
 database](https://doi.org/10.3897/BDJ.7.e36226) in the country was made
-available by Biodiversidata. We are going to use this data to check how
-well represented are these species in the IUCN database.
+available by [Biodiversidata](https://biodiversidata.org/). We are going to use this data to check how
+well represented are these species in the [IUCN Red List](iucnredlist.org/) database.
 
 ### Let's see !
 
@@ -41,7 +41,7 @@ function enables us to get country occurrence by species name.
 #### Function
 
 Let's create a function (`getIUCNSpeciesInUy`) to find if the species
-listed for Uruguay are documented as extant in the country according to
+recorded in Uruguay are documented as extant in the country according to
 IUCN.
 
     library(rredlist)
@@ -102,7 +102,6 @@ which will be used for the search.
 <br>
 </br>
 
-
 #### Run
 
 Lets run the function with our data:
@@ -114,7 +113,6 @@ species list :coffee:
 
 <br>
 </br>
-
 
 #### Explore
 
