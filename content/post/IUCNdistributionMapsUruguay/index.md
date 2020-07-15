@@ -242,10 +242,11 @@ Possibly Extinct
 </table>
 <img src="/img/IUCN_distributionData.png" width="100%" style="display: block; margin: auto;" />
 
+
 Around 12% of the species recorded in Uruguay are not represented in the
 distribution maps of IUCN.
 
-
+<br>
 
 And, that's all !
 -----------------
