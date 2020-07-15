@@ -291,7 +291,7 @@ Possibly Extinct
 </tr>
 </tbody>
 </table>
-<img src="/img/IUCN_distribution_data.png" width="50%" style="display: block; margin: auto;" />
+<img src="/img/IUCN_distributionData.png" width="100%" style="display: block; margin: auto;" />
 
 Around 12 % of the species recorded in Uruguaya are not present in the
 counrty acccording to IUCN.
