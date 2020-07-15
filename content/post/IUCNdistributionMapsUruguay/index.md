@@ -135,70 +135,18 @@ So, let's see how it went.
     ## 19          Argenteohyla siemersi             Extant             Native
     ## 20              Rhinella diptycha Not recorded in UY Not recorded in UY
 
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-IUCN data
-</th>
-<th style="text-align:right;">
-Number of Species
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Extant
-</td>
-<td style="text-align:right;">
-541
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Extinct Post-1500
-</td>
-<td style="text-align:right;">
-1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-NOT FOUND
-</td>
-<td style="text-align:right;">
-45
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not recorded in UY
-</td>
-<td style="text-align:right;">
-76
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Possibly Extinct
-</td>
-<td style="text-align:right;">
-1
-</td>
-</tr>
-</tbody>
-</table>
+
 According to IUCN, 76 species in our databse are not considered extant
 in the country. There's a species considered extinct (*Blastocerus
 dichotomus*) and one as possibly extinct (*Chrysocyon brachyurus*). But,
 what about those **NOT FOUND**? We need to check on their synonym
-species.
+species.  
 
 To find synonym species, we can use the function `synonyms` from the
-package `taxize`. First, filter the species not found for IUCN, then
-create a new list with this species and run the function `getSynonym`.
-Finally, run the function to check for these species again.
+package [`taxize`](https://ropensci.org/tutorials/taxize_tutorial/). 
+First, filter the species not found for IUCN, then create a new list 
+with this species and run the function `getSynonym`. Finally, run the 
+function to check for these species again.
 
     getSynonym <- function(species){
       species_synonym <- synonyms(species, db='itis', rows=1)
@@ -216,7 +164,8 @@ Finally, run the function to check for these species again.
       mutate(speciesSynonym=map_chr(species, getSynonym)) 
 
 Once we have checked if the synonyms are still not found in the IUCN
-database - therefore not assessed - we have all the information we need.
+database - therefore not assessed - we have all the information we need.  
+
 So, let's explore the final results:
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
@@ -293,8 +242,10 @@ Possibly Extinct
 </table>
 <img src="/img/IUCN_distributionData.png" width="100%" style="display: block; margin: auto;" />
 
-Around 12 % of the species recorded in Uruguaya are not present in the
-counrty acccording to IUCN.
+Around 12% of the species recorded in Uruguay are not represented in the
+distribution maps of IUCN.
+
+
 
 And, that's all !
 -----------------
