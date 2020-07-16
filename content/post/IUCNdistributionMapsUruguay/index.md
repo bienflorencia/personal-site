@@ -256,11 +256,11 @@ Possibly Extinct
 <img src="/img/IUCN_distributionData.png" width="100%" style="display: block; margin: auto;" />
 
 
-Around 12 % of the species recorded in Uruguaya are not present in the
-counrty acccording to IUCN. Also, these species seem to be more range
-restricted, as they are recorded in less countries (**mean**=18.1,
-*sd*=25), while the extant species are present in more countries
-(**mean**=24.2, *sd*=42.5).
+Around **12%** of the species occurring in Uruguay are not recorded as 
+present in the country according to the IUCN distribution maps. Also, 
+these species seem to be more range restricted, as they are recorded 
+in less countries (**mean**=18.1, *sd*=25), while the extant species 
+are present in more countries (**mean**=24.2, *sd*=42.5).
 
 <br>
 </br>
