@@ -269,10 +269,11 @@ defaultContentLanguageInSubdir = false
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  [[params.social]]
-  #[[params.social]]
-  #  icon = "cv"
-  #  icon_pack = "ai"
-  #  link = "https://exportcvuy.anii.org.uy/cv/?64557324135cff87cc3e5ad8bacbba7aeebce4442a2d42a89b8d1413e12d942fca50a711b8ab97d2c4539d97430f48d25ff422df8fc55917e2d7c2451b6f4815#0"
+  
+  [[params.social]]
+    icon = "cv"
+    icon_pack = "ai"
+    link = "https://exportcvuy.anii.org.uy/cv/?64557324135cff87cc3e5ad8bacbba7aeebce4442a2d42a89b8d1413e12d942fca50a711b8ab97d2c4539d97430f48d25ff422df8fc55917e2d7c2451b6f4815#0"
   
   [[params.social]]
     icon = "orcid"
