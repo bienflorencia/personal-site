@@ -2,7 +2,7 @@
 title = "Mammals of Paso Centurión, an area with relicts of Atlantic Forest in Uruguay"
 
 # Date first published.
-date = 2020-07-07T00:00:00
+date = 2020-07-24T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Grattarola F.", "Rodríguez-Tricot, L."]
@@ -39,11 +39,11 @@ selected = true
 projects = ["julana"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/NBC_article_53062_en_1.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = "https://doi.org/10.15468/ws5x8h"
-url_project = ""
+url_project = "https://julana.org"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -54,7 +54,7 @@ url_source = ""
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "https://doi.org/10.3897/neotropical.15.e53062"
 
 # Does the content use math formatting?
 math = false
@@ -66,5 +66,3 @@ image = ""
 caption = ""
 
 +++
-
-Accepted for publication
