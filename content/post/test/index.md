@@ -1,0 +1,144 @@
++++
+title = "Test"
+date = 2020-09-28T14:15:15Z
+tags = ["Biodiversidata", "R"]
+categories = []
+math = false
+draft = false
++++
+
+A database of records of vascular plant species from Uruguay
+============================================================
+
+Here we present the first comprehensive open-access species-level
+database of the vascular plant diversity recorded in Uruguay to date
+(i.e.: all species for which data is currently available and species
+presence has been confirmed). It contains 12,470 occurrence records from
+across 1,648 species and 160 families, which roughly represents 60% of
+the total recorded flora of Uruguay. The primary biodiversity data
+include extant native and introduced species from the lycophytes, ferns,
+gymnosperms, and angiosperms groups. Records were collated from multiple
+sources including data available in the peer-reviewed scientific
+literature, institutional scientific collections, and datasets
+contributed by members of the Biodiversidata initiative. <br>
+
+<table>
+<colgroup>
+<col width="8%" />
+<col width="20%" />
+<col width="12%" />
+<col width="15%" />
+<col width="23%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="right">Grupo</th>
+<th align="right">Número de Registros de Presencia</th>
+<th align="right">Número de Especies</th>
+<th align="right">Registros con Fecha (%)</th>
+<th align="right">Registros de los últimos 30 años (%)</th>
+<th align="right">Registros con Coordenadas (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">Licofitas</td>
+<td align="right">13</td>
+<td align="right">6</td>
+<td align="right">13 (100)</td>
+<td align="right">11 (84.6)</td>
+<td align="right">13 (100)</td>
+</tr>
+<tr class="even">
+<td align="right">Helechos</td>
+<td align="right">540</td>
+<td align="right">78</td>
+<td align="right">540 (100)</td>
+<td align="right">508 (94.1)</td>
+<td align="right">540 (100)</td>
+</tr>
+<tr class="odd">
+<td align="right">Gimnospermas</td>
+<td align="right">48</td>
+<td align="right">5</td>
+<td align="right">41 (85.4)</td>
+<td align="right">39 (81.2)</td>
+<td align="right">48 (100)</td>
+</tr>
+<tr class="even">
+<td align="right">Angiospermas</td>
+<td align="right">11869</td>
+<td align="right">1559</td>
+<td align="right">10527 (88.7)</td>
+<td align="right">9585 (80.8)</td>
+<td align="right">11869 (100)</td>
+</tr>
+<tr class="odd">
+<td align="right">Total</td>
+<td align="right">12470</td>
+<td align="right">1648</td>
+<td align="right">11121 (89.2)</td>
+<td align="right">10143 (81.3)</td>
+<td align="right">12470 (100)</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+----
+
+### Database
+
+The dataset is available at our Zenodo repository
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3954406.svg)](https://doi.org/10.5281/zenodo.3954406)
+
+The database presented in this study will continue to be improved and
+updated with new records periodically (yearly expected); check the
+Zenodo repository for the latest version
+
+###### *Última Actualización: 28/08/2020*
+
+<br>
+
+------------------------------------------------------------------------
+
+#### Map
+
+`{r map, message=FALSE, warning=FALSE, echo=F, width = 8, height = 9} # leafMap <- BiodiversidataPlantas %>%  #   select(name=species, family, group=classLevels, latitude=decimalLatitude, longitude=decimalLongitude) %>%  #   leaflet() %>% addProviderTiles('OpenStreetMap.Mapnik') %>%  #   setView(lng = -56, lat = -33, zoom=7) %>%  #   addPolygons(data=Uruguay, color= 'white', weight = 0.5, fillColor = NA) %>%  #   addCircleMarkers(#color='black', radius = 5, #                    color=~pal(group), radius = 5, #                    stroke = FALSE, fillOpacity = 0.7, #                    popup = ~paste(name, '<br>', '<strong> Familia: </strong>', family)) %>% #   addLegend(pal = pal, values = ~group,  #             title = "Grupo", position = "bottomright") #`
+==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+<iframe seamless src="leafMap.html" width="100%" height="500">
+</iframe>
+#### Species Checklist
+
+Download the list of species including scientific and vernacular names,
+and Global and Regional IUCN conservation status:
+
+<table>
+<thead>
+<tr class="header">
+<th>:herb:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="/files/checklists/amphibia.csv">Plantas Vasculares</a></td>
+</tr>
+</tbody>
+</table>
+
+###### *Última Actualización: 28/08/2020*
+
+<br>
+
+------------------------------------------------------------------------
+
+### **Si usas los datos, por favor cita:**
+
+Grattarola F, González A, Mai P, Cappuccio L, Fagúndez-Pachón C, Rossi
+F, Teixeira de Mello F, Urtado L, Pincheira-Donoso D (2020)
+Biodiversidata: A novel dataset for the vascular plant species diversity
+in Uruguay. Biodiversity Data Journal 7: e36226.
+<https://doi.org/10.3897/BDJ.7.e36226>
