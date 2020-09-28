@@ -106,10 +106,7 @@ Zenodo repository for the latest version
 
 #### Map
 
-`{r map, message=FALSE, warning=FALSE, echo=F, width = 8, height = 9} # leafMap <- BiodiversidataPlantas %>%  #   select(name=species, family, group=classLevels, latitude=decimalLatitude, longitude=decimalLongitude) %>%  #   leaflet() %>% addProviderTiles('OpenStreetMap.Mapnik') %>%  #   setView(lng = -56, lat = -33, zoom=7) %>%  #   addPolygons(data=Uruguay, color= 'white', weight = 0.5, fillColor = NA) %>%  #   addCircleMarkers(#color='black', radius = 5, #                    color=~pal(group), radius = 5, #                    stroke = FALSE, fillOpacity = 0.7, #                    popup = ~paste(name, '<br>', '<strong> Familia: </strong>', family)) %>% #   addLegend(pal = pal, values = ~group,  #             title = "Grupo", position = "bottomright") #`
-==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-
-<iframe seamless src="leafMap.html" width="100%" height="500">
+<iframe seamless src="/static/leaflet/leafmap/index.html" width="100%" height="500">
 </iframe>
 #### Species Checklist
 
@@ -142,3 +139,4 @@ F, Teixeira de Mello F, Urtado L, Pincheira-Donoso D (2020)
 Biodiversidata: A novel dataset for the vascular plant species diversity
 in Uruguay. Biodiversity Data Journal 7: e36226.
 <https://doi.org/10.3897/BDJ.7.e36226>
+
