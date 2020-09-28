@@ -106,7 +106,7 @@ Zenodo repository for the latest version
 
 #### Map
 
-<iframe seamless src="/static/leaflet/leafmap/index.html" width="100%" height="500">
+<iframe seamless src="/static/leaflet/leafMap.html" width="100%" height="500">
 </iframe>
 #### Species Checklist
 
