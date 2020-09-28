@@ -24,26 +24,26 @@ contributed by members of the Biodiversidata initiative. <br>
 
 <table>
 <colgroup>
-<col width="8%" />
-<col width="20%" />
-<col width="12%" />
-<col width="15%" />
-<col width="23%" />
-<col width="19%" />
+<col width="9%" />
+<col width="13%" />
+<col width="13%" />
+<col width="17%" />
+<col width="25%" />
+<col width="21%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th align="right">Grupo</th>
-<th align="right">Número de Registros de Presencia</th>
-<th align="right">Número de Especies</th>
+<th align="right">Number of Records</th>
+<th align="right">Number of Species</th>
 <th align="right">Registros con Fecha (%)</th>
-<th align="right">Registros de los últimos 30 años (%)</th>
-<th align="right">Registros con Coordenadas (%)</th>
+<th align="right">Records from the last 30 years (%)</th>
+<th align="right">Records with Coordinates (%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">Licofitas</td>
+<td align="right">Lycophytes</td>
 <td align="right">13</td>
 <td align="right">6</td>
 <td align="right">13 (100)</td>
@@ -51,7 +51,7 @@ contributed by members of the Biodiversidata initiative. <br>
 <td align="right">13 (100)</td>
 </tr>
 <tr class="even">
-<td align="right">Helechos</td>
+<td align="right">Ferns</td>
 <td align="right">540</td>
 <td align="right">78</td>
 <td align="right">540 (100)</td>
@@ -59,7 +59,7 @@ contributed by members of the Biodiversidata initiative. <br>
 <td align="right">540 (100)</td>
 </tr>
 <tr class="odd">
-<td align="right">Gimnospermas</td>
+<td align="right">Gymnosperms</td>
 <td align="right">48</td>
 <td align="right">5</td>
 <td align="right">41 (85.4)</td>
@@ -67,7 +67,7 @@ contributed by members of the Biodiversidata initiative. <br>
 <td align="right">48 (100)</td>
 </tr>
 <tr class="even">
-<td align="right">Angiospermas</td>
+<td align="right">Angiosperms</td>
 <td align="right">11869</td>
 <td align="right">1559</td>
 <td align="right">10527 (88.7)</td>
@@ -98,22 +98,22 @@ The database presented in this study will continue to be improved and
 updated with new records periodically (yearly expected); check the
 Zenodo repository for the latest version
 
-###### *Última Actualización: 28/08/2020*
+###### *Last Updated: 28/09/2020*
 
 <br>
 
 ------------------------------------------------------------------------
 
 ### Map
-<br>
-<iframe src='/img/leafMap.html' height='800' width="100%"> </iframe>
 
-------------------------------------------------------------------------
 
-#### Species Checklist
+<iframe src='/img/leafMap.html' height='700' width="100%"> </iframe>
+
+
+### Species Checklist
 
 Download the list of species including scientific and vernacular names,
-and Global and Regional IUCN conservation status:
+and establishment means status (native or introduce):
 
 <table>
 <thead>
@@ -123,22 +123,23 @@ and Global and Regional IUCN conservation status:
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/files/checklists/amphibia.csv">Plantas Vasculares</a></td>
+<td><a href="/files/checklists/vascularPlants.csv">Vascular Plants</a></td>
 </tr>
 </tbody>
 </table>
 
-###### *Última Actualización: 28/08/2020*
+###### *Last Updated: 28/08/2020*
 
 <br>
 
 ------------------------------------------------------------------------
 
-### **Si usas los datos, por favor cita:**
+### **If you use the data, please cite as:**
 
 Grattarola F, González A, Mai P, Cappuccio L, Fagúndez-Pachón C, Rossi
 F, Teixeira de Mello F, Urtado L, Pincheira-Donoso D (2020)
 Biodiversidata: A novel dataset for the vascular plant species diversity
 in Uruguay. Biodiversity Data Journal 7: e36226.
 <https://doi.org/10.3897/BDJ.7.e36226>
+
 
