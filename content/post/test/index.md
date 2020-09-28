@@ -101,14 +101,17 @@ Zenodo repository for the latest version
 ###### *Last Updated: 28/09/2020*
 
 <br>
-
-------------------------------------------------------------------------
+----
 
 ### Map
 
+El código del mapa va acá.
 
-<iframe src='/img/leafMap.html' height='700' width="100%"> </iframe>
+<iframe src='/img/leafMap.html' height='700' width="100%"> 
+</iframe>
 
+<br>
+----
 
 ### Species Checklist
 
@@ -139,7 +142,4 @@ and establishment means status (native or introduce):
 Grattarola F, González A, Mai P, Cappuccio L, Fagúndez-Pachón C, Rossi
 F, Teixeira de Mello F, Urtado L, Pincheira-Donoso D (2020)
 Biodiversidata: A novel dataset for the vascular plant species diversity
-in Uruguay. Biodiversity Data Journal 7: e36226.
-<https://doi.org/10.3897/BDJ.7.e36226>
-
-
+in Uruguay. Biodiversity Data Journal (*in press*)
