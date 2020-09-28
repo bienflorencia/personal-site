@@ -104,11 +104,10 @@ Zenodo repository for the latest version
 
 ------------------------------------------------------------------------
 
-### Map  
 
-<iframe src='/img/leafMap.html' height='500' width="100%"></iframe>
+<iframe src='/img/leafMap.html' height='500' width="100%"> </iframe>
 
-1
+2
 
 ------------------------------------------------------------------------
 
