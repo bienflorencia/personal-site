@@ -103,7 +103,7 @@ Zenodo repository for the latest version
 <br>
 ----
 
-### Mapping
+### Map
 
 Explore the data !
 
