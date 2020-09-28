@@ -106,8 +106,9 @@ Zenodo repository for the latest version
 
 #### Map
 
-<iframe seamless src="/static/leaflet/leafMap.html" width="100%" height="500">
-</iframe>
+<iframe seamless src="/static/leaflet/leafMap.html" width="100%" height="500"></iframe>
+
+
 #### Species Checklist
 
 Download the list of species including scientific and vernacular names,
