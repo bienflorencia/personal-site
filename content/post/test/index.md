@@ -105,8 +105,9 @@ Zenodo repository for the latest version
 
 ### Map
 
-El código del mapa va acá.
+Explore the data !
 
+----
 <iframe src='/img/leafMap.html' height='700' width="100%"> 
 </iframe>
 
@@ -116,7 +117,7 @@ El código del mapa va acá.
 ### Species Checklist
 
 Download the list of species including scientific and vernacular names,
-and establishment means status (native or introduce):
+and establishment means (native or introduce):
 
 <table>
 <thead>
