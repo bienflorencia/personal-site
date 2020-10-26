@@ -1,5 +1,5 @@
 +++
-title = "Biodiversidata:An Open-Access Biodiversity Database for Uruguay"
+title = "Biodiversidata: A novel dataset for the vascular plant species diversity in Uruguay"
 
 # Date first published.
 date = 2020-10-26T00:00:00
