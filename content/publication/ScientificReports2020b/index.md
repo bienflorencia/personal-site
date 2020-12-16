@@ -2,7 +2,7 @@
 title = "Multiple forms of hotspots of tetrapod biodiversity and the challenges of open-access data scarcity"
 
 # Date first published.
-date = 2020-02-27T00:00:00
+date = 2020-12-16T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Grattarola, F.", "Martínez-Lanfranco, J.A.", "Botto, G.", "Naya, E.D.", "Maneyro, R.", "Mai, P.", "Hernández, D.", "Laufer, G.", "Ziegler, L.", "González, E.M.", "da Rosa, I.", "Gobel, N.", "González, A.", "González, J.", "Rodales, A.L.", "Pincheira-Donoso, D."]
@@ -36,7 +36,7 @@ selected = true
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["phd", "biodiversidata"]
+projects = ["phd"]
 
 # Links (optional).
 url_pdf = "pdf/s41598-020-79074-8.pdf"
