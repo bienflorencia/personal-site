@@ -1,5 +1,5 @@
 +++
-title = "Mamíferos de Paso Centurion. Biodiversidata. Occurrence dataset"
+title = "Mamíferos de Paso Centurión. Biodiversidata. Occurrence dataset"
 
 # Date first published.
 date = 2020-04-09T00:00:00
@@ -36,7 +36,7 @@ selected = false
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["phd", "julana"]
+projects = ["julana"]
 
 # Links (optional).
 url_pdf = ""
