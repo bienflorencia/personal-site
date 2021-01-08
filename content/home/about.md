@@ -10,10 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Open Science",
+    "Biodiversity Informatics",
+	"Open Science",
     "Macroecology",
     "GIS",
-    "Bioinformatics",
     "Genomics",
     "Camera Trapping",
     "Environmental Education"
@@ -21,7 +21,12 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Masters in Biological Sciences (Genetics)"
+  course = "PhD in Life Sciences (Evolution & Ecology)"
+  institution = "University of Lincoln"
+  year = 2021
+
+[[education.courses]]
+  course = "MSc in Biological Sciences (Genetics)"
   institution = "PEDECIBA - Universidad de la República, Uruguay"
   year = 2015
 
