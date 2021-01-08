@@ -45,7 +45,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Florencia Grattarola"
-  role = "PhD Student in Life Sciences"
+  role = "PhD in Life Sciences"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
