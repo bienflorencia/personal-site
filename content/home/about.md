@@ -21,18 +21,18 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Life Sciences (Evolution & Ecology)"
-  institution = "University of Lincoln"
+  course = "PhD in Life Sciences"
+  institution = "University of Lincoln, United Kingdom"
   year = 2021
 
 [[education.courses]]
-  course = "MSc in Biological Sciences (Genetics)"
-  institution = "PEDECIBA - Universidad de la República, Uruguay"
+  course = "MSc in Biological Sciences"
+  institution = "Universidad de la República, Uruguay"
   year = 2015
 
 [[education.courses]]
   course = "BSc (Honours) in Biological Sciences"
-  institution = "Facultad de Ciencias - Universidad de la República, Uruguay"
+  institution = "Universidad de la República, Uruguay"
   year = 2012
  
 +++
