@@ -39,9 +39,8 @@ weight = 5
 
 # Biography
 
-I am a Uruguayan biologist studying a PhD in Life Sciences at the University of Lincoln (United Kingdom). 
+I am a Uruguayan biologist, with a PhD in Life Sciences from the University of Lincoln (United Kingdom) and a Bachelor and Master in Science from the Universidad de la República (Uruguay). 
 
-During my academic development I have been interested in several areas, from molecular ecology, conservation genetics and bioinformatics, to environmental education, citizen science and knowledge democratization. 
+During my academic development I have been interested in several areas, from conservation genetics and macroecology, to environmental education, citizen science and biodiversity informatics. 
 
-The focus of my current research is to quantify patterns and processes of biodiversity and I aim to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data of Uruguay. 
-
+The focus of my current research is to quantify the distribution patterns of biodiversity. My aim is to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data of Uruguay.
