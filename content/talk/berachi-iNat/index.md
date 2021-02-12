@@ -16,7 +16,7 @@ abstract = ""
 abstract_short = "Taller de iNaturalist con alumnos de la Escuela 102 de Berachí"
 
 # Name of event and optional event URL.
-event = "SciComm"
+event = "Video conferencia"
 event_url = ""
 
 # Location of event.
@@ -31,11 +31,11 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["citizen-science"]
+projects = ["julana"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Open Data"]
+tags = ["iNaturalist", "citizen-science"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
