@@ -45,18 +45,18 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Florencia Grattarola"
-  role = "PhD in Life Sciences"
+  role = "Postdoc"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ {name="MacroBiodiversity Lab", url="http://selectiondynamics.weebly.com/"}, { name = "University of Lincoln", url = "" }]
+  organizations = [{name="Department of Spatial Sciences", url="https://www.fzp.czu.cz/en/r-9407-departments/r-9471-departments/r-9649-department-of-spatial-sciences"}, { name = "Czech University of Life Sciences Prague", url = "" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   
   # Details for the Contact Widget
-  email = "fGrattarola@lincoln.ac.uk"
-  address = "Charlotte Scott Building, University of Lincoln, Brayford Pool, Lincoln, United Kingdom"
+  email = "flograttarola@gmail.com"
+  address = "Kamýcká 129, Praha – Suchdol, 165 00, Czech Republic"
   office_hours = ""
   phone = ""
   skype = ""
@@ -90,8 +90,8 @@ defaultContentLanguageInSubdir = false
   #   3: OpenStreetMap (Mapbox)
   map = 3
   map_api_key = ""
-  latitude = "53.22876"
-  longitude = "-0.55625"
+  latitude = "50.130124955516905"
+  longitude = "14.37363028471306"
   zoom = 15
  
   # SITE SETUP
@@ -245,7 +245,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:fGrattarola@lincol.ac.uk"
+    link = "mailto:flograttarola@gmail.com"
 
   [[params.social]]
     icon = "twitter"

@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2016-04-20T00:00:00"
+date = "2021-15-04T00:00:00"
 
 # Order that this section will appear in.
 weight = 5
@@ -31,7 +31,7 @@ weight = 5
   year = 2015
 
 [[education.courses]]
-  course = "BSc (Honours) in Biological Sciences"
+  course = "BSc (Hons) in Biological Sciences"
   institution = "Universidad de la República, Uruguay"
   year = 2012
  
@@ -43,4 +43,4 @@ I am a Uruguayan biologist, with a PhD in Life Sciences from the University of L
 
 During my academic development I have been interested in several areas, from conservation genetics and macroecology, to environmental education, citizen science and biodiversity informatics. 
 
-The focus of my current research is to quantify the distribution patterns of biodiversity. My aim is to develop an unprecedented field of knowledge for Uruguay by promoting a large, multidisciplinary collaborative initiative to collect all biodiversity data of Uruguay.
+I am a researcher at at Faculty of Environmental Sciences of Czech University of Life Sciences at [Petr Keil](https://petrkeil.github.io/website/)'s lab. I am the founder of [Biodiversidata](biodiversidata.org) and a NatGeo 2021 Explorer.
