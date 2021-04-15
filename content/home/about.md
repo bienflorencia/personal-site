@@ -43,4 +43,4 @@ I am a Uruguayan biologist, with a PhD in Life Sciences from the University of L
 
 During my academic development I have been interested in several areas, from conservation genetics and macroecology, to environmental education, citizen science and biodiversity informatics. 
 
-I am a researcher at at Faculty of Environmental Sciences of Czech University of Life Sciences at [Petr Keil](https://petrkeil.github.io/website/)'s lab. I am the founder of [Biodiversidata](biodiversidata.org) and a NatGeo 2021 Explorer.
+I am a postdoc researcher at the Faculty of Environmental Sciences of Czech University of Life Sciences, at [Petr Keil](https://petrkeil.github.io/website/)'s lab. I am the founder of [Biodiversidata](biodiversidata.org) and a NatGeo 2021 Explorer.
