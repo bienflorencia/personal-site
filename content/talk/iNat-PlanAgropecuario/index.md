@@ -5,7 +5,7 @@ draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2020-09-03T12:00:00
+time_start = 2021-04-09T12:00:00
 #time_end = 2030-06-01T15:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -16,7 +16,7 @@ abstract = ""
 abstract_short = "Taller de iNaturalist con integrantes del Plan Agropecuario"
 
 # Name of event and optional event URL.
-event = "Video conferencia"
+event = "Charla"
 event_url = ""
 
 # Location of event.
