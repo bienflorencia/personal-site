@@ -48,7 +48,7 @@ tags = ["Open data","environmental-education", "open-science", "citizen-science"
 # Links (optional).
 url_pdf = ""
 url_slides = "pdf/Charla_Foro_CILAC_2021.pdf"
-url_video = ""
+url_video = "https://youtu.be/W6i6y87p2IM"
 url_code = ""
 
 # Does the content use math formatting?

@@ -48,7 +48,7 @@ tags = ["iNaturalist", "citizen-science"]
 # Links (optional).
 url_pdf = ""
 url_slides = "pdf/iNat_Balneario_Guazuvira.pdf"
-url_video = ""
+url_video = "https://youtu.be/PBe1-sREUDg"
 url_code = ""
 
 # Does the content use math formatting?
