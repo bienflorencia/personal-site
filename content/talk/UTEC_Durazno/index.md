@@ -1,11 +1,11 @@
 +++
-title = "iNaturalist - ¿Qué es y para qué nos puede servir en nuestro proyecto?"
-date = 2021-04-21T00:00:00  # Schedule page publish date.
+title = "Biodiversidad y datos abiertos"
+date = 2021-04-30T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2021-04-21T12:00:00
+time_start = 2021-04-30T12:00:00
 #time_end = 2030-06-01T15:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -13,10 +13,10 @@ authors = ["Florencia Grattarola"]
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = "Taller de iNaturalist con integrantes de la Agrupación Guazú Verde"
+abstract_short = "Clase para estudiantes de Ingeniería Agroambiental (UTEC Durazno)"
 
 # Name of event and optional event URL.
-event = "Charla"
+event = "Clase"
 event_url = ""
 
 # Location of event.
@@ -31,11 +31,11 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["iNat"]
+projects = ["iNat", "biodiversidata"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["iNaturalist", "citizen-science"]
+tags = ["Open data","iNaturalist", "citizen-science"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -47,7 +47,7 @@ tags = ["iNaturalist", "citizen-science"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "pdf/iNat_Balneario_Guazuvira.pdf"
+url_slides = "pdf/Clase_UTEC_Durazno_2021.pdf"
 url_video = ""
 url_code = ""
 
@@ -66,12 +66,15 @@ math = true
   
 +++
 
-# Charla con integrantes de la Agrupación Guazú Verde - iNaturalist
+# Clase para estudiantes de la carrera de Ingeniería Agroambiental (UTEC Durazno)
 
-Esta charla se hizo a partir de la invitación de Carla Foucault, a raíz del interés del grupo de registrar la biodiversidad en el Balneario Guazuvirá (Canelones, Uruguay).
+Esta clase fue una invitación de la docente Sofía Cortizas a participar del curso de Biología y Biodiversidad, para estudiantes de la carrera de Ingeniería Agroambiental de la Universidad Tecnológica del Uruguay (UTEC) en su sede en Durazno.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PBe1-sREUDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+### Temática
+1. ¿Qué es la Biodiversidad?
+2. ¿Qué son los datos abiertos de biodiversidad? 
+3. ¿Cuánto conocemos de la biodiversidad en Uruguay? - **Biodiversidata**
+4. Ciencia abierta - El caso de **JULANA**
+5. No solo lo/as científicos/as puedena portar (iNaturalist)
 
 

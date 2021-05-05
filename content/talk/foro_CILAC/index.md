@@ -1,11 +1,11 @@
 +++
-title = "iNaturalist - ¿Qué es y para qué nos puede servir en nuestro proyecto?"
-date = 2021-04-21T00:00:00  # Schedule page publish date.
+title = "Ciencia abierta y cultura libre en Uruguay"
+date = 2021-04-26T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2021-04-21T12:00:00
+time_start = 2021-04-26T12:00:00
 #time_end = 2030-06-01T15:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -13,14 +13,14 @@ authors = ["Florencia Grattarola"]
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = "Taller de iNaturalist con integrantes de la Agrupación Guazú Verde"
+abstract_short = "Charla en el Foro CILAC 2021"
 
 # Name of event and optional event URL.
-event = "Charla"
+event = "Exposición"
 event_url = ""
 
 # Location of event.
-location = "Videoconferencia - Zoom"
+location = "Foro online"
 
 # Is this a selected talk? (true/false)
 selected = true
@@ -31,11 +31,11 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["iNat"]
+projects = ["julana", "biodiversidata"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["iNaturalist", "citizen-science"]
+tags = ["Open data","environmental-education", "open-science", "citizen-science"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -47,7 +47,7 @@ tags = ["iNaturalist", "citizen-science"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "pdf/iNat_Balneario_Guazuvira.pdf"
+url_slides = "pdf/Charla_Foro_CILAC_2021.pdf"
 url_video = ""
 url_code = ""
 
@@ -66,12 +66,23 @@ math = true
   
 +++
 
-# Charla con integrantes de la Agrupación Guazú Verde - iNaturalist
+# Conversatorio en el marco del Foro Abierto de Ciencias (Latinoamérica y Caribe) 2021
 
-Esta charla se hizo a partir de la invitación de Carla Foucault, a raíz del interés del grupo de registrar la biodiversidad en el Balneario Guazuvirá (Canelones, Uruguay).
+Participación de la sesión temåtica sobre: El valor de las políticas de educación abierta para fomentar la educación ambiental
+
+### Moderadores:
+- Virgina Brussa
+- Javiera Atenas
+- Martín Szyszlican
+
+### Exponentes
+- Florencia Grattarola (Biodiversidata y JULANA, Uruguay)
+- Carolina Cornejo (Directora Gobierno Abierto,  Argentina)
+- Ornela Barbieri (Acción Colectiva, Argentina)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PBe1-sREUDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W6i6y87p2IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
