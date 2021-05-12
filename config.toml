@@ -55,7 +55,7 @@ defaultContentLanguageInSubdir = false
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   
   # Details for the Contact Widget
-  email = "flograttarola@gmail.com"
+  email = "grattarola@fzp.czu.cz"
   address = "Kamýcká 129, Praha – Suchdol, 165 00, Czech Republic"
   office_hours = ""
   phone = ""
