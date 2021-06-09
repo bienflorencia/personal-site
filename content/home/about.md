@@ -41,6 +41,6 @@ weight = 5
 
 I am a Uruguayan biologist, with a PhD in Life Sciences from the University of Lincoln (United Kingdom) and a Bachelor and Master in Science from the Universidad de la República (Uruguay). 
 
-During my academic development I have been interested in several areas, from conservation genetics and macroecology, to environmental education, citizen science and biodiversity informatics. 
+My interests are around several areas, from conservation genetics and macroecology, to environmental education, citizen science and biodiversity informatics. 
 
-I am a postdoc researcher at the Faculty of Environmental Sciences of Czech University of Life Sciences, at [Petr Keil](https://petrkeil.github.io/website/)'s lab. I am the founder of [Biodiversidata](biodiversidata.org) and a NatGeo 2021 Explorer.
+I am a postdoc researcher at the Faculty of Environmental Sciences of Czech University of Life Sciences Prague, at [Petr Keil](https://petrkeil.github.io/website/)'s lab. I am the founder of [Biodiversidata](https://biodiversidata.org/), a member of [JULANA NGO](https://julana.org) and a NatGeo 2021 Explorer.
