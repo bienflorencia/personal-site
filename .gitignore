@@ -1,4 +1,4 @@
 public/
 .idea/
 themes/academic
-.DS_Store
+*.DS_Store
