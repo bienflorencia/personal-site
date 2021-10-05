@@ -1,5 +1,5 @@
 +++
-title = "NaturalistaUY"
+title = "Naturalista UY"
 date = 2021-10-01T00:00:00Z
 draft = false
 
