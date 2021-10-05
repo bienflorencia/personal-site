@@ -7,8 +7,6 @@ math = false
 draft = false
 +++
 
-![](/img/afiche_Pasantia.png)
-
 Se convoca a estudiantes de la Licenciatura en Ciencias Biológicas interesades en realizar su pasantía final de carrera en el marco del proyecto 'Naturalista UY: la comunidad de iNaturalist en Uruguay', financiado por la National Geographic Society.  
 
 Este proyecto se enmarca en el trabajo de [Biodiversidata](https://biodiversidata.org/es/) (Consorcio de Datos de Biodiversidad del Uruguay) y es apoyado por la Asociación Civil de Educación Ambiental [JULANA](https://julana.org/). El trabajo se realizará bajo la orientación de la Dra. Florencia Grattarola y la Mag. Magdalena Carabio.  
