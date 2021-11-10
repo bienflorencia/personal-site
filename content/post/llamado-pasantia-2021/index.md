@@ -28,6 +28,6 @@ Enviá un mail a flograttarola[at]gmail.com y maguicar821[at]gmail.com con tu **
 
 Alentamos a estudiantes de diversos orígenes, trayectorias y experiencias a postularse  
 
-![](img/llamado_pasantia_2021.png)
+![](/img/llamado_pasantia_2021.png)
 
 [^1]: Grattarola et al. (2020) Multiple forms of hotspots of tetrapod biodiversity and the challenges of open-access data scarcity. Scientific Reports 10, 22045. https://doi.org/10.1038/s41598-020-79074-8
