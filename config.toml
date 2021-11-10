@@ -49,13 +49,13 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [{name="Department of Spatial Sciences", url="https://www.fzp.czu.cz/en/r-9407-departments/r-9471-departments/r-9649-department-of-spatial-sciences"}, { name = "Czech University of Life Sciences Prague", url = "" }]
+  organizations = [ {name="MOBI Lab", url="https://petrkeil.github.io"},{name="Department of Spatial Sciences", url="https://www.fzp.czu.cz/en/r-9407-departments/r-9471-departments/r-9649-department-of-spatial-sciences"}, { name = "Czech University of Life Sciences Prague", url = "" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  
+
   # Details for the Contact Widget
-  email = "grattarola@fzp.czu.cz"
+  email = "grattarola[at]fzp.czu.cz"
   address = "Kamýcká 129, Praha – Suchdol, 165 00, Czech Republic"
   office_hours = ""
   phone = ""
@@ -93,22 +93,22 @@ defaultContentLanguageInSubdir = false
   latitude = "50.130124955516905"
   longitude = "14.37363028471306"
   zoom = 15
- 
+
   # SITE SETUP
-  
+
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
   color_theme = "forest"
- 
+
   # Enable users to switch between day and night mode?
   day_night = true
-  
+
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "classic"
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
   twitter = "flograttarola"
-  
+
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
@@ -158,15 +158,15 @@ defaultContentLanguageInSubdir = false
   highlight = true
   highlight_languages = []
   # highlight_style = "github"
-  
+
   # Enable native social sharing buttons?
   sharing = true
-  
+
   # Privacy pack
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
   privacy_pack = false
-  
+
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
@@ -217,7 +217,7 @@ defaultContentLanguageInSubdir = false
     #   2 = APA
     #   3 = MLA
     publication_format = 3
-    
+
     # Talk list format.
     #   0 = Simple
     #   1 = Detailed
@@ -274,12 +274,12 @@ defaultContentLanguageInSubdir = false
 
 	# Link to a PDF of your resume/CV from the About widget.
 	# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  [[params.social]]
-  
+
   [[params.social]]
     icon = "cv"
     icon_pack = "ai"
     link = "https://exportcvuy.anii.org.uy/pdf/?64557324135cff87cc3e5ad8bacbba7aeebce4442a2d42a89b8d1413e12d942fca50a711b8ab97d2c4539d97430f48d25ff422df8fc55917e2d7c2451b6f4815"
-  
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
@@ -307,12 +307,12 @@ defaultContentLanguageInSubdir = false
   name = "Talks"
   url = "#talks"
   weight = 4
-  
+
 [[menu.main]]
   name = "Blog"
   url = "#posts"
   weight = 5
-  
+
 [[menu.main]]
   name = "Contact"
   url = "#contact"
