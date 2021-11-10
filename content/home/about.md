@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Biodiversity Informatics",
-	"Open Science",
+	  "Open Science",
     "Macroecology",
     "GIS",
     "Genomics",
@@ -34,13 +34,13 @@ weight = 5
   course = "BSc (Hons) in Biological Sciences"
   institution = "Universidad de la República, Uruguay"
   year = 2012
- 
+
 +++
 
 # Biography
 
-I am a Uruguayan biologist, with a PhD in Life Sciences from the University of Lincoln (United Kingdom) and a Bachelor and Master in Science from the Universidad de la República (Uruguay). 
+I am a Uruguayan biologist, with a PhD in Life Sciences from the University of Lincoln (United Kingdom) and a Bachelor and Master in Science from the Universidad de la República (Uruguay).
 
-My interests are around several areas, from conservation genetics, macroecology and biodiversity informatics, to environmental education and participatory monitoring. I am the founder of [Biodiversidata](https://biodiversidata.org/), a member of the [JULANA NGO](https://julana.org) and a NatGeo 2021 Explorer. 
+My interests are around several areas, from conservation genetics, macroecology and biodiversity informatics, to environmental education and participatory monitoring. I am the founder of [Biodiversidata](https://biodiversidata.org/), a member of the [JULANA NGO](https://julana.org) and a NatGeo 2021 Explorer.
 
 Currently, I am a postdoc researcher at [Petr Keil](https://petrkeil.github.io/website/)'s lab.
