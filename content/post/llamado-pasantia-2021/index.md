@@ -7,6 +7,8 @@ math = false
 draft = false
 +++
 
+![](/img/llamado_pasantia_2021.png)
+
 Se convoca a estudiantes de la Licenciatura en Ciencias Biológicas interesades en realizar su pasantía final de carrera en el marco del proyecto 'Naturalista UY: la comunidad de iNaturalist en Uruguay', financiado por la National Geographic Society.  
 
 Este proyecto se enmarca en el trabajo de [Biodiversidata](https://biodiversidata.org/es/) (Consorcio de Datos de Biodiversidad del Uruguay) y es apoyado por la Asociación Civil de Educación Ambiental [JULANA](https://julana.org/). El trabajo se realizará bajo la orientación de la Dra. Florencia Grattarola y la Mag. Magdalena Carabio.  
@@ -28,6 +30,5 @@ Enviá un mail a flograttarola[at]gmail.com y maguicar821[at]gmail.com con tu **
 
 Alentamos a estudiantes de diversos orígenes, trayectorias y experiencias a postularse  
 
-![](/img/llamado_pasantia_2021.png)
 
 [^1]: Grattarola et al. (2020) Multiple forms of hotspots of tetrapod biodiversity and the challenges of open-access data scarcity. Scientific Reports 10, 22045. https://doi.org/10.1038/s41598-020-79074-8
