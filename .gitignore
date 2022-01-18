@@ -2,3 +2,4 @@ public/
 .idea/
 themes/academic
 *.DS_Store
+static/.DS_Store
