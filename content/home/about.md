@@ -10,8 +10,8 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+    "Open Science",
     "Biodiversity Informatics",
-	  "Open Science",
     "Macroecology",
     "GIS",
     "Genomics",
@@ -39,8 +39,6 @@ weight = 5
 
 # Biography
 
-I am a Uruguayan biologist, with a PhD in Life Sciences from the University of Lincoln (United Kingdom) and a Bachelor and Master in Science from the Universidad de la República (Uruguay).
+I am a Uruguayan biologist (PhD), doing research in macroecology and biodiversity informatics focused on the study of spatial and temporal patterns of biodiversity. I am a postdoc researcher at the Czech University of Life Sciences in [Petr Keil](https://petrkeil.github.io/website/)'s lab.
 
-My interests are around several areas, from conservation genetics, macroecology and biodiversity informatics, to environmental education and participatory monitoring. I am the founder of [Biodiversidata](https://biodiversidata.org/), a member of the [JULANA NGO](https://julana.org) and a NatGeo 2021 Explorer.
-
-Currently, I am a postdoc researcher at [Petr Keil](https://petrkeil.github.io/website/)'s lab.
+I am also the founder of [Biodiversidata](https://biodiversidata.org/), a member of the [JULANA NGO](https://julana.org) and the admin for [NaturalistaUY](https://www.naturalista.uy) as a NatGeoExplorer.
