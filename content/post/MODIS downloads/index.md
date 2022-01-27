@@ -8,7 +8,7 @@ draft = false
 +++
 
 Searching to download MODIS data to use on spatial analyses in R
-:earth\_americas:, I found this amazing package called `MODIStsp`[1]
+:earth_americas:, I found this amazing package called `MODIStsp`[1]
 (MODIS Time Series Processing Tool). Here is the code I used to download
 Terra MODIS yearly Land Cover data for two time periods.
 
