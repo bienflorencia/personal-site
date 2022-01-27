@@ -7,14 +7,13 @@ math = false
 draft = false
 +++
 
-Searching to download MODIS data to use on spatial analyses in R
-:earth_americas:, I found this amazing package called `MODIStsp`[1]
-(MODIS Time Series Processing Tool). Here is the code I used to download
-Terra MODIS yearly Land Cover data for two time periods.
+Searching to download MODIS data to use on spatial analyses :earth_americas:
+in R, I found this amazing package called `MODIStsp`[1]
+(MODIS Time Series Processing Tool). **Here is the code I used to download
+Terra MODIS yearly Land Cover data for two time periods.**
 
     library(MODIStsp)
     library(terra)
-    library(rasterVis)
     library(sf)
     library(tidyverse)
 
@@ -163,7 +162,7 @@ scheme (**LC1**) which identifies 17 classes defined by the
 Programme), including 11 natural vegetation classes, three human-altered
 classes, and three non-vegetated classes.
 
-You can see here the other layers of the product:
+With `MODIStsp_get_prodlayers` you can see all the layers of the product:
 
     MODIStsp_get_prodlayers("MCD12Q1")$bandnames
 
@@ -225,13 +224,6 @@ Once the data are downloaded we will process the rasters using the
     names(landcover_pre) <- 'land_pre'
     rm(landcover_pre_c)
 
-    # POS: 2014-2022
-    landcover_pos_files <- list.files('big_data/LandCover_Type_Yearly_500m_v6/LC1', '201[4-9]|202[0-9]', full.names = T)
-    landcover_pos_c <- rast(landcover_pos_files)
-    landcover_pos <- modal(landcover_pos_c)
-    names(landcover_pos) <- 'land_pos'
-    rm(landcover_pos_c)
-
     ## class       : SpatRaster 
     ## dimensions  : 25051, 23813, 1  (nrow, ncol, nlyr)
     ## resolution  : 432.3402, 432.3481  (x, y)
@@ -241,6 +233,13 @@ Once the data are downloaded we will process the rasters using the
     ## name        : landcover_pre 
     ## min value   :             1 
     ## max value   :            17
+
+    # POS: 2014-2022
+    landcover_pos_files <- list.files('big_data/LandCover_Type_Yearly_500m_v6/LC1', '201[4-9]|202[0-9]', full.names = T)
+    landcover_pos_c <- rast(landcover_pos_files)
+    landcover_pos <- modal(landcover_pos_c)
+    names(landcover_pos) <- 'land_pos'
+    rm(landcover_pos_c)
 
     ## class       : SpatRaster 
     ## dimensions  : 25051, 23813, 1  (nrow, ncol, nlyr)
@@ -256,7 +255,7 @@ As the values are numeric and we want the categories, we will rename
 them.
 
     # Renaming IGBP classification levels
-    levels(land_pre$landcover_pre) <- c( "Evergreen needleleaf forests",
+    levels(land_pre$land_pre) <- c( "Evergreen needleleaf forests",
                                     "Evergreen broadleaf forests",
                                     "Deciduous needleleaf forests",
                                     "Deciduous broadleaf forests",
@@ -274,7 +273,7 @@ them.
                                     "Barren",
                                     "Water bodies")
 
-    levels(land_pos$landcover_pos) <- c( "Evergreen needleleaf forests",
+    levels(land_pos$land_pos) <- c( "Evergreen needleleaf forests",
                                     "Evergreen broadleaf forests",
                                     "Deciduous needleleaf forests",
                                     "Deciduous broadleaf forests",
