@@ -16,7 +16,7 @@ abstract = ""
 abstract_short = "NaturalistaUY y datos abiertos de biodiversidad"
 
 # Name of event and optional event URL.
-event = "Charla"
+event = "Charla a estudiantes del Polo Educativo Tecnológico Arrayanes"
 event_url = ""
 
 # Location of event.
