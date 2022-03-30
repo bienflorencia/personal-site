@@ -2,11 +2,11 @@
 title = "JULANA"
 date = 2018-12-20T15:14:17Z
 draft = false
-  
+
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["environmental-education"]
-  
+tags = ["initiatives", "people-and-nature"]
+
 # Project summary to display on homepage.
 summary = "Jugando en la Naturaleza"
 
@@ -27,7 +27,7 @@ url_code = ""
 highlight = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -35,7 +35,7 @@ highlight = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
   preview_only = true
 
 +++

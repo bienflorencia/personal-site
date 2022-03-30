@@ -2,11 +2,11 @@
 title = "Masters in Biological Sciences Project"
 date = 2018-02-16T15:14:17Z
 draft = false
-  
+
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["thesis"]
-  
+tags = ["thesis", "molecular-ecology"]
+
 # Project summary to display on homepage.
 summary = "Contributions of molecular ecology to the study of mammals in Uruguay"
 
@@ -27,7 +27,7 @@ url_code = ""
 highlight = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -35,10 +35,10 @@ highlight = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
   preview_only = true
 
-  
+
 +++
 
 On the one hand, we identified the presence of mammals and their genetic variability through different molecular tools, and on the other, we evaluated the level of gene flow of the individuals of a particular species, the crab-eating fox (*Cerdocyon thous*), in the Uruguayan territory.

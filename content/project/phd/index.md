@@ -2,14 +2,14 @@
 title = "PhD Project"
 date = 2018-02-16T15:14:17Z
 draft = false
-  
+
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["thesis", "Biodiversidata"]
-  
+tags = ["thesis", "open-science"]
+
 # Project summary to display on homepage.
-summary = "Macroecological patterns of biodiversity across the Tree of Life: Uruguay as a model region"
-  
+summary = "Biodiversity informatics and macroecological patterns of biodiversity: Uruguay as a model region"
+
 # Optional external URL for project (replaces project detail page).
 external_link = ""
 
@@ -25,9 +25,9 @@ url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://
 
 # Does the project detail page use source code highlighting?
 highlight = true
-  
+
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -35,7 +35,7 @@ highlight = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
   preview_only = true
 +++
 

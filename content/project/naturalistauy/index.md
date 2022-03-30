@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["citizen-science", "NaturalistaUY"]
+tags = ["initiatives", "community-science"]
 
 # Project summary to display on homepage.
 summary = "El sitio de iNaturalist para Uruguay"

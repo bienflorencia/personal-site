@@ -36,25 +36,37 @@ filter_default = 0
 [[filter]]
   name = "All"
   tag = "*"
-   
-[[filter]]
-  name = "Environmental Education"
-  tag = "society-and-nature"
 
 [[filter]]
-  name = "Thesis Projects"
+  name = "People and Nature"
+  tag = "people-and-nature"
+
+[[filter]]
+    name = "Initiatives"
+    tag = "initiatives"
+
+[[filter]]
+  name = "Thesis"
   tag = "thesis"
+
+[[filter]]
+    name = "Community Science"
+    tag = "community-science"
 
 [[filter]]
   name = "Molecular Ecology"
   tag = "molecular-ecology"
 
 [[filter]]
+    name = "Postdoc"
+    tag = "postdoc"
+
+[[filter]]
   name = "Computer Science"
   tag = "bioinformatics"
-  
+
 [[filter]]
   name = "Open Science"
   tag = "open-science"
-+++
 
++++

@@ -2,11 +2,11 @@
 title = "Biodiversidata"
 date = 2019-04-25T00:00:00Z
 draft = false
-  
+
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["open-science"]
-  
+tags = ["initiatives", "open-science"]
+
 # Project summary to display on homepage.
 summary = "The Uruguayan Consortium of Biodiversity Data"
 
@@ -27,7 +27,7 @@ url_code = ""
 highlight = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -35,7 +35,7 @@ highlight = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
   preview_only = true
 
 +++
