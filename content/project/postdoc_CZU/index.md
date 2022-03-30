@@ -1,6 +1,6 @@
 +++
 title = "Postdoc Project"
-date = 2021-04-01T00:00:00Z
+date = 2022-04-01T00:00:00Z
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -8,7 +8,7 @@ draft = false
 tags = ["postdoc", "Bayesian models"]
 
 # Project summary to display on homepage.
-summary = "Range dynamics of carnivore mammals from the Neotropical region"
+summary = "Range dynamics of carnivore mammals from the Neotropics"
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

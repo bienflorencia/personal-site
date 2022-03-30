@@ -1,17 +1,17 @@
 +++
 title = "Naturalista UY"
-date = 2021-10-01T00:00:00Z
+date = 2021-12-01T00:00:00Z
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["citizen-science"]
+tags = ["citizen-science", "NaturalistaUY"]
 
 # Project summary to display on homepage.
-summary = "El sitio de iNaturalist para Uruguay (próximamente)"
+summary = "El sitio de iNaturalist para Uruguay"
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://www.inaturalist.org/observations?place_id=7259"
+external_link = "https://www.naturalista.uy"
 
 # Links (optional).
 url_pdf = ""
