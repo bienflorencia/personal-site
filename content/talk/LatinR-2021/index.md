@@ -46,7 +46,7 @@ tags = ["open data", "open-science", "citizen-science", "NaturalistaUY"]
 #slides = "example-slides"
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "pdf/Presentacion_LatinR2021.pdf"
 url_slides = ""
 url_video = "https://youtu.be/8qltR0p_Czg"
 url_code = ""
