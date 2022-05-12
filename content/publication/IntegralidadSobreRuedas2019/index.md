@@ -5,7 +5,7 @@ title = "En las fronteras de los saberes: las búsquedas de un Espacio de Formac
 date = 2019-07-26T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Chouhy M.","Santos C.", "Gaucher L.", "Grattarola F.", "Taks J.", "Bergós L.", "Garay A.", "Perazza G."]
+authors = ["Chouhy M.", "Santos C.", "Gaucher L.", "Grattarola F.", "Taks J.", "Bergós L.", "Garay A.", "Perazza G."]
 
 # Publication type.
 # Legend:
@@ -66,4 +66,3 @@ image = ""
 caption = ""
 
 +++
-

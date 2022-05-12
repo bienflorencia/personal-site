@@ -5,7 +5,7 @@ title = "Mammals of Paso Centurión, an area with relicts of Atlantic Forest in 
 date = 2020-07-24T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Grattarola F.", "Rodríguez-Tricot, L."]
+authors = ["Grattarola F.", "Rodríguez-Tricot L."]
 
 # Publication type.
 # Legend:

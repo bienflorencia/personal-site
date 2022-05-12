@@ -5,7 +5,7 @@ title = "A novel primer set for mammal species identification from feces samples
 date = 2014-10-18T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Grattarola, F.", "González, S.", "Cosse, M."]
+authors = ["Grattarola F.", "González S.", "Cosse M."]
 
 # Publication type.
 # Legend:

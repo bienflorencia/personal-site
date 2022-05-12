@@ -39,10 +39,10 @@ highlight = true
   preview_only = true
 +++
 
-I aim to study species geographic range distributions and their changes in time. My model taxa are carnivore mammal from the Neotropics (South America). I plan to model species distributions and the variations in time by integrating different types of data (i.e. presence-absence surveys and presence-only records) using integrative distribution models.
+I aim to study species' geographic range distributions and their changes in time. My model taxa are carnivore mammals from the Neotropics (Latin America). I plan to model species distributions and the variations in time by integrating different types of data (i.e. presence-absence surveys and presence-only records) using integrative distribution models.
 
 ### Place
-Modelling of Biodiversity Laboratory (MOBI Lab), Petr Keil's new research group at Department of Spatial Sciences at Czech University of Life Sciences in Prague (CZU), Czech Republic.
+Modelling of Biodiversity Laboratory ([MOBI Lab](https://petrkeil.github.io/)), Petr Keil's research group at Department of Spatial Sciences at Czech University of Life Sciences in Prague (CZU), Czech Republic.
 
 ### Years
 2021-2023

@@ -5,7 +5,7 @@ title = "The multiple origins of sexual size dimorphism in global amphibians"
 date = 2020-11-29T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Pincheira-Donoso D.", "Harvey L. P.", "Grattarola F.", "Jara M.", "Cotter S. C.", "Tregenza T.", "Hodgson D. J."]
+authors = ["Pincheira-Donoso D.", "Harvey L.P.", "Grattarola F.", "Jara M.", "Cotter S.C.", "Tregenza T.", "Hodgson D.J."]
 
 # Publication type.
 # Legend:

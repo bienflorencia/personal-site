@@ -8,7 +8,7 @@ draft = false
 tags = ["initiatives", "community-science"]
 
 # Project summary to display on homepage.
-summary = "El sitio de iNaturalist para Uruguay"
+summary = "El sitio local de iNaturalist para Uruguay"
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://www.naturalista.uy"

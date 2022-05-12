@@ -5,7 +5,7 @@ title = "Fogones de Fauna: An Experience of Participatory Monitoring of Wildlife
 date = 2018-07-10T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Bergós, L.", "Grattarola, F.", "Barreneche, J. M.", "Hernández, D.", "González, S."]
+authors = ["Bergós L.", "Grattarola F.", "Barreneche J.M.", "Hernández D.", "González S."]
 
 # Publication type.
 # Legend:

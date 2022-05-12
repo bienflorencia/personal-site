@@ -5,7 +5,7 @@ title = "Multiple forms of hotspots of tetrapod biodiversity and the challenges 
 date = 2020-12-16T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Grattarola, F.", "Martínez-Lanfranco, J.A.", "Botto, G.", "Naya, E.D.", "Maneyro, R.", "Mai, P.", "Hernández, D.", "Laufer, G.", "Ziegler, L.", "González, E.M.", "da Rosa, I.", "Gobel, N.", "González, A.", "González, J.", "Rodales, A.L.", "Pincheira-Donoso, D."]
+authors = ["Grattarola F.", "Martínez-Lanfranco J.A.", "Botto G.", "Naya E.D.", "Maneyro R.", "Mai P.", "Hernández D.", "Laufer G.", "Ziegler L.", "González E.M.", "da Rosa I.", "Gobel N.", "González A.", "González J.", "Rodales A.L.", "Pincheira-Donoso D."]
 
 # Publication type.
 # Legend:
