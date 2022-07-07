@@ -9,7 +9,7 @@ draft = false
 
 I recently jumped into Bayesian analysis and Integrated Species Distribution Modelling. Here's the preprint out of an amazing collaboration with Diana Bowler and Petr Keil: ['Integrating presence-only and presence-absence data to model changes in species geographic ranges: An example of yaguarundí in Latin America'](https://doi.org/10.32942/osf.io/67c4u).  
 
-The are no standard methods to assess the performance of these models, yet posterior predictive checks are a good option. For our model we needed a statistic that fitted a binomial regression, to assess the performance on the presence-absence data. A nice and simple metric for this is Tjur’s $D$ or Tjur’s coefficient of discrimination ([Tjur 2009](https://doi.org/10.1198/tast.2009.08210)).
+The are no standard methods to assess the performance of these models, yet posterior predictive checks are a good option. For our model we needed a statistic that fitted a binomial regression, to assess the performance on the presence-absence data. A nice and simple metric for this is Tjur’s coefficient of discrimination $D$ ([Tjur 2009](https://doi.org/10.1198/tast.2009.08210)).
 
 This pseudo R square value compares the average fitted probability $\psi$ of the two response outcomes (1=presence or 0=absence):
 
