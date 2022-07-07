@@ -7,20 +7,20 @@ math = true
 draft = false
 +++
 
-I recently jumped into Bayesian analysis and Integrated Species Distribution Modelling. Here's our preprint ['Integrating presence-only and presence-absence data to model changes in species geographic ranges: An example of yaguarundí in Latin America'](https://doi.org/10.32942/osf.io/67c4u), an amazing collaboration with Diana Bowler and Petr Keil.
+I recently jumped into Bayesian analysis and Integrated Species Distribution Modelling. Here's the preprint out of an amazing collaboration with Diana Bowler and Petr Keil: ['Integrating presence-only and presence-absence data to model changes in species geographic ranges: An example of yaguarundí in Latin America'](https://doi.org/10.32942/osf.io/67c4u).  
 
 The are no standard methods to assess the performance of these models, yet posterior predictive checks are a good option. For our model we needed a statistic that fitted a binomial regression, to assess the performance on the presence-absence data. A nice and simple metric for this is Tjur’s $D$ or Tjur’s coefficient of discrimination ([Tjur 2009](https://doi.org/10.1198/tast.2009.08210)).
 
-The Tjur pseudo R square value compares the average fitted probability $\psi$ of the two response outcomes (1=presence or 0=absence):
+This pseudo R square value compares the average fitted probability $\psi$ of the two response outcomes (1=presence or 0=absence):
 
 $R^2Tjur = \dfrac{1}{n_1} \sum(\psi[Y=1]) - \dfrac{1}{n_0} \sum(\psi[Y=0])$
 
-If the model has perfect discriminating power, then $R^2Tjur$=1. If the model has no discriminating power, then $R^2Tjur$=0.
-
-
-Here I provide some code to assess the performance of a model with binomial response to be included directly in the JAGS model. This was inspired by the work of Viana, Keil, & Jeliazkov and their [R2D2 functions](https://github.com/duarte-viana/iVarPart/blob/master/R2D2_functions.R). The code to simulate the data was adapted from code written by [Petr Keil](https://petrkeil.github.io/team/2020/09/01/petr-keil.html).
+If the model has perfect discriminating power, then $R^2Tjur$ will equal 1. If the model has no discriminating power, then $R^2Tjur = 0$.
 
 # Code
+
+Here I provide the code to assess the performance of a model with a binomial response that is included directly in the JAGS code. This was inspired by the work of Viana, Keil, & Jeliazkov and their [R2D2 functions](https://github.com/duarte-viana/iVarPart/blob/master/R2D2_functions.R). The code to simulate the data was adapted from code written by [Petr Keil](https://petrkeil.github.io/team/2020/09/01/petr-keil.html).
+
 
     library(spatstat)
     library(sp)
