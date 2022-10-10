@@ -39,6 +39,6 @@ weight = 5
 
 # Biography
 
-I am a Uruguayan biologist (PhD), doing research in macroecology and biodiversity informatics focused on the study of spatial and temporal patterns of biodiversity. I am a postdoc researcher at the Czech University of Life Sciences in [Petr Keil](https://petrkeil.github.io/website/)'s lab.
+I am a Uruguayan biologist (PhD), doing research in macroecology and biodiversity informatics focused on the study of spatial and temporal patterns of biodiversity. I am a postdoc researcher at the Czech University of Life Sciences in [Petr Keil](https://petrkeil.github.io/team/2020/09/01/petr-keil.html)'s lab.
 
 I am also the founder of [Biodiversidata](https://biodiversidata.org/), a member of the [JULANA NGO](https://julana.org), the admin for the [NaturalistaUY](https://www.naturalista.uy) site, and a [NatGeoExplorer](https://www.nationalgeographic.org/find-explorers/ED0031R000029s0gjQAA).
