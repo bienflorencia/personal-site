@@ -28,19 +28,19 @@ selected = true
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["deep-learning"]` references 
+#   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["iNat", "biodiversidata"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Open data","iNaturalist", "citizen-science"]
+tags = ["open data","iNaturalist", "citizen-science", "biodiversidata"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
+#   E.g. `slides = "example-slides"` references
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 #slides = "example-slides"
@@ -55,7 +55,7 @@ url_code = ""
 math = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -63,7 +63,7 @@ math = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
 +++
 
 # Clase para estudiantes de la carrera de Ingeniería Agroambiental (UTEC Durazno)
@@ -72,9 +72,7 @@ Esta clase fue una invitación de la docente Sofía Cortizas a participar del cu
 
 ### Temática
 1. ¿Qué es la Biodiversidad?
-2. ¿Qué son los datos abiertos de biodiversidad? 
+2. ¿Qué son los datos abiertos de biodiversidad?
 3. ¿Cuánto conocemos de la biodiversidad en Uruguay? - **Biodiversidata**
 4. Ciencia abierta - El caso de **JULANA**
 5. No solo lo/as científicos/as puedena portar (iNaturalist)
-
-

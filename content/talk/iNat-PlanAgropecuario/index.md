@@ -28,10 +28,10 @@ selected = true
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["deep-learning"]` references 
+#   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["iNat"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -40,7 +40,7 @@ tags = ["iNaturalist", "citizen-science"]
 # Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
+#   E.g. `slides = "example-slides"` references
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 #slides = "example-slides"
@@ -55,7 +55,7 @@ url_code = ""
 math = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -63,7 +63,7 @@ math = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
 +++
 
 # Charla con integrantes del Plan Agropecuario - iNaturalist
@@ -71,6 +71,3 @@ math = true
 ![foto_PlanAgropecuario_iNat](https://pbs.twimg.com/media/Eyj9O7JWQAYcHMN?format=jpg&name=large)
 
 Esta charla se hizo a partir de la invitación de Marcelo Pereira (Plan Agropecuario), a raíz de la posibilidad de integrar la herramienta iNaturalist al proyecto del área Gestión del Pasto.
-
-
-

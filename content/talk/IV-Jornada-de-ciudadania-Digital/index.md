@@ -31,11 +31,11 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["biodiversidata"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Open data"]
+tags = ["open data"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.

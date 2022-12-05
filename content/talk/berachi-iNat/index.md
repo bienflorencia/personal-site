@@ -28,10 +28,10 @@ selected = true
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["deep-learning"]` references 
+#   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["julana"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -40,7 +40,7 @@ tags = ["iNaturalist", "citizen-science"]
 # Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
+#   E.g. `slides = "example-slides"` references
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 #slides = "example-slides"
@@ -55,7 +55,7 @@ url_code = ""
 math = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -63,7 +63,7 @@ math = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
 +++
 
 # Charla con gurises de Berachí - iNaturalist
@@ -71,6 +71,3 @@ math = true
 ![foto_Berachi_iNat](https://pbs.twimg.com/media/EhFlgSHXsAEtNVB?format=jpg&name=large)
 
 Esta charla se hizo a partir de la invitación del proyecto RACATÚ de [Julana](julana.org), organización que trabaja en el monitoreo de fauna con cámaras trámpa en la zona. La idea fue presentarles a los alumnos y alumnas de la escuela de Berachí, qué es la ciencia ciudadana y para qué sirve, y mostrarles la plataforma iNaturalist y sus funcionalidades. Berachí es una localidad del departamento de Cerro Largo en Uruguay, cercana al área protegida de Paso Centurión y Sierra de Ríos, una de las zonas más biodiversas del país.
-
-
-

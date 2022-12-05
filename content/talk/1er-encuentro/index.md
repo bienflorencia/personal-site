@@ -28,19 +28,19 @@ selected = true
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["deep-learning"]` references 
+#   E.g. `projects = ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["phd"]
+projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Open Data"]
+tags = ["open data"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
+#   E.g. `slides = "example-slides"` references
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 #slides = "example-slides"
@@ -55,7 +55,7 @@ url_code = ""
 math = true
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
   caption = ""
@@ -63,7 +63,7 @@ math = true
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  
+
 +++
 
 The event took place the 5th of October 2018 in the School of Science of the Universidad de la República in Montevideo, Uruguay. The Conference represented the first meeting of the consortium associates and consisted in four sessions, i) presentation of Biodiversidata, ii) progress so far, iii) agreements and commitments, and iv) plan of future goals. Participants from diverse biodiversity areas of expertise agreed this was a fundamental instance to understand the relevance of the initiative, discuss about the urgency of data openness in science in Uruguay, the aims of the new association and prioritise the future agenda of the organisation. The possibility of a face to face meeting enabled me to get to know the different experts and discuss the particular aspects of each biodiversity field. As agreed in the conference, from now onwards I plan to present a series of web meetings with specific topics and aims, to continue deepening in agreements and organisation aspects.
