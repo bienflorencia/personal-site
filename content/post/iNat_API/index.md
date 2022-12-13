@@ -11,9 +11,9 @@ I was interested to know how many of the users generating records in [Naturalist
 
 Basically, this API enables you to query the **iNaturalist** database by using different methods, parameters and values. For instance, you can **search** and **fetch** data on observers, such as number of observations (`observation_count`) or number of species observed (`species_count`), by providing a username (`user_login`). The result is a JSON that you can parse and analyse.
 
-### Let’s get on with it! An example
+### Let’s get on with it!
 
-To start with an example, I’m going to use my own username (`flo_grattarola`) as value for the `user_login` parameter to do a query, using `GET /observations/observers` ([see it in the API](https://api.inaturalist.org/v1/docs/#!/Observations/get_observations_observers)), which ‘*returns observers of observations matching the search criteria and the count of observations and distinct taxa of rank species they have observed*’.
+To start with an example, I’m going to use my own username (`flo_grattarola`) as value for the `user_login` parameter to do a query, using `GET /observations/observers` ([see it in the API](https://api.inaturalist.org/v1/docs/#!/Observations/get_observations_observers)), which *'returns observers of observations matching the search criteria and the count of observations and distinct taxa of rank species they have observed'*.
 
 So, by running the following query:
 
@@ -64,11 +64,9 @@ We get as output, the following data in JSON format:
 
 ### Assessing users in NaturalistaUY
 
-First, we need to download the data from [naturalista.uy](naturalista.uy) (ours was on 2022-10-27). Then, we calculate the number of observations made by each user in Uruguay (`observation_count_UY`), and keep the `user_id` and `user_login` variables. You can do this by using functions `group_by()` and `count()`.  
+First, we need to download the data from [naturalista.uy](naturalista.uy) (ours was downloaded on 2022-10-27). Then, we calculate the number of observations made by each user in Uruguay (`observation_count_UY`), and keep the `user_id` and `user_login` variables. You can do this by using functions `group_by()` and `count()`. You could also do this using the API, but in our case, we already had the data.
 
-We found a total of **1,788** users in NaturalistaUY. The user with largest number of records has **4,755** observations and on average users have uploaded **29.9** records to iNat.  
-
-Here’s a glance of the data:  
+We found a total of **1,788** users in NaturalistaUY. The user with largest number of records has **4,755** observations and on average users have uploaded **29.9** records to iNat.  Here’s a glance of the data:  
 
 | user_id | user_login          | observation_count_UY |
 |--------:|:--------------------|---------------------:|
@@ -149,11 +147,11 @@ To run the function, we need to provide a list of users’ `user_login`s. Let’
      [7] "patriciabidondo"     "weba69"              "bert_in_the_skirt"  
     [10] "vanesssa_v"         
 
-When we run it, the function prints in the console the users’ `user_login` that it is assessing, so we can have an idea of the progress. If the user is found it will print the name and `--> DONE`, while if it’s not found, it will return `--> NOT FOUND`.  
+ When we run it, the function prints in the console the users’ `user_login` that it is assessing, so we can have an idea of the progress.
 
     NatUY_users_assessment <- get_observers_num_observations(NatUY_users_selection$user_login)
 
-  And get the following console output:  
+If the user is found it will print the name and `--> DONE`, while if it’s not found, it will return `--> NOT FOUND`.
 
     1 usuario: noelia --> DONE
     2 usuario: romigaleota --> DONE
@@ -168,7 +166,7 @@ When we run it, the function prints in the console the users’ `user_login` tha
 
 ### How do results look?
 
-In the end we get a table with the counts.  
+In the end, we get a table with the counts.  
 
 | user_id | user_login          | observation_count_iNat |
 |--------:|:--------------------|-----------------------:|
