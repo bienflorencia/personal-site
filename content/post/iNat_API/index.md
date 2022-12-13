@@ -12,8 +12,6 @@ draft = false
 <script src="iNat_API_files/libs/jsoneditor-5.25.6/jsoneditor.min.js"></script>
 <script src="iNat_API_files/libs/jsonedit-binding-3.0.0/jsonedit.js"></script>
 
-## First steps with the iNaturalist API
-
 I was interested to know how many of the users generating records on
 [NaturalistaUY](https://www.naturalista.uy) (the Uruguayan site of
 iNaturalist), are, in fact, Uruguayan users. With Rodrigo Montiel, we
