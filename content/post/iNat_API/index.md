@@ -145,9 +145,7 @@ It is probably written in a too complicated way, but it does the job 🥹
 To run the function, we need to provide a list of users’ `user_login`s.   
 Let’s use as an example the previous list.
 
-``` r
-NatUY_users_selection$user_login
-```
+    NatUY_users_selection$user_login
 
      [1] "noelia"              "romigaleota"         "goncrisdi"          
      [4] "jorgejuanrueda"      "beln15"              "ceciliapomboposente"
@@ -156,9 +154,8 @@ NatUY_users_selection$user_login
 
 When we run it, the function prints in the console the users’ `user_login` that it is assessing, so we can have an idea of the progress. If the user is found it will print the name and `--> DONE`, while if it’s not found, it will return `--> NOT FOUND`.  
 
-``` r
-NatUY_users_assessment <- get_observers_num_observations(NatUY_users_selection$user_login)
-```
+    NatUY_users_assessment <- get_observers_num_observations(NatUY_users_selection$user_login)
+
 
     1 usuario: noelia --> DONE
     2 usuario: romigaleota --> DONE
