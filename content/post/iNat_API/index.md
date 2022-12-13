@@ -93,50 +93,50 @@ An **important consideration** to using this API is that we could overflow it by
 
 Here’s the function:
 
-``` r
-library(httr)
-library(jsonlite)
-library(tidyverse)
 
-get_observers_num_observations <- function(user_login_list){
-  observers_num_observations <- tibble(user_id = numeric(),
-                                       user_login = character(),
-                                       observation_count_iNat = numeric())
+    library(httr)
+    library(jsonlite)
+    library(tidyverse)
 
-  num_results <- 1  # se usa para dormir la llamada a la API y para imprimir en consola el progreso
+    get_observers_num_observations <- function(user_login_list){
+      observers_num_observations <- tibble(user_id = numeric(),
+                                           user_login = character(),
+                                           observation_count_iNat = numeric())
 
-  for (user_login in user_login_list) {
+      num_results <- 1  # se usa para dormir la llamada a la API y para imprimir en consola el progreso
 
-    if ((num_results %% 10) + 10 == 10) {
-      Sys.sleep(10) # La API necesita un delay porque si no da error. Cada 10 users, el código para 10 segundos
+      for (user_login in user_login_list) {
+
+        if ((num_results %% 10) + 10 == 10) {
+          Sys.sleep(10) # La API necesita un delay porque si no da error. Cada 10 users, el código para 10 segundos
+        }
+
+        call <- paste0("https://api.inaturalist.org/v1/observations/observers?user_login=", user_login)
+
+        get_json_call <- GET(url = call) %>%
+          content(as = "text") %>% fromJSON(flatten = TRUE)
+
+        if (is.null(get_json_call)) {
+          observer_num_observations <- tibble(user_id = NA,
+                                              user_login = user_login,
+                                              observation_count_iNat = NA)
+          observers_num_observations <- rbind(observers_num_observations, observer_num_observations)
+          cat(num_results, 'usuario:', user_login, '--> NOT FOUND', '\n')
+        }
+        else {
+          results <- as_tibble(get_json_call$results)
+          observer_num_observations <- tibble(user_id = results$user_id,
+                                              user_login = results$user.login,
+                                              observation_count_iNat = results$observation_count)
+
+          observers_num_observations <- rbind(observers_num_observations, observer_num_observations)
+          cat(num_results, 'usuario:', user_login, '--> DONE', '\n')
+        }
+        num_results <- nrow(observers_num_observations) + 1
+      }
+      return(observers_num_observations)
     }
 
-    call <- paste0("https://api.inaturalist.org/v1/observations/observers?user_login=", user_login)
-
-    get_json_call <- GET(url = call) %>%
-      content(as = "text") %>% fromJSON(flatten = TRUE)
-
-    if (is.null(get_json_call)) {
-      observer_num_observations <- tibble(user_id = NA,
-                                          user_login = user_login,
-                                          observation_count_iNat = NA)
-      observers_num_observations <- rbind(observers_num_observations, observer_num_observations)
-      cat(num_results, 'usuario:', user_login, '--> NOT FOUND', '\n')
-    }
-    else {
-      results <- as_tibble(get_json_call$results)
-      observer_num_observations <- tibble(user_id = results$user_id,
-                                          user_login = results$user.login,
-                                          observation_count_iNat = results$observation_count)
-
-      observers_num_observations <- rbind(observers_num_observations, observer_num_observations)
-      cat(num_results, 'usuario:', user_login, '--> DONE', '\n')
-    }
-    num_results <- nrow(observers_num_observations) + 1
-  }
-  return(observers_num_observations)
-}
-```
 
 It is probably written in a too complicated way, but it does the job 🥹
 
