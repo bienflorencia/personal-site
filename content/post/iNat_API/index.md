@@ -11,6 +11,7 @@ draft = false
 <link href="iNat_API_files/libs/jsoneditor-5.25.6/jsoneditor.min.css" rel="stylesheet" />
 <script src="iNat_API_files/libs/jsoneditor-5.25.6/jsoneditor.min.js"></script>
 <script src="iNat_API_files/libs/jsonedit-binding-3.0.0/jsonedit.js"></script>
+
 ## First steps with the iNaturalist API
 
 I was interested to know how many of the users generating records on
@@ -60,8 +61,8 @@ calculate the number of observations made by each user in Uruguay
 variables. You can do this by using functions `group_by()` and
 `count()`.
 
-We found a total of **1788** users in NaturalistaUY. The user with
-largest number of records has **4755** observations and on average users
+We found a total of **1,788** users in NaturalistaUY. The user with
+largest number of records has **4,755** observations and on average users
 have uploaded **29.9** records to iNat.
 
 Here’s a glance of the data:
@@ -224,7 +225,7 @@ left_join(NatUY_users_selection, NatUY_users_assessment) %>%
 
 ### Conclusions
 
-From the total of **1788** users, **1282** are Uruguayans (i.e., have
+From the total of **1,788** users, **1,282** are Uruguayans (i.e., have
 recorded more than 1/3 of their observations in Uruguay), while **517**
 are not. We also found **11** users that seem to have deleted their
 accounts in the platform and, thus, they were not found.
