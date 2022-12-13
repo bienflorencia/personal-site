@@ -7,10 +7,10 @@ math = true
 draft = false
 +++
 
-<script src="iNat_API_files/libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<link href="iNat_API_files/libs/jsoneditor-5.25.6/jsoneditor.min.css" rel="stylesheet" />
-<script src="iNat_API_files/libs/jsoneditor-5.25.6/jsoneditor.min.js"></script>
-<script src="iNat_API_files/libs/jsonedit-binding-3.0.0/jsonedit.js"></script>
+<script src="/img/iNat_API_files/libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="/img/iNat_API_files/libs/jsoneditor-5.25.6/jsoneditor.min.css" rel="stylesheet" />
+<script src="/img/iNat_API_files/libs/jsoneditor-5.25.6/jsoneditor.min.js"></script>
+<script src="/img/iNat_API_files/libs/jsonedit-binding-3.0.0/jsonedit.js"></script>
 
 I was interested to know how many of the users generating records on
 [NaturalistaUY](https://www.naturalista.uy) (the Uruguayan site of
@@ -44,8 +44,42 @@ So, by running the following query:
 
 We get as output, the following data in JSON format:
 
-<div id="htmlwidget-d0ecb6cd81c4d84e2aa3" style="width:672px;height:700px;" class="jsonedit html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d0ecb6cd81c4d84e2aa3">{"x":{"data":"{\n  \"total_results\": 1,\n  \"page\": 1,\n  \"per_page\": 500,\n  \"results\": [\n    {\n      \"user_id\": 736016,\n      \"observation_count\": 3649,\n      \"species_count\": 1246,\n      \"user\": {\n        \"id\": 736016,\n        \"login\": \"flo_grattarola\",\n        \"spam\": false,\n        \"suspended\": false,\n        \"created_at\": \"2017-12-15T15:54:34+00:00\",\n        \"login_autocomplete\": \"flo_grattarola\",\n        \"login_exact\": \"flo_grattarola\",\n        \"name\": \"Florencia Grattarola\",\n        \"name_autocomplete\": \"Florencia Grattarola\",\n        \"orcid\": \"https://orcid.org/0000-0001-8282-5732\",\n        \"icon\": \"https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273\",\n        \"observations_count\": 3649,\n        \"identifications_count\": 5779,\n        \"journal_posts_count\": 1,\n        \"activity_count\": 9429,\n        \"species_count\": 1419,\n        \"universal_search_rank\": 3649,\n        \"roles\": [\n          \"curator\"\n        ],\n        \"site_id\": 28,\n        \"icon_url\": \"https://static.inaturalist.org/attachments/users/icons/736016/medium.jpeg?1513353273\"\n      }\n    }\n  ]\n}","options":{"mode":"code","modes":["code","form","text","tree","view"]}},"evals":[],"jsHooks":[]}</script>
+`{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 500,
+  "results": [
+    {
+      "user_id": 736016,
+      "observation_count": 3649,
+      "species_count": 1246,
+      "user": {
+        "id": 736016,
+        "login": "flo_grattarola",
+        "spam": false,
+        "suspended": false,
+        "created_at": "2017-12-15T15:54:34+00:00",
+        "login_autocomplete": "flo_grattarola",
+        "login_exact": "flo_grattarola",
+        "name": "Florencia Grattarola",
+        "name_autocomplete": "Florencia Grattarola",
+        "orcid": "https://orcid.org/0000-0001-8282-5732",
+        "icon": "https://static.inaturalist.org/attachments/users/icons/736016/thumb.jpeg?1513353273",
+        "observations_count": 3649,
+        "identifications_count": 5779,
+        "journal_posts_count": 1,
+        "activity_count": 9429,
+        "species_count": 1419,
+        "universal_search_rank": 3649,
+        "roles": [
+          "curator"
+        ],
+        "site_id": 28,
+        "icon_url": "https://static.inaturalist.org/attachments/users/icons/736016/medium.jpeg?1513353273"
+      }
+    }
+  ]
+}`
 
 <br> Great! This query gives us all the data we need, especially the
 `observation_count` value for each user.
@@ -200,13 +234,7 @@ In the end we get a table with the counts.
 Finally, we merge the results with our original table and count the
 proportion of records from each user that were recorded in Uruguay. We
 can even make a guess of who is Uruguayan (those that did more than
-**%30** of their observations in Uruguay)(see `esUruguaye`).
-
-``` r
-left_join(NatUY_users_selection, NatUY_users_assessment) %>%
-  mutate(proporcion = round(observation_count_UY*100/observation_count_iNat, 3),
-         esUruguaye = ifelse(proporcion>=33, 'si', 'no')) %>% kable
-```
+**%30** of their observations in Uruguay), see variable `esUruguaye`.  
 
 | user_id | user_login          | observation_count_UY | observation_count_iNat | proporcion | esUruguaye |
 |--------:|:--------------------|---------------------:|-----------------------:|-----------:|:-----------|
