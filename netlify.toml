@@ -3,11 +3,9 @@
   command = "hugo"
 
 [context.production.environment]
-  HUGO_VERSION = "0.52"
+  HUGO_VERSION = "0.54"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
-  GIT_CONFIG_NOSYSTEM= "true"
-
 
 [[redirect]]
   from = "https://flograttarola.netlify.com/" #old path
