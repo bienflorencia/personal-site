@@ -46,7 +46,7 @@ tags = ["GBS", "NaturalistaUY"]
 #slides = "example-slides"
 
 # Links (optional).
-url_pdf = "pdf/Taller_GBS2022_24oct2022.pdf"
+url_pdf = "pdf/Taller_Preparación_GBS2022_24Oct2022.pdf"
 url_slides = "https://docs.google.com/presentation/d/1acK6ZD41f8XMQQsUhKtop_vik_07187KQVtL8iUzPQQ/edit?usp=sharing"
 url_video = "https://youtu.be/sPKhUy3CJQ0"
 url_code = ""
