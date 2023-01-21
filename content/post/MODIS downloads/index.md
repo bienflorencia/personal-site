@@ -215,8 +215,8 @@ Once the data are downloaded we will process the rasters using the `terra` packa
     # PRE: 2000-2013
     landcover_pre_files <- list.files('big_data/LandCover_Type_Yearly_500m_v6/LC1', '200[0-1]|201[0-3]', full.names = T)
     landcover_pre_c <- rast(landcover_pre_files)
-    landcover_pre <- modal(landcover_pre_c)
-    names(landcover_pre) <- 'land_pre'
+    land_pre <- modal(landcover_pre_c)
+    names(land_pre) <- 'land_pre'
     rm(landcover_pre_c)
 
     ## class       : SpatRaster
@@ -232,8 +232,8 @@ Once the data are downloaded we will process the rasters using the `terra` packa
     # POS: 2014-2022
     landcover_pos_files <- list.files('big_data/LandCover_Type_Yearly_500m_v6/LC1', '201[4-9]|202[0-9]', full.names = T)
     landcover_pos_c <- rast(landcover_pos_files)
-    landcover_pos <- modal(landcover_pos_c)
-    names(landcover_pos) <- 'land_pos'
+    land_pos <- modal(landcover_pos_c)
+    names(land_pos) <- 'land_pos'
     rm(landcover_pos_c)
 
     ## class       : SpatRaster
@@ -246,7 +246,7 @@ Once the data are downloaded we will process the rasters using the `terra` packa
     ## min value   :             1
     ## max value   :            17
 
-As the values are numeric and we want the categories, we will rename them.
+As the values are numeric and we want the categories, we will rename them. Please bear in mind that your landcover layer might not have the same classes/levels as mine. Check here the classification values: [MCD12_User_Guide_V6](https://lpdaac.usgs.gov/documents/101/MCD12_User_Guide_V6.pdf) (see page 7 Classification Legends). 
 
     # Renaming IGBP classification levels
     levels(land_pre$land_pre) <- c( "Evergreen needleleaf forests",
