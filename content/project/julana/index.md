@@ -1,41 +1,25 @@
-+++
-title = "JULANA"
-date = 2018-12-20T15:14:17Z
-draft = false
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["initiatives", "people-and-nature"]
-
-# Project summary to display on homepage.
-summary = "Jugando en la Naturaleza"
+---
+title: JULANA
+summary: Jugando en la Naturaleza
+tags:
+  - people-and-nature
+  - initiatives
+date: "2019-12-20T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://julana.org/"
+external_link: http://julana.org/
 
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
+image:
+  caption:
+  focal_point: Smart
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
-
-# Does the project detail page use source code highlighting?
-highlight = true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-
-  preview_only = true
-
-+++
+links:
+  - icon: facebook
+    icon_pack: fab
+    name: Follow
+    url: https://facebook.com/jugandoenlanaturaleza
+  - icon: instagram
+    icon_pack: fab
+    name: Follow
+    url: https://instagram.com/julana.uy
+---

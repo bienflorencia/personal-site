@@ -1,68 +1,76 @@
-+++
-title = "En las fronteras de los saberes: las búsquedas de un Espacio de Formación Integral sobre sociedad-naturaleza"
+---
+title: "En las fronteras de los saberes: las búsquedas de un Espacio de Formación Integral sobre sociedad-naturaleza"
 
-# Date first published.
-date = 2019-07-26T00:00:00
+authors:
+- Magdalena Chouhy
+- Carlos Santos
+- Lucía Gaucher
+- admin
+- Javier Taks
+- Lucía Bergós
+- Andrea Garay
+- Gabriel Perazza
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Chouhy M.", "Santos C.", "Gaucher L.", "Grattarola F.", "Taks J.", "Bergós L.", "Garay A.", "Perazza G."]
+author_notes:
+- ""
+- ""
+date: "2019-07-26T00:00:00Z"
+doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: "2019-07-26T00:00:00Z"
 
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference proceedings
-# 2 = Journal
-# 3 = Work in progress
-# 4 = Technical report
-# 5 = Book
-# 6 = Book chapter
-publication_types = ["2"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["2"]
 
-# Publication name and optional abbreviated version.
-publication = "*Integralidad Sobre Ruedas*"
-publication_short = ""
+# Publication name and optional abbreviated publication name.
+publication: "*Integralidad Sobre Ruedas, 4*(1), 62–77"
+publication_short: ""
 
-# Abstract and optional shortened version.
-abstract = "Este artículo realiza una revisión crítica de la trayectoria del Espacio de Formación Integral (EFI) «Relaciones sociedad-naturaleza en la frontera» con foco en los siguientes aspectos: interdisciplinariedad, propuesta pedagógica y diálogo de saberes."
-abstract_short = ""
+abstract: Este artículo realiza una revisión crítica de la trayectoria del Espacio de Formación Integral (EFI) «Relaciones sociedad-naturaleza en la frontera» con foco en los siguientes aspectos; interdisciplinariedad, propuesta pedagógica y diálogo de saberes.
 
-# Featured image thumbnail (optional)
-image_preview = ""
+# Summary. An optional shortened abstract.
+summary:
 
-# Is this a selected publication? (true/false)
-selected = false
+tags:
+- people-and-nature
 
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["nature-society"]
+featured: false
 
-# Links (optional).
-url_pdf = "pdf/integralidad_sobre_ruedas_Article.pdf"
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
+links:
+ - name: "URL"
+   url: "http://ojs.fhuce.edu.uy/index.php/insoru/article/view/234"
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "URL", url = "http://ojs.fhuce.edu.uy/index.php/insoru/article/view/234"}]
-
-# Digital Object Identifier (DOI)
-doi = ""
-
-# Does the content use math formatting?
-math = true
+url_pdf: ''
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
 
-+++
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ''
+---

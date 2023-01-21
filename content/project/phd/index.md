@@ -1,45 +1,41 @@
-+++
-title = "PhD Project"
-date = 2018-02-16T15:14:17Z
-draft = false
+---
+title: PhD in Life Sciences
+summary: Biodiversity informatics and macroecological patterns of biodiversity. Uruguay as a model region
+tags:
+  - thesis
+  - open-science
 
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["thesis", "open-science"]
-
-# Project summary to display on homepage.
-summary = "Biodiversity informatics and macroecological patterns of biodiversity: Uruguay as a model region"
+date: '2020-01-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link: ''
 
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
+image:
+  caption:
+  focal_point: Smart
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/biodiversidata"}]
+links:
+  - icon: graduation-cap
+    icon_pack: fa
+    name: Thesis
+    url: https://eprints.lincoln.ac.uk/id/eprint/48514/1/Grattarola,%20Florencia%20%E2%80%93%20Life%20Sciences%20%E2%80%93%20March%202021.pdf
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
 
-# Does the project detail page use source code highlighting?
-highlight = true
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ''
+---
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
+### Biodiversity informatics and macroecological patterns of biodiversity. Uruguay as a model region
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-
-  preview_only = true
-+++
-
-I aim to develop a collaborative strategic association of specialists in different biological groups for data collection of the biodiversity of Uruguay - the Uruguayan Consortium of Biodiversity Data. To quantify in an innovative way the efficiency of science investment policies represents an extraordinary and an exceptional opportunity, not only at the national level but for international impact, and for the future of Uruguay’s methods of conservation and evaluation.
+Biodiversity is declining at unprecedented rates in a rapidly changing world in which most species remain to be discovered. Thus, it is essential that countries generate mechanisms to quantitatively measure biodiversity and monitor its changes. Uruguay, in particular, covers a peculiar area where multiple bioregions of South America converge geographically, potentially driving unique biodiversity hotspots that result from the biogeographic connection of multiple bioregions. However, whether such hotspots exist in this country remains an open question, given the exceptionally limited knowledge about larger-scale biodiversity patterns. Although efforts have been made to document the distribution of biodiversity in Uruguay, comprehensive studies across the tree of life are limited and have received less attention. The aim of this study was to use Uruguay as a model region to quantify the patterns and processes of biodiversity across the Tree of Life. A key finding was to reveal that a strong sampling bias has historically affected the reconstruction of diversity patterns across all taxonomic groups in Uruguay. Therefore, it is not possible to draw definite conclusions as to whether the patterns of biodiversity we observe are real or fabricated by tactical sampling practices. This study highlights the critical knowledge shortfall situation in which Uruguay stands and, at the same time, suggests a first approach and a path to transit to start tackling this issue. Every finding in our study is a critical step towards the ambition to start a scientific quantification of biodiversity
+in this country, to provide a resource for organisations and scientists, and to raise awareness at the government level
 
 **Director of Studies**: Daniel Pincheira-Donoso.
 
@@ -49,5 +45,5 @@ I aim to develop a collaborative strategic association of specialists in differe
 2017-2020.
 
 ### Funding
-Agencia Nacional de Investigación e Innovación (ANII), Uruguay.
-University of Lincoln (UoL), United Kingdom.
+- Postgraduate Fellowship **POS_EXT_2016_1_136663**, Agencia Nacional de Investigación e Innovación (ANII), Uruguay.  
+- University of Lincoln (UoL), United Kingdom.

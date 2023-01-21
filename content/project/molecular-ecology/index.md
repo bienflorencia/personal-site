@@ -1,54 +1,41 @@
-+++
+---
+title: Landscape Genetics
+summary: The impact of environmental characteristics in the genetic structure of three native mammal species
+tags:
+  - molecular-ecology
 
-# Project title.
-title = "Landscape Genetics"
-date = 2018-02-16T15:14:17Z
-draft = false
-  
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["molecular-ecology"]
-  
-# Project summary to display on homepage.
-summary = "Impact of environmental characteristics in the genetic structure of three species of native mammals."
-  
+date: '2016-02-16T00:00:00Z'
+
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link: ''
 
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
+image:
+  caption:
+  focal_point: Smart
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+#links:
+#  - icon: twitter
+#    icon_pack: fab
+#    name: Follow
+#    url: https://twitter.com/georgecushen
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
 
-# Does the project detail page use source code highlighting?
-highlight = true
-  
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-  
-  preview_only = true
-
-+++
-
-Impact of environmental characteristics in the genetic structure of three species of native mammals.
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ''
+---
 
 The aim of this project was to evaluate the functional connectivity of the Uruguayan landscape through the analysis of the degree of population fragmentation in three indicator species of Neotropical mammals, crab-eating fox (*Cerdocyon thous*), gray brocket (*Mazama gouazoubira*) and geoffroy's cats (*Leopardus geoffroyi*).
 
 
 ### Team
-Mariana Cosse (Head Coordinator); Álvaro Soutullo (Head); Natalia Mannise; Susana González; Daniel Hernandez; Florencia Grattarola; Lucia Bartesaghi. 
+Mariana Cosse (Head Coordinator); Álvaro Soutullo (Head); Natalia Mannise; Susana González; Daniel Hernandez; Florencia Grattarola; Lucia Bartesaghi.
 
 ### Years
 2012 – 2014.

@@ -1,0 +1,30 @@
+# Theme metadata
+name = "My custom theme"
+
+[light]
+  # Primary
+  primary = "#287a3e" #284f7a
+
+  # Menu
+  menu_primary = "#fff"
+  menu_text = "#345e48" #34495e
+  menu_text_active = "#287a3e" #284f7a
+  menu_title = "#2b2b2b"
+
+  # Links
+  link = "#3aa55c" #3a6ea5
+  link_hover = "#000"
+  #link_decoration = "underline"
+
+  # Home sections
+  home_section_odd = "#ffffff"
+  home_section_even = "#f7f7f7"
+
+[dark]
+
+  # Primary
+  primary = "#f2f2f2"
+
+  link = "#bbdefb"
+  link_hover = "#bbdefb"
+  link_decoration = "underline"

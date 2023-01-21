@@ -1,11 +1,33 @@
-+++
-title = "Biodiversidata – Una propuesta de ciencia abierta en Uruguay"
-date = 2018-09-03
-tags = ["Biodiversidata"]
-categories = []
-math = false
-draft = false
-+++
+---
+title: Biodiversidata – Una propuesta de ciencia abierta en Uruguay
+subtitle:
+summary:
+authors:
+  - admin
+tags:
+  - biodiversidata
+  - cc
+
+categories: []
+projects: []
+# Date published
+date: '2018-09-03T12:00:00Z'
+# Date updated
+lastMod: '2018-09-03T12:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+
+links:
+  - icon: newspaper
+    icon_pack: fa
+    name: Nota en CCUy
+    url: http://www.creativecommons.uy/biodiversidata-una-propuesta-de-ciencia-abierta-en-uruguay/
+---
 
 La biodiversidad se encuentra en un fuerte proceso de declinación a nivel global, comparable tanto en velocidad como en magnitud a las cinco extinciones masivas previas de la historia de la Tierra. En los últimos 500 años, más de 300 especies de vertebrados terrestres se han extinguido y las poblaciones de las especies restantes muestran un 25% de disminución promedio en la abundancia. Mientras se sucede este proceso conocido como “defaunación del antropoceno” (Dirzo et al. 2014), sabemos que la mayor cantidad de especies aún quedan por descubrir. A pesar de 250 años de clasificación taxonómica y más de 1,2 millones de especies ya catalogadas en bases de datos, el 86% de las especies existentes a nivel terrestre y el 91% de las especies en el océano todavía esperan su descripción (Mora et al. 2011). Bajo este escenario, resulta clave generar mecanismos para medir cuantitativamente la riqueza ambiental y monitorear sus cambios, para un amplio conjunto de utilidades científicas, educativas y políticas. Un uso, por ejemplo, puede ser para dirigir la asignación de recursos a las regiones de mayor preocupación.
 
@@ -26,7 +48,8 @@ El futuro de la biodiversidad en Uruguay (y el mundo) depende en gran medida de 
 * Dirzo, R., H. S. Young, M. Galetti, G. Ceballos, N. J. Isaac, and B. Collen. 2014. Defaunation in the Anthropocene. Science 345:401-406.
 * Mora, C., D. P. Tittensor, S. Adl, A. G. Simpson, and B. Worm. 2011. How many species are there on Earth and in the ocean? PLoS biology 9:e1001127.
 
+<br>
 
-#### Esta nota fue publicada el 3 de setiembre de 2018 en la web de [Creative Commons Uruguay] (http://www.creativecommons.uy/biodiversidata-una-propuesta-de-ciencia-abierta-en-uruguay/)
+---
 
-
+Esta nota fue publicada el 3 de setiembre de 2018 en la web de **Creative Commons Uruguay**.

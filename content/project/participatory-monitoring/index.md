@@ -1,57 +1,49 @@
-+++
+---
+title: Fogones de Fauna
+summary: Collaborative-learning experience in the protected area of Paso Centurión
+tags:
+  - people-and-nature
 
-# Project title.
-title = "Fogones de Fauna"
-date = 2018-02-16T15:14:17Z
-draft = false
-
-# Tags: can be used for filtering projects.
-tags = ["people-and-nature"]
-
-# Project summary to display on homepage.
-summary = "Collaborative-learning experience carried out by JULANA in the locality of Paso Centurión (Cerro Largo), Uruguay"
+date: '2016-02-16T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link: ''
 
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
+image:
+  caption:
+  focal_point: Smart
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{icon_pack = "fab", icon="facebook", name="Follow", url = "https://www.facebook.com/jugandoenlanaturaleza/"}]
+links:
+  - icon: flickr
+    icon_pack: fab
+    name: Album Cámaras Trampa
+    url: https://www.flickr.com/photos/julana/albums/72157659145111845
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
 
-# Does the project detail page use source code highlighting?
-highlight = true
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ''
+---
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
+## Collaborative-learning experience in the protected area of Paso Centurión
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-
-  preview_only = true
-
-+++
-
-The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out by JULANA NGO in the village of Paso Centurión, Uruguay.
+The participatory monitoring project named Fogones de Fauna is an experience in collaborative-learning, carried out by the JULANA NGO in Paso Centurión, Uruguay.
 
 ### Team
 Lucía Gaucher, Florencia Grattarola, Gabriel Perazza, Solana González, Juan Manuel Barreneche, Lucía Rodríguez & Alejandro Duarte.
+
+### Place
+Locality of Paso Centurión. Cerro Largo, Uruguay.
 
 ### Years
 2012 – 2018.
 
 ### Funding
-Global Greengrants Fund & Red Nacional de Educación Ambiental (ReNEA-MEC).
-
-
-
-<a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/julana/albums/72157659145111845" title="Cámaras Trampa en Paso Centurión"><img src="https://live.staticflickr.com/704/21546947209_e3773a84e5_z.jpg" width="640" height="480" alt="Cámaras Trampa en Paso Centurión"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+- Global Greengrants Fund
+- Red Nacional de Educación Ambiental (ReNEA) - Ministerio de Educación y Cultura (MEC).

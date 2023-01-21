@@ -1,0 +1,30 @@
+# Theme metadata
+name = "Manya"
+
+[light]
+  # Primary
+  primary = "#333533"
+
+  # Menu
+  menu_primary = "#f5cb5c"
+  menu_text = "#333533"
+  menu_text_active = "#242423"
+  menu_title = "#333533"
+
+  # Links
+  link = "#242423"
+  link_hover = "#000"
+  link_decoration = "underline"
+
+  # Home sections
+  home_section_odd = "#e8eddf"
+  home_section_even = "#cfdbd5"
+
+[dark]
+
+  # Primary
+  primary = "#f2f2f2"
+
+  link = "#95bd81"
+  link_hover = "#000"
+  link_decoration = "underline"

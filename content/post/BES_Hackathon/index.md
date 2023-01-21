@@ -1,15 +1,30 @@
-+++
-title = "BES Quantitative Ecology Hackathon"
-date = 2019-10-08T12:00:00Z
-tags = []
-categories = []
-math = false
-draft = false
-+++
+---
+title: BES Quantitative Ecology Hackathon
+subtitle:
+summary:
+authors:
+  - admin
+tags:
+  - hackathon
+  - BES
+categories: []
+projects: []
+# Date published
+date: '2019-10-08T12:00:00Z'
+# Date updated
+lastMod: '2019-10-08T12:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+---
 
 The one-day [BES Quantitative Ecology Hackathon](https://www.eventbrite.co.uk/e/bes-quantitative-ecology-hackathon-tickets-65182749358) was led by the Quantitative Ecology SIG in partnership with the Citizen Science SIG of the British Ecological Society and saw small teams work together on challenges that combined ecological and sociological data.  
 
-![Hackathon-Group](/img/hackathon.jpg)
+![Hackathon-Group](hackathon.jpg)
 
 Me and my team ([Lea](https://twitter.com/LeaDambly), [Jack](https://twitter.com/JackHHatfield) & [Philipp](https://twitter.com/pboesu)) worked in the following challenge:
 
@@ -20,7 +35,7 @@ For this, we implemented a dynamic map using bird occurrence records from Wales 
 
 *We were awarded overall winners !*
 
-![Hackathon-Award](/img/hackathon-award.jpg)
+![Hackathon-Award](hackathon-award.jpg)
 
 
 ## Find here all the challenges GitHub repositories
@@ -30,6 +45,3 @@ For this, we implemented a dynamic map using bird occurrence records from Wales 
 - [Flickr & plantnet](https://github.com/Joemillard/plant_BES_hack)
 - [Tree data challenge](https://github.com/philipmwheeler/treedata)
 - [Where should citizen scientists record?](https://github.com/pboesu/citizen_science_value)
-
-
-

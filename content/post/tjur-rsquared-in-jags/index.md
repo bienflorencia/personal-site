@@ -1,11 +1,29 @@
-+++
-title = "Tjur's R2 in JAGS"
-date = 2022-07-07T00:00:00Z
-tags = ["R", "IDMs"]
-categories = []
-math = true
-draft = false
-+++
+---
+title: Tjur's R2 in JAGS
+subtitle: A coefficient of discrimination to assess model performance
+summary: A coefficient of discrimination to assess model performance
+authors:
+  - admin
+tags:
+  - R
+  - SDMs
+
+categories: []
+projects: []
+# Date published
+date: '2022-07-07T00:00:00Z'
+# Date updated
+lastMod: '2022-07-07T00:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+
+math: true
+---
 
 I recently jumped into Bayesian analysis and Integrated Species Distribution Modelling. Here's the preprint out of an amazing collaboration with Diana Bowler and Petr Keil: ['Integrating presence-only and presence-absence data to model changes in species geographic ranges: An example of yaguarundí in Latin America'](https://doi.org/10.32942/osf.io/67c4u).  :cat2: :earth_americas:  :hourglass_flowing_sand:
 
@@ -101,7 +119,7 @@ Here I provide the code to assess the performance of a model with a binomial res
     plot(PTS.sp, add=T, pch = 19, col = "red")
 
 
-![](/img/R2Tjur-data.png)
+![](R2Tjur-data.png)
 
 
 ## Model
@@ -191,7 +209,7 @@ Here I provide the code to assess the performance of a model with a binomial res
         annotate(geom="text", x=0.5, y=0.5,
                  label=paste('Tjur R-squared = ', r2_tjur))
 
-![](/img/R2Tjur-check.png)
+![](R2Tjur-check.png)
 
 The R-squared according to R2D2 function
 
@@ -215,4 +233,4 @@ We can see if the posterior distributions of the parameters match the simulated 
       params = c('alpha', 'beta'));
       points(true.params, 2:1, pch=19, col="red")
 
-![](/img/R2Tjur-params.png)
+![](R2Tjur-params.png)

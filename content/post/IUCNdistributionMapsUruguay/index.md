@@ -1,21 +1,36 @@
-+++
-title = "IUCN distribution data"
-date = 2020-07-15
-tags = ["Biodiversidata", "R"]
-categories = []
-math = false
-draft = false
-+++
+---
+title: IUCN distribution data
+subtitle: En Uruguay alcanzamos las primeras **10,000** observaciones en iNaturalist
+summary: En Uruguay alcanzamos las primeras **10,000** observaciones en iNaturalist
+authors:
+  - admin
+tags:
+  - biodiversidata
+  - R
 
+categories: []
+projects:
+  - Biodiversidata
+# Date published
+date: '2020-07-15T00:00:00Z'
+# Date updated
+lastMod: '2020-07-15T00:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
 
-IUCN species distribution maps are widely used to conduct spatial
-analyses. However, these data are not always as accurate in some areas
-of the globe. Uruguay, in particular, has a severe lack of information
-on the distribution of its species. Luckily, last year the [first
-comprehensive open-access biodiversity
-database](https://doi.org/10.3897/BDJ.7.e36226) in the country was made
-available by [Biodiversidata](https://biodiversidata.org/). We are going to use this data to check how
-well represented are these species in the [IUCN Red List](iucnredlist.org/) database.
+links:
+  - icon: globe
+    icon_pack: fa
+    name: More about Biodiversidata
+    url: https://www.naturalista.uy/observations?place_id=7259&subview=grid
+---
+
+IUCN species distribution maps are widely used to conduct spatial analyses. However, these data are not always as accurate in some areas of the globe. Uruguay, in particular, has a severe lack of information on the distribution of its species. Luckily, last year the [first comprehensive open-access biodiversity database](https://doi.org/10.3897/BDJ.7.e36226) in the country was made available by [Biodiversidata](https://biodiversidata.org/). We are going to use this data to check how well represented are these species in the [IUCN Red List](iucnredlist.org/) database.
 
 ### Let's see !
 
@@ -30,19 +45,13 @@ The vertebrates species list includes **664** tetrapod species.
     ## 3 Mammalia   116
     ## 4 Reptilia    68
 
-To analyse the data availabe in IUCN for Uruguay we are going to use the
-function `rl_occ_country` from the package
-[`rredlist`](https://ropensci.org/tutorials/rredlist_tutorial/). This
-function enables us to get country occurrence by species name.
+To analyse the data available in IUCN for Uruguay we are going to use the function `rl_occ_country` from the package [`rredlist`](https://ropensci.org/tutorials/rredlist_tutorial/). This function enables us to get country occurrence by species name.
 
 <br>
-</br>
 
 #### Function
 
-Let's create a function (`getIUCNSpeciesInUy`) to find if the species
-recorded in Uruguay are documented as extant in the country according to
-IUCN.
+Let's create a function (`getIUCNSpeciesInUy`) to find if the species recorded in Uruguay are documented as extant in the country according to IUCN.
 
     library(rredlist)
     library(taxize)
@@ -108,8 +117,7 @@ Lets run the function with our data:
 
     IUCNSpeciesInUy <- getIUCNSpeciesInUy(speciesList_Tetrapods)
 
-This function might take a while to run, depending on the size of your
-species list :tea: :cookie:
+This function might take a while to run, depending on the size of your species list :tea: :cookie:
 
 <br>
 </br>
@@ -119,7 +127,7 @@ species list :tea: :cookie:
 So, let's see how it went.
 
     IUCNSpeciesInUy %>%  
-      select(-numCountries) %>% 
+      select(-numCountries) %>%
       head(n=20)
 
     ##                           species           presence establishmentMeans
@@ -145,17 +153,9 @@ So, let's see how it went.
     ## 20              Rhinella diptycha Not recorded in UY Not recorded in UY
 
 
-According to IUCN, 76 species in our databse are not considered extant
-in the country. There's a species considered extinct (*Blastocerus
-dichotomus*) and one as possibly extinct (*Chrysocyon brachyurus*). But,
-what about those **NOT FOUND**? We need to check on their synonym
-species.  
+According to IUCN, 76 species in our databse are not considered extant in the country. There's a species considered extinct (*Blastocerus dichotomus*) and one as possibly extinct (*Chrysocyon brachyurus*). But, what about those **NOT FOUND**? We need to check on their synonym species.  
 
-To find synonym species, we can use the function `synonyms` from the
-package [`taxize`](https://ropensci.org/tutorials/taxize_tutorial/). 
-First, filter the species not found for IUCN, then create a new list 
-with this species and run the function `getSynonym`. Finally, run the 
-function to check for these species again.
+To find synonym species, we can use the function `synonyms` from the package [`taxize`](https://ropensci.org/tutorials/taxize_tutorial/). First, filter the species not found for IUCN, then create a new list with this species and run the function `getSynonym`. Finally, run the function to check for these species again.
 
     getSynonym <- function(species){
       species_synonym <- synonyms(species, db='itis', rows=1)
@@ -168,16 +168,13 @@ function to check for these species again.
       return(species_synonym$synonym)
     }
 
-    synonym_IUCNSpeciesInUy <- IUCNSpeciesInUy %>% 
-      filter(presence=='NOT FOUND') %>% 
-      mutate(speciesSynonym=map_chr(species, getSynonym)) 
+    synonym_IUCNSpeciesInUy <- IUCNSpeciesInUy %>%
+      filter(presence=='NOT FOUND') %>%
+      mutate(speciesSynonym=map_chr(species, getSynonym))
 
-Once we have checked if the synonyms are still not found in the IUCN
-database - therefore not assessed - we have all the information we need.  
+Once we have checked if the synonyms are still not found in the IUCN database - therefore not assessed - we have all the information we need.  
 
 <br>
-</br>
-
 
 So, let's explore the final results:
 
@@ -253,22 +250,18 @@ Possibly Extinct
 </tr>
 </tbody>
 </table>
-<img src="/img/IUCN_distributionData.png" width="100%" style="display: block; margin: auto;" />
-
-
-Around **12%** of the species occurring in Uruguay are not recorded as 
-present in the country according to the IUCN distribution maps. Also, 
-these species seem to be more range restricted, as they are recorded 
-in less countries (**mean**=18.1, *sd*=25), while the extant species 
-are present in more countries (**mean**=24.2, *sd*=42.5).
 
 <br>
-</br>
 
+![](IUCN_distributionData.png)
+
+<br>
+
+Around **12%** of the species occurring in Uruguay are not recorded as present in the country according to the IUCN distribution maps. Also, these species seem to be more range restricted, as they are recorded in less countries (**mean**=18.1, *sd*=25), while the extant species are present in more countries (**mean**=24.2, *sd*=42.5).
+
+<br>
 
 And, that's all !
 -----------------
 
-Take this gaps in mind next time you want to map species using IUCN
-species range maps.
-
+Take this gaps in mind next time you want to map species using IUCN species range maps.

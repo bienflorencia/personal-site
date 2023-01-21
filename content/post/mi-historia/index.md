@@ -1,11 +1,32 @@
-+++
-title = "La ciencia para el cambio - Mi historia"
-date = 2018-02-16T19:18:15Z
-tags = ["Women in STEM"]
-categories = []
-math = false
-draft = false
-+++
+---
+title: Mi historia
+subtitle: La ciencia para el cambio
+summary: La ciencia para el cambio
+authors:
+  - admin
+tags:
+  - Women in STEM
+
+categories: []
+projects: []
+# Date published
+date: '2018-02-16T00:00:00Z'
+# Date updated
+lastMod: '2018-02-16T00:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+
+links:
+  - icon: newspaper
+    icon_pack: fa
+    name: Nota completa
+    url: https://transformadoras.wixsite.com/inicio/florenciagrattarola
+---
 
 Mi nombre es Florencia Grattarola. Nací un 16 de julio, 37 años después del gran Maracanazo, en la ciudad de Montevideo. A los pocos días ya estaba en Paysandú, litoral norte de Uruguay, en donde viví 17 años. Mis primeros años de vida los pasé en una chacra, cercana a la ciudad y lo suficientemente lejos como para sentirme en el medio del campo. Vivía junto a mis padres, mi hermana y mis abuelos.
 
@@ -13,7 +34,7 @@ No hace mucho tiempo pude darme cuenta que fue precisamente en ese lugar donde d
 
 Al momento de decidir qué carrera seguir la Universidad de la República en Uruguay no tenía el nivel de descentralización que alcanza hoy y por tanto no había muchas posibilidades de estudios universitarios en Paysandú. Ya me había  hecho la idea de dejar el hogar para seguir estudiando lejos, pero la decisión de qué estudiar no era tan obvia. Sabía que estaría vinculado a lo biológico, pero me gustaban muchas cosas y el perfil de egreso clásico de medicina, veterinaria o agronomía me aburría. Un test vocacional que hice en su momento me mostró dos cosas, que lo mío era una mezcla de tecnología, naturaleza y relaciones humanas y que existía una carrera llamada Licenciatura en Biología. Sin saber mucho más, la elegí. Terminé el liceo secundario, me despedí de Paysandú, me fui a la capital a hacerme científica.
 
-Viví en una residencia estudiantil, junto a 44 mujeres, con muchas de las cuales seguimos hoy siendo grandes amigas. Mi vínculo con Montevideo también estuvo muy atravesado por el deporte. Me uní a un cuadro de fútbol de la universidad, integrado por mujeres de diversos lugares y contextos. Luego formamos nuestro propio cuadro con algunas de ellas y hasta hoy seguimos jugando. El fútbol está lleno de movimientos que tienden hacia la deconstrucción feminista y quizás por eso busqué también desde ese lugar revertir y rebelarme contra un montón de estructuras. Lamentablemente las mujeres aún estamos más presentes en los insultos de los hinchas que como protagonistas del juego, técnicas o directivas. Este fue un espacio más de los que me impulsaron a preguntarme ¿dónde estamos las mujeres si somos la mayoría de la población pero la minoría en tantos ámbitos?.
+Viví en una residencia estudiantil, junto a 44 mujeres, con muchas de las cuales seguimos hoy siendo grandes amigas. Mi vínculo con Montevideo también estuvo muy atravesado por el deporte. Me uní a un cuadro de fútbol de la universidad, integrado por mujeres de diversos lugares y contextos. Luego formamos nuestro propio cuadro con algunas de ellas y hasta hoy seguimos jugando. El fútbol está lleno de movimientos que tienden hacia la deconstrucción feminista y quizás por eso busqué también desde ese lugar revertir y rebelarme contra un montón de estructuras. Lamentablemente las mujeres aún estamos más presentes en los insultos de los hinchas que como protagonistas del juego, técnicas o directivas. Este fue un espacio más de los que me impulsaron a preguntarme ¿dónde estamos las mujeres si somos la mayoría de la población pero la minoría en tantos ámbitos?
 
 En 2006, cuando comencé la carrera en la Facultad de Ciencias, en seguida supe eso que era lo que quería. Las clases de Biología me resultaban fascinantes, muchas las daban mujeres, científicas jóvenes que nada tenían que ver con el estereotipo masculinizado que supone la profesión. Había llegado a Facultad de Ciencias con un gusto especial por el ADN y su mundo, pero también me interesaban y generaban preguntas cada materia que cursaba.
 
@@ -46,11 +67,13 @@ La repercusión fue grandísima. Tanto que Claudio Tachino y Numa Moraes compusi
 > Quedate yaguarundí, aquerenciate a este suelo  
 > Siempre hay lugar para todos, bajo la luz de este cielo”*  
 
-Además, Tito y sus Supersonicos también escribieron un tema! 
+Además, Tito y sus Supersónicos también escribieron un tema!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n7rkuvy8An8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
+<br>
+
 Julana tuvo ciertas críticas por compartir libremente la información (principalmente respecto a su localización). Sin embargo, creemos que la información es poder y como tal, no puede mantenerse en las manos de unos pocos. Es un derecho de todos y todas. Es mucho lo que se puede construir, en especial si se habilita la construcción colectiva, involucrando a la comunidad y usando herramientas de socialización de la información y la cultura, como la apertura de datos y el uso de licencias libres. Si bien la actual estructura de incentivos en la que trabajan los científicos, parece favorecer la ciencia cerrada y privativa, desde el grupo seguiremos disponibilizando la información para el acceso de todos, buscando contagiar la idea de que la liberación de los datos sea un acto natural del proceso de generación de conocimiento.
 
 Integrar Julana ha resultado muy enriquecedor a nivel personal. Superamos el corto plazo y continuamos el camino encontrando en las prácticas de educación ambiental un ámbito fértil de desarrollo profesional y humano, que trasciende el ámbito académico. El sistema científico actual estimula la especialización, la productividad, la competitividad individual y la rentabilidad. Para que la ciencia logre la supresión de la injusticia, me imagino una ciencia muy distinta a la actual. Siento que Julana va en un nuevo camino,  el de la ciencia como instrumento de cambio y construcción. Mediante nuestra metodología de trabajo buscamos generar espacios de encuentro donde se promuevan debates y problematicen situaciones, posicionándonos como facilitadores del proceso y cuidando que nuestras subjetividades no se impongan sobre las locales. Entendemos que esta modalidad de generación de conocimiento contribuye al empoderamiento de las comunidades para la toma de decisiones. Nuestro trabajo tiene una importante carga ideológica que permea cada una de las acciones y temáticas que se proponen. Sostener como grupo esta dinámica ha implicado una constante interpelación de nuestras acciones desde una postura crítica.
@@ -60,12 +83,9 @@ En este momento me encuentro por emprender viaje hacia mi próxima aventura, un 
 En cada etapa de mi vida puedo identificar personas claves, pero voy a destacar a esas mujeres que siempre estuvieron y aquellas que hoy en día transforman y marcan mi acción. Por un lado, mi abuela, mi madre y las mujeres de mi familia, ellas  siempre me resultaron figuras femeninas habilitantes, porque en su forma cotidiana me demostraban algo de excepcionalidad al mandato. Por otro, mis amigas de la vida, de convivencia, de fútbol, de militancia. “Si he logrado ver más lejos, ha sido porque he subido a hombros de gigantes”.
 
 <br>
-<br>
+
 ---
 
-**Esta nota fue parte de [Transformadoras en Movimiento](https://www.facebook.com/Transformadorasenmovimiento/)**
+Esta nota fue parte de [**Transformadoras en Movimiento**](https://www.facebook.com/Transformadorasenmovimiento/).
 
 Transformadoras en movimiento es el proyecto de una arquitecta-emprendedora uruguaya, de alma viajera y curiosa, quien cuenta con un mes y medio para comenzar a utilizar la bicicleta como medio de transporte y entrenar para unirse a Warmifonías, un grupo de mujeres con semejantes intereses, ideales y curiosidades, embarcadas en un viaje inspirador: 10.000km en bicicleta por Sudamérica, desde Quito a Río de Janeiro en búsqueda de historias de mujeres transformadoras.
-
-Hacé click acá para ver la nota completa [La ciencia para el cambio](https://transformadoras.wixsite.com/inicio/florenciagrattarola) y muchas otras historias más.
-

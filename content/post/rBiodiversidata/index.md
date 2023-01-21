@@ -1,11 +1,33 @@
-+++
-title = "R Code used for the Biodiversidata Project"
-date = 2019-03-28T14:15:15Z
-tags = ["Biodiversidata", "R"]
-categories = []
-math = false
-draft = false
-+++
+---
+title: R Code used for the Biodiversidata Project
+subtitle: All the scripts we use are available in GitHub
+summary: All the scripts we use are available in GitHub
+authors:
+  - admin
+tags:
+  - R
+  - biodiversidata
+
+categories: []
+projects: []
+# Date published
+date: '2019-03-28T00:00:00Z'
+# Date updated
+lastMod: '2019-03-28T00:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+
+links:
+  - icon: github
+    icon_pack: fab
+    name: rBiodiversidata
+    url: https://github.com/biodiversidata/rBiodiversidata
+---
 
 As part of my PhD project I have written some scripts for the Biodiversidata Project.
 This are useful scripts for biodiversity data cleaning, processing and quality controlling.  
@@ -22,7 +44,7 @@ This script uses the `rl_search()` function from the [**rredlist**](https://CRAN
   2. Once you receive the token create an environmental variable in your system. It should be named **IUCN_REDLIST_KEY**. See https://www.java.com/en/download/help/path.xml for more information.  
 <br>
 
-## 2) Checking Species Names 
+## 2) Checking Species Names
 
 The script contains a function that takes a species list as input and returns a dataframe with two columns: **Species Name** and **Observation**. The run will return the result of the check for each species in the list, doing it first with ITIS database (Integrated Taxonomic Information System) and then with IUCN database (IUCN Red List of Threatened Species) case the species is not found in ITIS. If the species has a match in any of the databases, it will return the same Species Name and 'Ok ITIS' or 'Ok IUCN' as Observation. If the species has a match with any error of spelling, it will return the matched correct name in Species Name and 'Checked ITIS' or 'Checked IUCN' as Observation. If the species is not found in any of the databases, it will return 'NOT FOUND in ITIS or IUCN' as Observation.  
 

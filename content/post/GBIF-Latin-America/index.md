@@ -1,11 +1,33 @@
-+++
-title = "GBIF data in Latin America"
-date = 2019-08-06
-tags = ["Biodiversidata", "R"]
-categories = []
-math = false
-draft = false
-+++
+---
+title: GBIF data in Latin America
+subtitle: The contributions and taxonomical biases encountered in GBIF for the region.
+summary: The contributions and taxonomical biases encountered in GBIF for the region.
+authors:
+  - admin
+tags:
+  - biodiversidata
+  - R
+
+categories: []
+projects: []
+# Date published
+date: '2019-08-06T00:00:00Z'
+# Date updated
+lastMod: '2019-08-06T00:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+
+links:
+  - icon: open-access
+    icon_pack: ai
+    name: Data Paper
+    url: https://doi.org/10.3897/BDJ.7.e36226
+---
 
 In our recent [Data Paper](https://doi.org/10.3897/BDJ.7.e36226), we
 showed that Uruguay ranks amongst the countries of Latin America with
@@ -60,7 +82,7 @@ occurrence records** and the number of those that belong to **eBird**.
                                 eBirdRecords = numeric(), stringsAsFactors=FALSE)
       for (code in List$code){
         numberOfRecords_country <- occ_count(country=code, georeferenced=TRUE)
-        numberOfRecords_country_eBird <- occ_count(country=code, datasetKey= eBirdKey, georeferenced=TRUE) 
+        numberOfRecords_country_eBird <- occ_count(country=code, datasetKey= eBirdKey, georeferenced=TRUE)
         CountryList_country <- data.frame(country = List[List$code==code,1],
                                           code = code,
                                           numberOfRecords = numberOfRecords_country,
@@ -112,10 +134,10 @@ eBird users. The respective proportion will be shown in the green scale.
 
     ggplot(LatinAmerica, aes(eBirdRecords, numberOfRecords, label = country)) +
       geom_point(aes(fill= eBirdRecords*100/numberOfRecords)) +
-      geom_label_repel(aes(fill = (eBirdRecords*100/numberOfRecords)), 
+      geom_label_repel(aes(fill = (eBirdRecords*100/numberOfRecords)),
                        colour = "white", fontface = "bold", segment.color = 'grey50') +
-      labs(y='Total Ocurrence Records in GBIF', 
-           x='Records from eBird', 
+      labs(y='Total Ocurrence Records in GBIF',
+           x='Records from eBird',
            fill='% of records\n in GBIF\n from eBird') +
       scale_fill_gradient(low = "#f2f2f2", high ="#00441b") +
       scale_y_continuous(breaks = seq(0, 18000000,2000000), labels = scales::number) +
@@ -124,14 +146,16 @@ eBird users. The respective proportion will be shown in the green scale.
       theme(text=element_text(family='Calibri', size=12))
 
 
-![](/img/GBIF_eBird.png)
+![](GBIF_eBird.png)
 
 Maybe you should zoom in to see the details :)  
 
 ## And that's all !
 
+<br>
+
 ---
-  
+
 
 **Check our Data Paper for more info:**
 
@@ -140,4 +164,3 @@ Hernández D, Laufer G, Maneyro R, Martínez-Lanfranco J, Naya D, Rodales
 A, Ziegler L, Pincheira-Donoso D (2019) Biodiversidata: An Open-Access
 Biodiversity Database for Uruguay. Biodiversity Data Journal 7: e36226.
 <https://doi.org/10.3897/BDJ.7.e36226>
-

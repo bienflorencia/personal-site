@@ -1,0 +1,30 @@
+# Theme metadata
+name = "Flo"
+
+[light]
+  # Primary
+  primary = "#3a6ea5"
+
+  # Menu
+  menu_primary = "#004e98"
+  menu_text = "#ebebeb"
+  menu_text_active = "#3a6ea5"
+  menu_title = "#ebebeb"
+
+  # Links
+  link = "#3a6ea5"
+  link_hover = "#000"
+  link_decoration = "underline"
+
+  # Home sections
+  home_section_odd = "#ebebeb"
+  home_section_even = "#ffffff"
+
+[dark]
+
+  # Primary
+  primary = "#f2f2f2"
+
+  link = "#95bd81"
+  link_hover = "#000"
+  link_decoration = "underline"

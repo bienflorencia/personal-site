@@ -1,57 +1,51 @@
-+++
-title = "Relationships between society and nature at the boundary"
-date = 2018-02-16T15:14:17Z
-draft = false
+---
+title: Relaciones sociedad–naturaleza en la frontera
+summary: Espacio de Formación Integral (EFI) en Paso Centurión, Uruguay
+tags:
+  - people-and-nature
 
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["people-and-nature"]
-
-# Project summary to display on homepage.
-summary = "People, animals, scientific knowledge and socio-economic development in Paso Centurión, Cerro Largo, Uruguay."
+date: '2014-12-31T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link: ''
 
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
+image:
+  caption:
+  focal_point: Smart
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
+links:
+  - icon: book
+    icon_pack: fa
+    name: Libro
+    url: https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/17162/1/uy24-17527.pdf
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
 
-# Does the project detail page use source code highlighting?
-highlight = true
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ''
+---
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-[image]
-  # Caption (optional)
-  caption = ""
+## Espacio de Formación Integral (EFI) en Paso Centurión, Uruguay
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-
-  preview_only = true
-
-+++
-
-Environment, knowledge and society, social participation, expert knowledge and environmental conflicts on land use, energy and biodiversity in Paso Centurión (Cerro Largo, Uruguay).
-We address the place of scientific knowledge and its relation to local knowledge on key environmental issues in Uruguay - land use, afforestation, biodiversity conservation and renewable energies - in Paso Centurión, department of Cerro Largo, Uruguay.
-
+Environment, knowledge and society, social participation, expert knowledge and environmental conflicts on land use, energy and biodiversity in Paso Centurión (Cerro Largo, Uruguay). We address the place of scientific knowledge and its relation to local knowledge on key environmental issues in Uruguay - land use, afforestation, biodiversity conservation and renewable energies - in Paso Centurión, department of Cerro Largo, Uruguay.
 
 ### Team
-Carlos Santos (Head Coordinator); Javier Taks (Head); Gabriel Perazza; Lucía Gaucher; Magdalena Chouhy; Álvaro Soutullo; Florencia Grattarola; Andrea Garay.
+Lucía Bergós; Magdalena Chouhy; Andrea Garay; Florencia Grattarola; Gabriel Perazza; Carlos Santos; Javier Taks.
+
+### Place
+Locality of Paso Centurión. Cerro Largo, Uruguay.
+Universidad de la República, Montevideo, Uruguay.
 
 ### Years
-2017 – 2018.
+2013 – 2022.
 
 ### Funding
-Sectorial Commission for Scientific Research – Research and Development Program – UdeLaR.
-
-
-[More info] (http://udelar.edu.uy/retema/actividades/grupos-de-trabajo/)
+- Comisión Sectorial de Investigación Científica (CSIC), Programa de Investigación y Desarrollo – Udelar.  
+- Comisión Sectorial de Extensión y Actividades en el Medio (CSEAM) – Udelar.  
+- Comisión Sectorial de Enseñanza (CSE) – Udelar.  

@@ -1,16 +1,34 @@
-+++
-title = "Downloading MODIS data on R"
-date = 2022-01-27
-tags = ["R"]
-categories = []
-math = false
-draft = false
-+++
+---
+title: Downloading MODIS data on R
+subtitle: Example using the package `MODIStsp`
+summary: Example using the package `MODIStsp`
+authors:
+  - admin
+tags:
+  - R
 
-Searching to download MODIS data to use on spatial analyses :earth_americas:
-in R, I found this amazing package called `MODIStsp`[1]
-(MODIS Time Series Processing Tool). **Here is the code I used to download
-Terra MODIS yearly Land Cover data for two time periods.**
+categories: []
+projects: []
+# Date published
+date: '2022-01-27T00:00:00Z'
+# Date updated
+lastMod: '2022-01-27T00:00:00Z'
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: ''
+  focal_point: ''
+  placement: 2
+  preview_only: false
+
+links:
+  - icon: r-project
+    icon_pack: fab
+    name: MODIStsp
+    url: https://docs.ropensci.org/MODIStsp/
+---
+
+Searching to download MODIS data to use on spatial analyses :earth_americas: in R, I found this amazing package called `MODIStsp`[^1] (MODIS Time Series Processing Tool). **Here is the code I used to download Terra MODIS yearly Land Cover data for two time periods.**
 
     library(MODIStsp)
     library(terra)
@@ -19,10 +37,7 @@ Terra MODIS yearly Land Cover data for two time periods.**
 
 ## MODIS
 
-MODIS data (see: [Products](https://modis.gsfc.nasa.gov/data/dataprod/))
-are usually distributed in different spatial resolution (250/500m/1km)
-and temporal composite (daily/8-day/16-day/monthly/yearly) combinations
-for both sensors. **‘MOD’** are products from the Terra satellite.
+MODIS data (see: [Products](https://modis.gsfc.nasa.gov/data/dataprod/)) are usually distributed in different spatial resolution (250/500m/1km) and temporal composite (daily/8-day/16-day/monthly/yearly) combinations for both sensors. **‘MOD’** are products from the Terra satellite.
 
     MODIStsp_get_prodnames()
 
@@ -47,7 +62,7 @@ for both sensors. **‘MOD’** are products from the Terra satellite.
     ##  [19] "Surf_Temp_8Days_005dg (M*D11C2)"                 
     ##  [20] "Surf_Temp_Monthly_005dg (M*D11C3)"               
     ##  [21] "LST_3band_emissivity_Daily_1km (M*D21A1D)"       
-    ##  [22] "LST_3band_emissivity_Daily_1km_night (M*D21A1N)" 
+    ##  [22] "LST_3band_emissivity_Daily_1km_night (M*D21A1N)"
     ##  [23] "LST_3band_emissivity_8day_1km (M*D21A2)"         
     ##  [24] "BRDF_Albedo_ModelPar_Daily_500m (MCD43A1)"       
     ##  [25] "BRDF_Albedo_Quality_Daily_500m (MCD43A2)"        
@@ -153,16 +168,10 @@ for both sensors. **‘MOD’** are products from the Terra satellite.
     ## [125] "MAIA_Land_Surf_BRF (MCD19A1)"                    
     ## [126] "MAIA_Land_AOT_daily (MCD19A2)"
 
-I want to get the [Land Cover Type Yearly L3 Global
-500m](https://lpdaac.usgs.gov/products/mcd12q1v006/) (500m spatial
-resolution and annual temporal composite). There are five different land
-cover classification schemes, we will be using the primary land cover
-scheme (**LC1**) which identifies 17 classes defined by the
-[IGBP](http://www.igbp.net) (International Geosphere-Biosphere
-Programme), including 11 natural vegetation classes, three human-altered
-classes, and three non-vegetated classes.
+I want to get the [Land Cover Type Yearly L3 Global 500m](https://lpdaac.usgs.gov/products/mcd12q1v006/) (500m spatial
+resolution and annual temporal composite). There are five different land cover classification schemes, we will be using the primary land cover scheme (**LC1**) which identifies 17 classes defined by the [IGBP](http://www.igbp.net) (International Geosphere-Biosphere Programme), including 11 natural vegetation classes, three human-altered classes, and three non-vegetated classes.
 
-With `MODIStsp_get_prodlayers` you can see all the layers of the product:
+With `MODIStsp_get_prodlayers()` you can see all the layers of the product:
 
     MODIStsp_get_prodlayers("MCD12Q1")$bandnames
 
@@ -174,33 +183,20 @@ With `MODIStsp_get_prodlayers` you can see all the layers of the product:
 
 ### Download
 
-To download MODIS data through the **NASA http server**, we need to
-create a profile at <https://urs.earthdata.nasa.gov/home> to get a
-`user` and `password`. We need to define the `out_folder` to where the
-data are going to be downloaded. We also need to specify which product
-(`selprod`), band (`bandsel`) and `sensor` we want to download. We also
-need to define a temporal period, as `start_date` and `end_date`, and a
-spatial output resolution, for which we will select a **bounding box**
-as `spatmeth`. We will then provide the `bbox` values (xmin, ymin, xmax,
-ymax) from our study area (Latin America) in our desired output
-projection. We will also specify the **output projection**
-(`output_proj`) as ‘+proj=laea +lon\_0=-73.125 +lat\_0=0 +datum=WGS84
-+units=m +no\_defs’ Equatorial Lambert azimuthal equal-area (you can
-also use EPSG code or WKT string here).
+To download MODIS data through the **NASA http server**, we need to create a profile at <https://urs.earthdata.nasa.gov/home> to get a `user` and `password`. We need to define the `out_folder` to where the data are going to be downloaded. We also need to specify which product (`selprod`), band (`bandsel`) and `sensor` we want to download. We also need to define a temporal period, as `start_date` and `end_date`, and a spatial output resolution, for which we will select a **bounding box** as `spatmeth`. We will then provide the `bbox` values (xmin, ymin, xmax, ymax) from our study area (Latin America) in our desired output projection. We will also specify the **output projection** (`output_proj`) as ‘+proj=laea +lon\_0=-73.125 +lat\_0=0 +datum=WGS84 +units=m +no\_defs’ Equatorial Lambert azimuthal equal-area (you can also use EPSG code or WKT string here).
 
-To know more about other parameters of the MODIStsp main function check
-`?MODIStsp`.
+To know more about other parameters of the MODIStsp main function check `?MODIStsp`.
 
     MODIStsp(gui             = FALSE,
              out_folder      = 'big_data/',
              out_folder_mod  = 'big_data/',
              selprod         = 'LandCover_Type_Yearly_500m (MCD12Q1)',
-             bandsel         = 'LC1', 
+             bandsel         = 'LC1',
              sensor          = 'Terra',
              user            = '' , # your username for NASA http server
              password        = '',  # your password for NASA http server
-             start_date      = '2000.01.01', 
-             end_date        = '2022.12.31', 
+             start_date      = '2000.01.01',
+             end_date        = '2022.12.31',
              verbose         = TRUE,
              bbox            =  c(-5596641.0845, -6673508.6914, 4698677.0087, 4157242.8202), #bbox of Latam
              spatmeth        = 'bbox',
@@ -214,8 +210,7 @@ To know more about other parameters of the MODIStsp main function check
 
 ## The Data
 
-Once the data are downloaded we will process the rasters using the
-`terra` package.
+Once the data are downloaded we will process the rasters using the `terra` package.
 
     # PRE: 2000-2013
     landcover_pre_files <- list.files('big_data/LandCover_Type_Yearly_500m_v6/LC1', '200[0-1]|201[0-3]', full.names = T)
@@ -224,14 +219,14 @@ Once the data are downloaded we will process the rasters using the
     names(landcover_pre) <- 'land_pre'
     rm(landcover_pre_c)
 
-    ## class       : SpatRaster 
+    ## class       : SpatRaster
     ## dimensions  : 25051, 23813, 1  (nrow, ncol, nlyr)
     ## resolution  : 432.3402, 432.3481  (x, y)
     ## extent      : -5596641, 4698677, -6673509, 4157243  (xmin, xmax, ymin, ymax)
-    ## coord. ref. : +proj=laea +lat_0=0 +lon_0=-73.125 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs 
-    ## source      : land_pre.tif 
-    ## name        : landcover_pre 
-    ## min value   :             1 
+    ## coord. ref. : +proj=laea +lat_0=0 +lon_0=-73.125 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs
+    ## source      : land_pre.tif
+    ## name        : landcover_pre
+    ## min value   :             1
     ## max value   :            17
 
     # POS: 2014-2022
@@ -241,18 +236,17 @@ Once the data are downloaded we will process the rasters using the
     names(landcover_pos) <- 'land_pos'
     rm(landcover_pos_c)
 
-    ## class       : SpatRaster 
+    ## class       : SpatRaster
     ## dimensions  : 25051, 23813, 1  (nrow, ncol, nlyr)
     ## resolution  : 432.3402, 432.3481  (x, y)
     ## extent      : -5596641, 4698677, -6673509, 4157243  (xmin, xmax, ymin, ymax)
-    ## coord. ref. : +proj=laea +lat_0=0 +lon_0=-73.125 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs 
-    ## source      : land_pos.tif 
-    ## name        : landcover_pos 
-    ## min value   :             1 
+    ## coord. ref. : +proj=laea +lat_0=0 +lon_0=-73.125 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs
+    ## source      : land_pos.tif
+    ## name        : landcover_pos
+    ## min value   :             1
     ## max value   :            17
 
-As the values are numeric and we want the categories, we will rename
-them.
+As the values are numeric and we want the categories, we will rename them.
 
     # Renaming IGBP classification levels
     levels(land_pre$land_pre) <- c( "Evergreen needleleaf forests",
@@ -297,18 +291,14 @@ Finally, the results :zap:
 
     plot(land_pre, main='Land cover 2001-2013', axes=F, mar=c(0,0,5,15))
 
-<img src="/img/exploreplot-1.png" width="100%" />
+![](exploreplot-1.png)
 
     plot(land_pos, main='Land cover 2014-2020', axes=F, mar=c(0,0,5,15))
 
-<img src="/img/exploreplot-2.png" width="100%" />
+![](exploreplot-2.png)
 
 ### And, that’s all !
 
 Hope you find this useful too :sparkles:
 
-[1] L. Busetto, L. Ranghetti (2016) MODIStsp: An R package for automatic
-preprocessing of MODIS Land Products time series, Computers &
-Geosciences, Volume 97, Pages 40-48, ISSN 0098-3004,
-<https://doi.org/10.1016/j.cageo.2016.08.020>. URL
-<https://github.com/ropensci/MODIStsp/> :octocat:
+[^1]: L. Busetto, L. Ranghetti (2016) MODIStsp: An R package for automatic preprocessing of MODIS Land Products time series, Computers & Geosciences, Volume 97, Pages 40-48, ISSN 0098-3004, <https://doi.org/10.1016/j.cageo.2016.08.020>. URL <https://github.com/ropensci/MODIStsp/> :octocat:
