@@ -246,7 +246,7 @@ Once the data are downloaded we will process the rasters using the `terra` packa
     ## min value   :             1
     ## max value   :            17
 
-As the values are numeric and we want the categories, we will rename them. Please bear in mind that your landcover layer might not have the same classes/levels as mine. Check here the classification values: [MCD12_User_Guide_V6](https://lpdaac.usgs.gov/documents/101/MCD12_User_Guide_V6.pdf) (see page 7 Classification Legends). 
+As the values are numeric and we want the categories, we will rename them. Please bear in mind that your landcover layer might **not have the same classes/levels as mine**. Check here the classification values: [MCD12_User_Guide_V6](https://lpdaac.usgs.gov/documents/101/MCD12_User_Guide_V6.pdf) (see page 7 Classification Legends).
 
     # Renaming IGBP classification levels
     levels(land_pre$land_pre) <- c( "Evergreen needleleaf forests",
@@ -301,4 +301,4 @@ Finally, the results :zap:
 
 Hope you find this useful too :sparkles:
 
-[^1]: L. Busetto, L. Ranghetti (2016) MODIStsp: An R package for automatic preprocessing of MODIS Land Products time series, Computers & Geosciences, Volume 97, Pages 40-48, ISSN 0098-3004, <https://doi.org/10.1016/j.cageo.2016.08.020>. URL <https://github.com/ropensci/MODIStsp/> :octocat:
+[^1]: L. Busetto, L. Ranghetti (2016) MODIStsp: An R package for automatic preprocessing of MODIS Land Products time series, Computers & Geosciences, Volume 97, Pages 40-48, ISSN 0098-3004, <https://doi.org/10.1016/j.cageo.2016.08.020>. URL <https://github.com/ropensci/MODIStsp/>
