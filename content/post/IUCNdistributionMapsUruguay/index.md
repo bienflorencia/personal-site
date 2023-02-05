@@ -1,7 +1,7 @@
 ---
 title: IUCN distribution data
-subtitle: En Uruguay alcanzamos las primeras **10,000** observaciones en iNaturalist
-summary: En Uruguay alcanzamos las primeras **10,000** observaciones en iNaturalist
+subtitle: How well-represented are Uruguayan species in the IUCN Red List spatial database
+summary: How well-represented are Uruguayan species in the IUCN Red List spatial database
 authors:
   - admin
 tags:
