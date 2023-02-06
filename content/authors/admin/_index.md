@@ -100,7 +100,7 @@ highlight_name: true
 
 # Hola 🧉
 
-I'm Flo, a biologist from Uruguay living in the Czech Republic. My research focuses on studying the spatial and temporal patterns of biodiversity. I work mainly in the Neotropical region and specifically with mammalian carnivores. My interests fall under areas like **macroecology**, **biodiversity informatics**, **open science** and **community science**. I'm also into camera-trapping and recording biodiversity. Be aware that on my site, I mix Spanish and English :)
+I'm Flo, a biologist from Uruguay living in the Czech Republic. My research focuses on studying the spatial and temporal patterns of biodiversity. I work mainly in the Neotropical region and specifically with mammalian carnivores. My interests fall under areas like **macroecology**, **biodiversity informatics**, **open science** and **community science**. I coordinate [Biodiversidata](https://biodiversidata.org/) and [NaturalistaUY](https://www.naturalista.uy/). I'm also into camera-trapping and recording biodiversity. Be aware that on my site, I mix Spanish and English :)
 
 <!-- I am a postdoc researcher at **Petr Keil**'s lab. I lead **Biodiversidata** and I am also the admin of **NaturalistaUY**. I'm a  **NatGeoExplorer** -->
 
