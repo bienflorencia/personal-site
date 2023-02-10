@@ -12,7 +12,7 @@ location: Virtual
 #  postcode: '94305'
 #  country: United States
 
-summary: 'Presentación sobre mi recorrido hacia crear Naturalista Uruguay, los Eventos de Ciencia Comunitaria con NaturalistaUY, y un cierre sobre mujeres, naturalistas e investigadoras que me inspiraron'
+summary: 'Presentación en el Foro virtual Mujeres naturalistas de México y Latinoamérica'
 abstract: ''
 
 # Talk start and end times.
@@ -79,3 +79,5 @@ Foro virtual en el marco del día de las niñas y mujeres en la ciencia. Organiz
 - Janet Guardiola (Naturalista Península de Yucatán)
 - Alejandra Flores (Naturalista Quintana Roo)
 - Florencia Grattarola (Naturalista Uruguay)
+
+Presentación sobre mi recorrido hacia crear Naturalista Uruguay, los Eventos de Ciencia Comunitaria con NaturalistaUY, y un cierre sobre mujeres, naturalistas e investigadoras que me inspiraron
