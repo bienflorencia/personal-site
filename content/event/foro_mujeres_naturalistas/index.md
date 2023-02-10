@@ -46,7 +46,7 @@ featured: false
 #    url: FGrattarola_BES2019_WEB.pdf
 url_code: ''
 url_pdf: ''
-url_slides: 'Foro_mujeres_Mexico_y_Latam'
+url_slides: 'Foro_mujeres_Mexico_y_Latam.pdf'
 url_video: 'https://fb.watch/iBdjBHYFQm/'
 
 # Markdown Slides (optional).
