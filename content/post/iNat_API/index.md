@@ -1,7 +1,7 @@
 ---
 title: First steps with the iNaturalist API
-subtitle: The contributions and taxonomical biases encountered in GBIF for the region.
-summary: The contributions and taxonomical biases encountered in GBIF for the region.
+subtitle: How many users in NaturalistaUY are Uruguayan?
+summary: How many users in NaturalistaUY are Uruguayan?
 authors:
   - admin
 tags:
