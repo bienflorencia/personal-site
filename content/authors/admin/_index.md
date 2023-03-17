@@ -79,6 +79,9 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-8282-5732
+  - icon: inaturalist
+    icon_pack: ai
+    link: https://www.naturalista.uy/users/flo_grattarola
 #  - icon: square
 #    icon_pack: fa
 #    link: https://www.nationalgeographic.org/find-explorers/ED0031R000029s0gjQAA
