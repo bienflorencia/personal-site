@@ -1,5 +1,5 @@
 ---
-title: Towards implementable recommendations: taking advantage of the SHARC open science survey
+title: Towards implementable recommendations, taking advantage of the SHARC open science survey
 
 event: 20th RDA Plenary meeting
 event_url: 'https://rd-alliance.org/plenaries/rda-20th-plenary-meeting-gothenburg-hybrid'
