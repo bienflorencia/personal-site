@@ -97,7 +97,7 @@ We will run an informative and interactive session, aimed at discussing how to b
 - Wrap-up
 
 ### Presenters
-Hanna Shmagun, KISTI, Korea del Sur; Florencia Grattarola, Biodiversidata, Uruguay; Christopher Erdmann, M.J. Fox Foundation, USA; Anne Cambon-Thomsen , Mogens Thomsen, Laurence Mabile, University of Toulouse III, Francia.
+Hanna Shmagun, KISTI, Korea del Sur; Florencia Grattarola, Biodiversidata, Uruguay; Christopher Erdmann, M.J. Fox Foundation, USA; Anne Cambon-Thomsen, Mogens Thomsen, Laurence Mabile, University of Toulouse III, Francia.
 
 ***
 
