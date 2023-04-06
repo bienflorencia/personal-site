@@ -72,29 +72,15 @@ projects: []
 
 The [20th Plenary of the Research Data Alliance (RDA)](https://rd-alliance.org/plenaries/rda-20th-plenary-meeting-gothenburg-hybrid) and the 10th anniversary of RDA took place from 21-23 March 2023.
 
-### Meeting objectives: 
+### Summary of the session 
 
-We will run an informative and interactive session, aimed at discussing how to best shape recommendations for a fair academic recognition of open science activities. The discussion will be based on the results of a survey conducted by a sub-group of the RDA-SHARC IG. The objectives will be:
+The session ['Towards implementable recommendations: taking advantage of the SHARC open science survey'](https://www.rd-alliance.org/plenaries/rda-20th-plenary-meeting-gothenburg-hybrid/towards-implementable-recommendations-taking-0) was an interactive discussion focused on a first draft of recognition guidance and recommendations towards various stakeholders proposed by the SHARC IG. Discussion and feedback from the audience helped identify some gaps, provided useful examples of ongoing initiatives/policies in the academic rewarding system, and some ideas on how to reach out actively the various actors needed.
 
-- To give you an overview of the guidance / recommendations.  
-- To help improve the guidance with useful examples of ongoing initiatives/policies/tools (list of resources).  
-- To get your ideas on how to build a user-friendly guidance for academics (at the individual level).  
-- To get some feedback on how to reach out actively the various actors needed in the rewarding system.  
+### Key outcomes
 
-
-### Agenda: 
-
-- Introduction to the RDA-SHARC group
-- Guidance for researchers
-- Recommendations to:
-  - Research institutions
-  - Funders
-  - Publishers
-  - Government policy makers
-  For each part:
-  - Presentation of key elements of guidance
-  - Questions-mediated discussion
-- Wrap-up
+  - Audience confirmed that rewarding schemes for OS activities, esp. data sharing, is needed.
+  - Rewarding pathways are not well known and guidance would help.
+  - Need to create recommendations as a global picture including all stakeholders, not separately.
 
 ### Presenters
 Hanna Shmagun, KISTI, Korea del Sur; Florencia Grattarola, Biodiversidata, Uruguay; Christopher Erdmann, M.J. Fox Foundation, USA; Anne Cambon-Thomsen, Mogens Thomsen, Laurence Mabile, University of Toulouse III, Francia.
