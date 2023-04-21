@@ -32,7 +32,7 @@ summary:
 tags:
 - postdoc
 
-featured: true
+featured: false
 
 # links:
 # - name: ""
