@@ -16,8 +16,12 @@ image:
 links:
   - icon: newspaper
     icon_pack: fa
-    name: Preprint
-    url: https://doi.org/10.32942/osf.io/67c4u
+    name: Publication
+    url: https://doi.org/10.1111/jbi.14622
+    - icon: github
+      icon_pack: fab
+      name: GitHub repo
+      url: https://github.com/bienflorencia/yaguarundi_IDM
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -36,7 +40,7 @@ slides: ''
 I aim to study species' geographic range distributions and their changes in time. My model taxa are carnivore mammals from the Neotropics (Latin America). I plan to model species' range dynamics by integrating different types of data (i.e. presence-absence surveys and presence-only records) using integrated species distribution models under a Bayesian framework.
 
 ### Place
-([MOBI Lab](https://petrkeil.github.io/)), Petr Keil's research group at Department of Spatial Sciences at Czech University of Life Sciences in Prague (CZU), Czech Republic.
+[MOBI Lab](https://petrkeil.github.io/), Petr Keil's research group at the Department of Spatial Sciences of the Czech University of Life Sciences Prague (CZU), Czech Republic.
 
 ### Years
 2021-2023
