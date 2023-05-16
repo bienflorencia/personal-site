@@ -18,10 +18,10 @@ links:
     icon_pack: fa
     name: Publication
     url: https://doi.org/10.1111/jbi.14622
-    - icon: github
-      icon_pack: fab
-      name: GitHub repo
-      url: https://github.com/bienflorencia/yaguarundi_IDM
+  - icon: github
+    icon_pack: fab
+    name: GitHub repo
+    url: https://github.com/bienflorencia/yaguarundi_IDM
 url_code: ''
 url_pdf: ''
 url_slides: ''
