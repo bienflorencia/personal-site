@@ -1,5 +1,5 @@
 ---
-title: Postdoc Project
+title: Postdoc at ČZU
 summary: Integrating data to detect temporal dynamics of Neotropical carnivores
 tags:
   - postdoc
