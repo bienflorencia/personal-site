@@ -1,6 +1,6 @@
 ---
 title: NaturalistaUY
-summary: El portal local de iNaturalist para Uruguay
+summary: El portal de iNaturalist para Uruguay
 tags:
   - initiatives
   - community-science
