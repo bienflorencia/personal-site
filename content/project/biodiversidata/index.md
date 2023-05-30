@@ -4,7 +4,7 @@ summary: Consorcio de Datos de Biodiversidad del Uruguay | Uruguayan Consortium 
 tags:
   - open-science
   - initiatives
-date: "2019-04-25T00:00:00Z"
+date: "2022-04-25T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://biodiversidata.org
