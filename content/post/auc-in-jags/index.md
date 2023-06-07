@@ -53,7 +53,7 @@ Over a range of probability threshold levels, each pair of true positive and fal
 
 ## AUC Calculation
 
-A simple way to measure the area under the ROC curve is using the trapezoidal method. For the nth trapezium, the area $A_n$ is  
+A simple way to measure the area under the ROC curve is using the trapezoidal method. For the $n$-th trapezium, the area $A_n$ is  
 
 $A_n = \frac{y_n + y_{n+1}}{2} (x_{n+1} - x_n)$
 
