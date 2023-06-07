@@ -53,20 +53,24 @@ Over a range of probability threshold levels, each pair of true positive and fal
 
 ## AUC Calculation
 
-A simple way to measure the area under the ROC curve is using the trapezoidal rule to calculate the area directly from the points on the graph. The area of a trapezoid is $\frac{height}{2} * width$
+A simple way to measure the area under the ROC curve is using the trapezoidal method. For the nth trapezium, the area $A_n$ is  
+
+$A_n = \frac{y_n + y_{n+1}}{2} (x_{n+1} - x_n)$
+
+For instance, in this case,
 
 ![](auc-calculation.png)
 
-Then we can calculate AUC as:
+We can calculate AUC as
 
-$A_1 = \frac{y_1 + y_0}{2} * (x_1 - x_0)$  
-$A_2 = \frac{y_2 + y_1}{2} * (x_2 - x_1)$  
-$A_3 = \frac{y_3 + y_2}{2} * (x_3 - x_2)$  
-$A_4 = \frac{y_4 + y_3}{2} * (x_4 - x_3)$  
+$A_1 = \frac{y_0 + y_1}{2} * (x_1 - x_0)$  
+$A_2 = \frac{y_1 + y_2}{2} * (x_2 - x_1)$  
+$A_3 = \frac{y_2 + y_3}{2} * (x_3 - x_2)$  
+$A_4 = \frac{y_3 + y_4}{2} * (x_4 - x_3)$  
 
 $AUC = A_1 + A_2 + A_3 + A_4 <= 1$
 
-In JAGS:
+The code in JAGS will be
 
 ```r
 auc <- sum((sens[2:length(sens)]+sens[1:(length(sens)-1)])/2 * -(fpr[2:length(fpr)] - fpr[1:(length(fpr)-1)]))
