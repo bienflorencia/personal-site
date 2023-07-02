@@ -64,9 +64,7 @@ social:
       header: true
   - icon: mastodon
     icon_pack: fab
-    link: https://ecoevo.social/@flograttarola rel="me"
-    display:
-      header: true
+    link: https://ecoevo.social/@flograttarola
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?user=9KCM81IAAAAJ&hl=es
