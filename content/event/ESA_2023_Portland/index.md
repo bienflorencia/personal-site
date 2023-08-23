@@ -42,7 +42,7 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-#links:
+links:
   - name: Abstract
     url: https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo
 url_code: ''
