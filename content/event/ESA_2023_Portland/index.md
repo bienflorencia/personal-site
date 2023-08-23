@@ -43,8 +43,8 @@ featured: false
 #  focal_point: Right
 
 #links:
-#  - name: Abstract
-#    url: https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo
+  - name: Abstract
+    url: https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -69,5 +69,3 @@ projects: []
 ## Session: 'Biodiversity: Effects Of Global Change'
 
 Anthropogenic changes, such as land use and climate change, can have significant impacts on the geographic distributions of species, causing range shifts, contractions, or expansions. Unfortunately, data to assess these changes are often insufficient, heterogeneous, and spatially and temporally biased in most regions. This is particularly true in Latin America, where a lack of species distribution data that overlap at different points in time has limited our understanding of how species change their geographic ranges through time. However, an exciting solution has emerged: integrated species distribution models (ISDMs), which combine ecological information from multiple data types that were typically collected using different survey approaches. By integrating these data, we can increase the sample size, geographic extent, and environmental scope, taking advantage of the complementary information and sampling locations in the different data types. In this study, we aim to assess changes in the geographic distribution range of eight charismatic Neotropical carnivore species using ISDMs. To do this, we combined presence-absence and presence-only data and modelled the species' distributions at two time periods (2000-2013 and 2014-2021) using a Bayesian model based on a Poisson point process in JAGS. The eight species included in the study are the jaguarundi (Herpailurus yagouaroundi), ocelot (Leopardus pardalis), margay (Leopardus wiedii), coati (Nasua nasua), crab-eating fox (Cerdocyon thous), maned wolf (Chrysocyon brachyurus), tayra (Eira barbara), and giant river otter (Pteronura brasiliensis). The model combines the different data sources, accounts for sampling effort and spatial autocorrelation, and includes information about each species expert's range map. Our results reveal that the modelled geographic ranges differ from the current distribution range maps from IUCN. We show the geographic range differences for the eight species between the two periods and map the hotspots of range change, highlighting areas where contractions and expansions are accumulating. We also compare these areas with the current knowledge of land use and anthropogenic impacts in the region. In conclusion, our study demonstrates that ISDMs can be used to model the dynamics of the geographic range of carnivore species in Latin America over the last two decades, despite data deficiencies. Our modelling framework can be applied to assess other species and regions that also lack high-quality data, providing a promising solution to overcome the issue of high-quality data scarcity in the study of range dynamics.
-
-{{< cta cta_text="Abstract" cta_link="https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo" cta_new_tab="true" >}}
