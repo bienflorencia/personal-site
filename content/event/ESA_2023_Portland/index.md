@@ -27,6 +27,7 @@ publishDate: '2023-03-20T09:00:00Z'
 authors:
   - admin
   - Diana E. Bowler
+  - Kateřina Tschernosterová
   - Petr Keil
 
 tags:
@@ -42,14 +43,12 @@ featured: false
 #  focal_point: Right
 
 #links:
-#  - name: Slides
-#    icon: file-powerpoint
-#    icon_pack: fa
-#    url: FGrattarola_BES2019_WEB.pdf
+  - name: Abstract
+    url: https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo
 url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: 'https://youtu.be/B6F_tKmvse4'
+url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
