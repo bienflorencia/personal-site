@@ -12,7 +12,7 @@ location: Portland, USA
 #  postcode: '94305'
 #  country: United States
 
-summary: Presentation at Session Biodiversity Effects Of Global Change, at the ESA 2023 Annual Meeting
+summary: Presentation at Session 'Biodiversity Effects Of Global Change' at the ESA 2023 Annual Meeting
 abstract: ''
 
 # Talk start and end times.
@@ -22,7 +22,7 @@ date: '2023-08-09T08:15:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2023-03-20T09:00:00Z'
+publishDate: '2023-08-09T08:15:00Z'
 
 authors:
   - admin
