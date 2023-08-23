@@ -2,7 +2,7 @@
 title: Assessing hotspots of geographic range changes for charismatic carnivores in the Neotropics using Integrated Species Distribution Models (ISDM)
 
 event: Ecological Society of America (ESA) Annual Meeting
-event_url: 'https://rd-alliance.org/plenaries/rda-20th-plenary-meeting-gothenburg-hybrid'
+event_url: 'https://esa2023.eventscribe.net/index.asp'
 
 location: Portland, USA
 #address:
@@ -12,7 +12,7 @@ location: Portland, USA
 #  postcode: '94305'
 #  country: United States
 
-summary: Presentation at Session: 'Biodiversity: Effects Of Global Change' of the ESA 2023 Annual Meeting
+summary: Presentation at Session Biodiversity: Effects Of Global Change, at the ESA 2023 Annual Meeting
 abstract: ''
 
 # Talk start and end times.
@@ -43,8 +43,8 @@ featured: false
 #  focal_point: Right
 
 #links:
-  - name: Abstract
-    url: https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo
+#  - name: Abstract
+#    url: https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo
 url_code: ''
 url_pdf: ''
 url_slides: ''
