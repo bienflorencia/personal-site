@@ -42,9 +42,9 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-#links:
-#  - name: DOI
-#    url: https://doi.org/10.6084/m9.figshare.23933016.v2
+links:
+  - name: DOI
+    url: https://doi.org/10.6084/m9.figshare.24150345
 url_code: ''
 url_pdf: ''
 url_slides: ''
