@@ -2,7 +2,7 @@
 title: Modelos integrados de distribución de especies ISDMs para evaluar la dinámica en el rango de distribución geográfica de carnívoros Neotropicales
 
 event: Serie de seminarios en línea sobre análisis espacial de la biodiversidad
-event_url: 'https://www.youtube.com/playlist?list=PLu_3tLNPCPDY_41sCf0iNAQXPBj5TQK56'
+event_url: 'https://www.facebook.com/events/1337449426895986'
 
 location: Virtual
 #address:
@@ -39,13 +39,13 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-links:
-  - name: Evento Facebook
-    url: https://www.facebook.com/events/1337449426895986
+#links:
+#  - name: Evento Facebook
+#    url: https://www.facebook.com/events/1337449426895986
 url_code: ''
 url_pdf: 'Modelado_de_NE_y_DG.pdf'
 url_slides: ''
-url_video: ''
+url_video: 'https://www.youtube.com/live/F0BpYC3iE4g?feature=shared'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
