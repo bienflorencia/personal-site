@@ -1,5 +1,5 @@
 ---
-title: Modelos integrados de distribución de especies (ISDMs) para evaluar la dinámica en el rango de distribución geográfica de carnívoros Neotropicales
+title: Modelos integrados de distribución de especies ISDMs para evaluar la dinámica en el rango de distribución geográfica de carnívoros Neotropicales
 
 event: Serie de seminarios en línea sobre análisis espacial de la biodiversidad
 event_url: 'https://www.youtube.com/playlist?list=PLu_3tLNPCPDY_41sCf0iNAQXPBj5TQK56'
@@ -12,7 +12,7 @@ location: Virtual
 #  postcode: '94305'
 #  country: United States
 
-summary: Serie de seminarios: Análisis espacial de la biodiversidad
+summary: Serie de seminarios - Análisis espacial de la biodiversidad
 abstract: ''
 
 # Talk start and end times.
