@@ -40,8 +40,8 @@ featured: false
 #  focal_point: Right
 
 #links:
-#  - name: Evento Facebook
-#    url: https://www.facebook.com/events/1337449426895986
+#  - name: Datatón
+#    url: https://www.idiv.de/en/sibteds.html
 url_code: ''
 url_pdf: 'simposio_DatatonLatam_2023.pdf'
 url_slides: ''
@@ -65,8 +65,9 @@ projects: []
 
 # Simposio Datatón Latinoamérica
 
-Liderado por la Dra. [Stephanie Jurburg](https://scholar.google.com.mx/citations?user=GTbfX-QAAAAJ&hl=es) del Laboratorio de Análisis Espaciales de la UNAM, Alemania. El objetivo de la Datatón es incentivar a los participantes a reutilizar sus propios datos a través de la investigación de síntesis, apoyar a los investigadores a la hora de archivar sus datos de secuencias del microbioma en repositorios públicos en un formato fácil de compilar y fomentar la formación de redes de colaboración que tengan como objetivo reutilizar los datos archivados. El trabajo que presenté buscó contar a modo de historia, el trabajo en el que he estado involucrada los últimos 8 años que tienen como eje central al yaguarundí (**Herpailurus yagouraroundi**) y se nutre de la colaboración de muchas personas que han puesto su conocimiento a disposición de todxs.
+La Datatón es liderada por la Dra. [Stephanie Jurburg](https://www.ufz.de/index.php?en=49430) del Helmholtz Centre for Environmental Research (UFZ) de Alemania, en el marco del proyecto [sIBTEDS](https://www.idiv.de/en/sibteds.html) (Illuminating Blindspots Through Equitable Data reuse practices in the global South). El objetivo de la Datatón es incentivar a los participantes a reutilizar sus propios datos a través de la investigación de síntesis, apoyar a los investigadores a la hora de archivar sus datos de secuencias del microbioma en repositorios públicos en un formato fácil de compilar y fomentar la formación de redes de colaboración que tengan como objetivo reutilizar los datos archivados. [MiCoDa](https://micoda.idiv.de) (Microbial Community Database) ya cuenta con más de 35.000 muestras procesadas de 16S rRNA, y el interés ahora es amplicar la cantida de registros de América Latina.
 
+El trabajo que presenté buscó contar a modo de historia, el trabajo en el que he estado involucrada los últimos 8 años que tienen como eje central al yaguarundí (**Herpailurus yagouraroundi**) y se nutre de la colaboración de muchas personas que han puesto su conocimiento a disposición de todxs.
 
 ## El cuento del yaguarundí según los datos abiertos
 En 2015, el esquivo yaguarundí fue registrado por primera vez en Uruguay, lo que generó dudas sobre una potencial expansión de su área de distribución o la simple escasez de muestreos en la zona. Ante la inexistencia de datos abiertos para evaluar esto, inicié Biodiversidata, fomentando esfuerzos colaborativos para crear las primeras bases de datos abiertas de biodiversidad en Uruguay. Al revelar profundos sesgos espaciales en nuestro nuevo recurso a nivel nacional, recurrimos a modelos innovadores, utilizando modelos integrados de distribución de especies para revelar el rango de contracción del yaguarundí. A medida que profundizamos en el misterio de sus cambios, este viaje destaca el papel fundamental de los datos abiertos y la investigación colaborativa en la comprensión y conservación de la biodiversidad. Acompáñenme a explorar la historia no contada del yaguarundí y el poder del conocimiento compartido. Desde Uruguay hasta el Reino Unido y República Checa.
