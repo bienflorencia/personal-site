@@ -69,6 +69,8 @@ La Datatón es liderada por la Dra. [Stephanie Jurburg](https://www.ufz.de/index
 
 El trabajo que presenté buscó contar a modo de historia, el trabajo en el que he estado involucrada los últimos 8 años que tienen como eje central al yaguarundí (**Herpailurus yagouraroundi**) y se nutre de la colaboración de muchas personas que han puesto su conocimiento a disposición de todxs.
 
+---
+
 ## El cuento del yaguarundí según los datos abiertos
 En 2015, el esquivo yaguarundí fue registrado por primera vez en Uruguay, lo que generó dudas sobre una potencial expansión de su área de distribución o la simple escasez de muestreos en la zona. Ante la inexistencia de datos abiertos para evaluar esto, inicié Biodiversidata, fomentando esfuerzos colaborativos para crear las primeras bases de datos abiertas de biodiversidad en Uruguay. Al revelar profundos sesgos espaciales en nuestro nuevo recurso a nivel nacional, recurrimos a modelos innovadores, utilizando modelos integrados de distribución de especies para revelar el rango de contracción del yaguarundí. A medida que profundizamos en el misterio de sus cambios, este viaje destaca el papel fundamental de los datos abiertos y la investigación colaborativa en la comprensión y conservación de la biodiversidad. Acompáñenme a explorar la historia no contada del yaguarundí y el poder del conocimiento compartido. Desde Uruguay hasta el Reino Unido y República Checa.
 
