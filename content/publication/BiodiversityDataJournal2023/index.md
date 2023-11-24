@@ -32,8 +32,7 @@ abstract: Here, we introduce SPARSE (acronym for "SPecies AcRoss ScalEs"), a sim
 summary:
 
 tags:
-- phd
-- biodiversidata
+- SPARSE
 
 featured: false
 
