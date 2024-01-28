@@ -129,7 +129,7 @@ We then run the function.
 taxonRank_obs_may_2023 <- getiNatTaxonRank(taxa_list)
 ```
 
-Now, let’s reply our questions.
+**This will take a long time**, because each call takes a second and after 10 calls the code sleeps for 10 seconds. So, depending on how many records you have, prepare to wait! Now, let’s reply our questions.
 
 1.  **new for iNaturalist**, i.e., a species recorded in Uruguay in 2023
     that has no previous records in the platform.
