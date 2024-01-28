@@ -1,7 +1,7 @@
 ---
 title: Using the iNaturalist API to detect novel records
-subtitle: How many never-recorded species did we have in Uruguay in 2023?
-summary: How many never-recorded species did we have in Uruguay in 2023?
+subtitle: How many never-before recorded species did we have in Uruguay in 2023?
+summary: How many never-before recorded species did we have in Uruguay in 2023?
 authors:
   - admin
 tags:
