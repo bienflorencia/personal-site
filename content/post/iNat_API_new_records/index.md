@@ -129,7 +129,7 @@ We then run the function.
 taxonRank_obs_may_2023 <- getiNatTaxonRank(taxa_list)
 ```
 
-**This will take a long time**, because each call takes a second and after 10 calls the code sleeps for 10 seconds. So, depending on how many records you have, prepare to wait! Now, let’s reply our questions.
+Now, let’s reply our questions.
 
 1.  **new for iNaturalist**, i.e., a species recorded in Uruguay in 2023
     that has no previous records in the platform.
@@ -158,7 +158,8 @@ taxonRank_observations_2023 %>%
 | Ozotoceros bezoarticus uruguayensis |  1449698 | subspecies |                  1 |
 | Anodontites patagonica              |  1143075 | species    |                  1 |
 
-There are 12 species! We could also try if we have any second records.
+There are 12 species![^1] We could also try if we have any second
+records.
 
 ``` r
 taxonRank_observations_2023 %>%
@@ -199,6 +200,16 @@ obs_NatUY_before2023 <-read_csv('datos/observations-UY-before2023.csv')
 Now, we will check all the `taxon_id` (to the species level
 `taxon_rank`) to see how many records they have in Uruguay before 2023.
 
+``` r
+speciesList_2023 <- taxonRank_observations_2023 %>%
+  filter(taxon_rank=='species')
+
+speciesList_2023 %>%
+  filter(!taxon_id %in% obs_NatUY_before2023$taxon_id) %>%
+  filter(observations_count>1) %>%
+  arrange(observations_count) %>% head(n=25) %>% kable()
+```
+
 | taxon_name                    | taxon_id | taxon_rank | observations_count |
 |:------------------------------|---------:|:-----------|-------------------:|
 | Jacquemontia cataractae       |  1440659 | species    |                  2 |
@@ -230,10 +241,10 @@ Now, we will check all the `taxon_id` (to the species level
 In total we have 484 species. Here’s a sample of the 25 species with 2
 or more observations on iNaturalist (see `observations_count`).
 
+## And, that’s all !
 
-### That’s all folks!
+Hope you find this useful too ✨
 
-**WARNING**:
-Please bear in mind that this exercise does not handle taxon changes very well,
-e.g., *Prosopis nigra* is considered novel when it has actually suffered a taxon
-name change.
+[^1]: **WARNING**: Please bear in mind that this exercise does not
+    handle taxon changes very well, e.g., *Prosopis nigra* is considered
+    novel when it has actually suffered a taxon name change.
