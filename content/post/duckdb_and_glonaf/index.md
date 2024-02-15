@@ -34,23 +34,24 @@ To try it out, as an example, I chose the **GloNAF** ([Global
 Naturalized Alien Flora](https://glonaf.org)) database. This database
 about naturalised alien plant species, covers all terrestrial regions of
 the globe, and includes four tables (*Taxon_x\_List*, *List*, *Region*,
-*Reference*) that are link by different id variables. See [Pyšek et
+*Reference*) that are linked by different id variables. See [Pyšek et
 al. (2017)](https://doi.org/10.23855/preslia.2017.203) for more info.
 
 Since I haven’t seen any code to get data out of the **GloNAF**
 database, I’m sharing here the code hoping it helps someone else. I will
-use `duckdb` to load data and perform some queries combining the
+use `duckdb` to load the data and perform some queries combining the
 different tables.
 
 ### Let’s go!
 
 As the [R DuckDB documentation](https://duckdb.org/docs/api/r) explains,
 to use DuckDB, you must first create a connection object that represents
-the database. We will use \`\` to start an in-memory database.
+the database. We will use `dbConnect()` to start an in-memory database.
 
 ``` r
 library(duckdb)
 library(tmap)
+tmap_mode('view')
 library(rnaturalearth)
 library(sf)
 sf::sf_use_s2(FALSE)
@@ -65,13 +66,13 @@ the queries are super fast!
 
 ``` r
 duckdb_register(duck_glonaf, 'list',
-                read_csv('data/GLONAF/corrected_CSVs/List_GloNAF_vanKleunenetal2018Ecology.csv'))
+                read_csv('data/List_GloNAF_vanKleunenetal2018Ecology.csv'))
 
 duckdb_register(duck_glonaf, 'region',
-                read_csv('data/GLONAF/corrected_CSVs/Region_GloNAF_vanKleunenetal2018Ecology.csv'))
+                read_csv('data/Region_GloNAF_vanKleunenetal2018Ecology.csv'))
 
 duckdb_register(duck_glonaf, 'taxon',
-                read_csv('data/GLONAF/corrected_CSVs/Taxon_x_List_GloNAF_vanKleunenetal2018Ecology.csv'))
+                read_csv('data/Taxon_x_List_GloNAF_vanKleunenetal2018Ecology.csv'))
 ```
 
 Now, we will query the database using `dbGetQuery()`. **DuckDB**
@@ -150,7 +151,7 @@ tm_shape(GLONAF_taxa %>% mutate(taxa=ifelse(taxa==0, NA, taxa)),
           legend.reverse = T,
           title = 'GloNAF taxa count',
           alpha=0.5) +
-  tm_layout(legend.outside = TRUE)
+  tm_view(set.view = 2)
 ```
 
 <iframe src='tmap.html' height='600' width="100%">
