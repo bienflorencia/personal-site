@@ -150,10 +150,20 @@ token <- '' # paste here the token you get from IUCN
 
 ``` r
 speciesByLatamCountriesIUCN <- getSpeciesByCountriesIUCN(LatinAmerica$iso, token)
+```
 
+``` r
 head(speciesByLatamCountriesIUCN, n=5) %>%
   kable(format.args= list(big.mark = ','))
 ```
+
+| scientific_name    |    taxon_id | category | country |
+|:-------------------|------------:|:---------|:--------|
+| Abaeis nicippe     | 173,005,000 | LC       | MX      |
+| Abarema idiopoda   | 146,784,206 | LC       | MX      |
+| Abarema zolleriana | 198,888,990 | VU       | MX      |
+| Abatia mexicana    | 126,620,170 | VU       | MX      |
+| Abeillia abeillei  |  22,687,170 | LC       | MX      |
 
 Finally, let’s do some summaries to find out how many species we have
 per country, and, for instance, how many are not threatened according to
