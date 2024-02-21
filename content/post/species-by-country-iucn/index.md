@@ -64,7 +64,7 @@ LatinAmerica %>% kable()
 ```
 
 | country             | iso |
-|:--------------------|:----|
+|:--------------------|----:|
 | Mexico              | MX  |
 | Brazil              | BR  |
 | Costa Rica          | CR  |
@@ -158,7 +158,7 @@ head(speciesByLatamCountriesIUCN, n=5) %>%
 ```
 
 | scientific_name    |  taxon_id | category | country |
-|:-------------------|----------:|:---------|:--------|
+|:-------------------|----------:|---------:|--------:|
 | Abaeis nicippe     | 173005000 | LC       | MX      |
 | Abarema idiopoda   | 146784206 | LC       | MX      |
 | Abarema zolleriana | 198888990 | VU       | MX      |
@@ -187,7 +187,7 @@ speciesByLatamCountriesIUCN %>%
 ```
 
 | Country name       | Number of species | Number of non-threatened species | %   |
-|:-------------------|------------------:|---------------------------------:|:----|
+|:-------------------|------------------:|---------------------------------:|----:|
 | Argentina          |             4,587 |                            4,146 | 90% |
 | Bahamas            |             2,516 |                            2,299 | 91% |
 | Belize             |             3,750 |                            3,522 | 94% |
