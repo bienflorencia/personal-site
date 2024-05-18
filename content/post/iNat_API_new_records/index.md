@@ -157,7 +157,9 @@ taxon_count_observations_2023 <- getTaxonCount(taxon_id = taxa_list,
                                               place_id = 7259)
 ```
 
-Here are the first 10 from the `taxa_list`:
+Here are the first 10 from the `taxa_list`. You can see the first case with
+`taxon_id = 121850` doesn't get to the final output because it belongs to
+the Familia *Erebidae* which returns more than one result.
 
     1 121850 no info
     1 taxon: Xiruana 279 observations on iNat
@@ -183,7 +185,7 @@ Here are the first 10 from the `taxa_list`:
     8   961374 Nierembergia aristata species                     9               130
     9   541510 Ctenucha rubriceps    species                    46               879
 
-I will now merge this list with our original data (the observations),
+Now I merge this list with our original data (the observations),
 to get a number of records in the platform and in
 Uruguay for each taxon_id.
 
@@ -210,23 +212,23 @@ observations_2023 %>%
            observations_iNat==1) %>%
   select(iconic_taxon_name,
          taxon_name, observations_iNat) %>%
-  arrange(iconic_taxon_name, taxon_name) %>%
-  kable()
+  arrange(iconic_taxon_name, taxon_name)
 ```
 
-| iconic_taxon_name | taxon_name                | observations_iNat |
-|:------------------|:--------------------------|------------------:|
-| Insecta           | Chlaenius violatus        |                 1 |
-| Insecta           | Eutheria piperata         |                 1 |
-| Plantae           | Euphorbia burkartii       |                 1 |
-| Plantae           | Grindelia linearifolia    |                 1 |
-| Plantae           | Herbertia furcata         |                 1 |
-| Plantae           | Mikania sulcata           |                 1 |
-| Plantae           | Noticastrum chebataroffii |                 1 |
-| Plantae           | Pavonia glutinosa         |                 1 |
-| Plantae           | Pavonia orientalis        |                 1 |
-| Plantae           | Sisyrinchium rosengurttii |                 1 |
-| Plantae           | Vicia montevidensis       |                 1 |
+    # A tibble: 11 × 3
+       iconic_taxon_name taxon_name                observations_iNat
+       <chr>             <chr>                                 <int>
+     1 Insecta           Chlaenius violatus                        1
+     2 Insecta           Eutheria piperata                         1
+     3 Plantae           Euphorbia burkartii                       1
+     4 Plantae           Grindelia linearifolia                    1
+     5 Plantae           Herbertia furcata                         1
+     6 Plantae           Mikania sulcata                           1
+     7 Plantae           Noticastrum chebataroffii                 1
+     8 Plantae           Pavonia glutinosa                         1
+     9 Plantae           Pavonia orientalis                        1
+    10 Plantae           Sisyrinchium rosengurttii                 1
+    11 Plantae           Vicia montevidensis                       1
 
 This means, **11 new species** for the platform were recorded in Uruguay in 2023!
 
@@ -241,26 +243,29 @@ observations_2023 %>%
   group_by(iconic_taxon_name, taxon_name) %>%
   count() %>%
   group_by(iconic_taxon_name) %>%
-  filter(n == max(n)) %>% kable()
+  filter(n == max(n))
 ```
 
-| iconic_taxon_name | taxon_name                |   n |
-|:------------------|:--------------------------|----:|
-| Actinopterygii    | Diplodus argenteus        |  15 |
-| Amphibia          | Boana pulchella           |  72 |
-| Animalia          | Bunodosoma cangicum       |  42 |
-| Arachnida         | Argiope argentata         |  68 |
-| Aves              | Furnarius rufus           | 108 |
-| Chromista         | Pseudomicrothorax agilis  |   3 |
-| Fungi             | Trametes sanguinea        |  31 |
-| Insecta           | Harmonia axyridis         |  91 |
-| Mammalia          | Hydrochoerus hydrochaeris |  60 |
-| Mollusca          | Pachycymbiola brasiliana  |  27 |
-| Plantae           | Senecio crassiflorus      | 165 |
-| Protozoa          | Fuligo septica            |   2 |
-| Protozoa          | Reticularia lycoperdon    |   2 |
-| Reptilia          | Salvator merianae         |  69 |
-| NA                | Nostoc commune            |   4 |
+    # A tibble: 15 × 3
+    # Groups:   iconic_taxon_name [14]
+       iconic_taxon_name taxon_name                    n
+       <chr>             <chr>                     <int>
+     1 Actinopterygii    Diplodus argenteus           15
+     2 Amphibia          Boana pulchella              72
+     3 Animalia          Bunodosoma cangicum          42
+     4 Arachnida         Argiope argentata            68
+     5 Aves              Furnarius rufus             108
+     6 Chromista         Pseudomicrothorax agilis      3
+     7 Fungi             Trametes sanguinea           31
+     8 Insecta           Harmonia axyridis            91
+     9 Mammalia          Hydrochoerus hydrochaeris    60
+    10 Mollusca          Pachycymbiola brasiliana     27
+    11 Plantae           Senecio crassiflorus        165
+    12 Protozoa          Fuligo septica                2
+    13 Protozoa          Reticularia lycoperdon        2
+    14 Reptilia          Salvator merianae            69
+    15 <NA>              Nostoc commune                4
+
 
 To know how many haven’t been recorded before in Uruguay, we assess the
 field `observations_place`. If the `taxon_id`‘s `taxon_rank` is species,
@@ -278,36 +283,24 @@ observations_2023 %>%
   group_by(iconic_taxon_name, taxon_name) %>%
   count() %>%
   group_by(iconic_taxon_name) %>%
-  slice_head(n=3) %>%
-  kable()
+  slice_head(n=3)
 ```
 
-| iconic_taxon_name | taxon_name                |   n |
-|:------------------|:--------------------------|----:|
-| Actinopterygii    | Aluterus monoceros        |   1 |
-| Actinopterygii    | Austrolebias alexandri    |   1 |
-| Actinopterygii    | Austrolebias melanoorus   |   1 |
-| Animalia          | Potamotrygon falkneri     |   1 |
-| Arachnida         | Acropsopilio chilensis    |   1 |
-| Arachnida         | Akela ruricola            |   1 |
-| Arachnida         | Creugas lisei             |   1 |
-| Aves              | Arundinicola leucocephala |   1 |
-| Aves              | Fulmarus glacialis        |   1 |
-| Aves              | Fulmarus glacialoides     |   1 |
-| Fungi             | Agaricus devoniensis      |   1 |
-| Fungi             | Cookeina speciosa         |   1 |
-| Fungi             | Hygrocybe flavescens      |   1 |
-| Insecta           | Acledra fraterna          |   1 |
-| Insecta           | Adimantus ornatissimus    |   1 |
-| Insecta           | Anisophya arreguii        |   1 |
-| Mammalia          | Chrysocyon brachyurus     |   1 |
-| Mollusca          | Pomacea scalaris          |   1 |
-| Plantae           | Amaranthus caudatus       |   1 |
-| Plantae           | Apium graveolens          |   1 |
-| Plantae           | Asplenium inaequilaterale |   1 |
-| Protozoa          | Reticularia lycoperdon    |   1 |
-| Reptilia          | Caiman yacare             |   1 |
-| Reptilia          | Tropidurus torquatus      |   1 |
+    # A tibble: 24 × 3
+    # Groups:   iconic_taxon_name [11]
+       iconic_taxon_name taxon_name                    n
+       <chr>             <chr>                     <int>
+     1 Actinopterygii    Aluterus monoceros            1
+     2 Actinopterygii    Austrolebias alexandri        1
+     3 Actinopterygii    Austrolebias melanoorus       1
+     4 Animalia          Potamotrygon falkneri         1
+     5 Arachnida         Acropsopilio chilensis        1
+     6 Arachnida         Akela ruricola                1
+     7 Arachnida         Creugas lisei                 1
+     8 Aves              Arundinicola leucocephala     1
+     9 Aves              Fulmarus glacialis            1
+    10 Aves              Fulmarus glacialoides         1
+    # ℹ 14 more rows
 
 There were **131 new species** recorded in iNaturalist for Uruguay in 2023!
 Woooow!
@@ -321,22 +314,25 @@ observations_2023 %>%
            observations_place==1) %>%
   group_by(user_login) %>%
   count() %>%
-  arrange(desc(n)) %>% head(n=10) %>%
-  kable()
+  arrange(desc(n)) %>%
+  head(n=10)
 ```
 
-| user_login      |   n |
-|:----------------|----:|
-| enriquecenoz    |  12 |
-| santiagomailhos |  11 |
-| amailhos        |   9 |
-| luisvescia      |   6 |
-| javierpiquillen |   5 |
-| gusper          |   4 |
-| msilvera        |   4 |
-| lautaro_fuentes |   3 |
-| m_coronel94     |   3 |
-| martzz          |   3 |
+    # A tibble: 10 × 2
+    # Groups:   user_login [10]
+       user_login          n
+       <chr>           <int>
+     1 enriquecenoz       12
+     2 santiagomailhos    11
+     3 amailhos            9
+     4 luisvescia          6
+     5 javierpiquillen     5
+     6 gusper              4
+     7 msilvera            4
+     8 lautaro_fuentes     3
+     9 m_coronel94         3
+    10 martzz              3
+
 
 Congrats!
 
