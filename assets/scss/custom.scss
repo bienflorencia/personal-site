@@ -10,7 +10,7 @@ code {
 table {
     border-collapse: collapse;
     overflow-x: scroll;
-    margin: 5px 0;
+    margin: 40px 0;
     font-size: 0.9em;
     // width: 80%;
     min-width: 500px;
@@ -20,7 +20,7 @@ table {
 }
 
 table tr:hover {
-  background-color: #ddd;
+  background-color: #fafafa;
 }
 
 th, td {
