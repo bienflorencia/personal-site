@@ -36,7 +36,7 @@ links:
 
 > **Note**
 > I updated this post because I found out an easier way of doing it.
-> You can find the previous version [here](https://github.com/bienflorencia/personal-site/blob/master/content/post/iNat_API_new_records/index.md).
+> You can find the previous version [here](https://github.com/bienflorencia/personal-site/blob/6e692db4b693ee00ee1d6138f3d6046c4b3450ac/content/post/iNat_API_new_records/index.md).
 
 This time, I’m interested in detecting if any of the records uploaded to
 iNaturalist in Uruguay during the past year, 2023, belong to new species
