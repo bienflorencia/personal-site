@@ -196,7 +196,7 @@ observations_2023 <- left_join(observations_2023,
 
 Finally, let’s answer our questions.
 
-### 1. **a new species for iNaturalist**
+### 1. A new species for iNaturalist
 
 To answer this we will assess the field `observations_iNat` and check
 that the `taxon_id`‘s `taxon_rank` is species, the observation is
@@ -230,7 +230,7 @@ observations_2023 %>%
 
 This means, **11 new species** for the platform were recorded in Uruguay in 2023!
 
-### 2. **a new species for NaturalistaUY*
+### 2. A new species for NaturalistaUY
 
 In total we had **3209 species** in Uruguay for 2023. Here’s a sample of
 the most recorded species per iconic taxon group.

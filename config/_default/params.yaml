@@ -61,8 +61,8 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
+    theme_light: pastie
+    theme_dark: xcode-dark
   math:
     enable: false
   privacy_pack:
