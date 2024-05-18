@@ -1,0 +1,30 @@
+code {
+  color: #f14668;
+  background-color: #fafafa;
+}
+
+.dark code {
+  background-color: #1f1f24;
+ }
+
+table {
+    border-collapse: collapse;
+    overflow-x: scroll;
+    margin: 5px 0;
+    font-size: 0.9em;
+    // width: 80%;
+    min-width: 500px;
+    text-align: left;
+    border-radius: 5px 5px 5px 5px;
+    // overflow: hidden;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
