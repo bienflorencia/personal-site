@@ -42,8 +42,8 @@ tags:
 featured: false
 
 links:
-  - name: "Supplemental Materials"
-   url: "https://osf.io/7d8sp/"
+  - name: 'Supplemental Materials'
+    url: 'https://osf.io/7d8sp/'
 url_pdf: ''
 url_code: 'https://doi.org/10.5281/zenodo.11080944'
 url_dataset: ''
