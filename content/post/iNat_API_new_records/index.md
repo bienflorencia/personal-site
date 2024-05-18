@@ -38,7 +38,7 @@ links:
 > I updated this post because I found out an easier way of doing it.
 > You can find the previous version [here](https://github.com/bienflorencia/personal-site/blob/6e692db4b693ee00ee1d6138f3d6046c4b3450ac/content/post/iNat_API_new_records/index.md).
 
-This time, I’m interested in detecting if any of the records uploaded to
+This time, I'm interested in detecting if any of the records uploaded to
 iNaturalist in Uruguay during the past year, 2023, belong to new species
 for NaturalistaUY (our national site) or for the iNaturalist global
 platform. To answer this, I once again explored the [iNaturalist
@@ -61,12 +61,12 @@ location (`place_id`), and return, among other things, the number of
 observations the species has for that place (`count`) and also the
 number of observations the species has globally (`observations_count`).
 
-So, let’s create the function `getTaxonCount()` which takes a `taxon_id`
+So, let's create the function `getTaxonCount()` which takes a `taxon_id`
 (or a list) and a `place_id` as arguments, and returns the `taxon_name`,
 `taxon_rank` (e.g., species, genus, or family), `observations_place`
 (number of records for the species at the `place_id`), and
 `observations_iNat` (number of records for the species globally for
-iNat).
+iNat). The `place_id` of Uruguays is `7259.`
 
 ``` r
 library(httr)
@@ -120,16 +120,16 @@ getTaxonCount <- function(taxon_id, place_id = 7259){
 
 <div>
 
-> **Warning**
+> **Warning**:
 > If the `taxon_id` belongs to a family, order or other higher taxonomic
-> ranks, sometimes the search returns many species (all those listed for
-> that `taxon_id`). To avoid this, the function `getTaxonCount()` will
-> not return data for such `taxon_id`s.
+> ranks, the search may return many taxa (all those listed for that
+> `taxon_id`). To avoid this, the function `getTaxonCount()` will not
+> return data for such `taxon_id`s.
 
 </div>
 
-To use the function I downloaded all the observations from 2023 from
-here:
+To use the function I downloaded all the observations recorded in
+Uruguay on 2023 from here:
 [naturalista.uy/observations/export](https://www.naturalista.uy/observations/export),
 using the following URL query:
 `quality_grade=any&identifications=any&place_id=7259&verifiable=true&d1=2023-01-01&d2=2023-12-31`.
@@ -141,7 +141,7 @@ observations_2023 <- read_csv('datos/observations-2023-UY.csv',
                               guess_max = 30000)
 ```
 
-To use the function I got a unique list of taxon IDs (`taxa_list`).
+And then I got a unique list of taxon IDs (`taxa_list`).
 
 ``` r
 taxa_list <- observations_2023 %>%
@@ -149,24 +149,20 @@ taxa_list <- observations_2023 %>%
   distinct(taxon_id) %>% pull(taxon_id)
 ```
 
-I then run the function with the `taxon_list` as the argument of the
-function `getTaxonCount()`.
+Finally, I run the function with the `taxon_list` I extracted as the
+argument of the function `getTaxonCount()`.
 
 ``` r
 taxon_count_observations_2023 <- getTaxonCount(taxon_id = taxa_list,
                                               place_id = 7259)
 ```
 
-Here are the first 10 from the `taxa_list`. You can see the first case with
-`taxon_id = 121850` doesn't get to the final output because it belongs to
-the Familia *Erebidae* which returns more than one result.
-
     1 121850 no info
     1 taxon: Xiruana 279 observations on iNat
     2 taxon: Excirolana armata 16 observations on iNat
     3 taxon: Rapana venosa 807 observations on iNat
     4 taxon: Cyperus trigynus 132 observations on iNat
-    5 taxon: Salvator merianae 7032 observations on iNat
+    5 taxon: Salvator merianae 7033 observations on iNat
     6 taxon: Colaptes campestris 4627 observations on iNat
     7 taxon: Teius oculatus 241 observations on iNat
     8 taxon: Nierembergia aristata 130 observations on iNat
@@ -179,15 +175,15 @@ the Familia *Erebidae* which returns more than one result.
     2  1028885 Excirolana armata     species                     5                16
     3   370913 Rapana venosa         species                    68               807
     4  1515377 Cyperus trigynus      species                    72               132
-    5   318758 Salvator merianae     species                   297              7032
+    5   318758 Salvator merianae     species                   297              7033
     6    18262 Colaptes campestris   species                   202              4627
     7   113828 Teius oculatus        species                    44               241
     8   961374 Nierembergia aristata species                     9               130
     9   541510 Ctenucha rubriceps    species                    46               879
 
-Now I merge this list with our original data (the observations),
-to get a number of records in the platform and in
-Uruguay for each taxon_id.
+We will now merge this list with our original data (all the
+observations), to get for each `taxon_id` a number of records in the
+platform and a number for Uruguay.
 
 ``` r
 observations_2023 <- left_join(observations_2023,
@@ -196,14 +192,14 @@ observations_2023 <- left_join(observations_2023,
                                relationship='many-to-one')
 ```
 
-Finally, let’s answer our questions.
+Finally, let's answer our questions.
 
-### 1. A new species for iNaturalist
+## 1. **A new species for iNaturalist**
 
 To answer this we will assess the field `observations_iNat` and check
-that the `taxon_id`‘s `taxon_rank` is species, the observation is
-’Research Grade’ and it has only 1 `observations_iNat`. Those that pass
-this check will new species for the platform!
+that the `taxon_id`'s `taxon_rank` is 'species', the observation is
+'Research Grade' and it has only 1 `observations_iNat`. Those that pass
+this check will be new species in Uruguay for the platform!
 
 ``` r
 observations_2023 %>%
@@ -212,29 +208,29 @@ observations_2023 %>%
            observations_iNat==1) %>%
   select(iconic_taxon_name,
          taxon_name, observations_iNat) %>%
-  arrange(iconic_taxon_name, taxon_name)
+  arrange(iconic_taxon_name, taxon_name) %>%
+  kable()
 ```
 
-    # A tibble: 11 × 3
-       iconic_taxon_name taxon_name                observations_iNat
-       <chr>             <chr>                                 <int>
-     1 Insecta           Chlaenius violatus                        1
-     2 Insecta           Eutheria piperata                         1
-     3 Plantae           Euphorbia burkartii                       1
-     4 Plantae           Grindelia linearifolia                    1
-     5 Plantae           Herbertia furcata                         1
-     6 Plantae           Mikania sulcata                           1
-     7 Plantae           Noticastrum chebataroffii                 1
-     8 Plantae           Pavonia glutinosa                         1
-     9 Plantae           Pavonia orientalis                        1
-    10 Plantae           Sisyrinchium rosengurttii                 1
-    11 Plantae           Vicia montevidensis                       1
+| iconic_taxon_name | taxon_name                | observations_iNat |
+|:------------------|:--------------------------|------------------:|
+| Insecta           | Chlaenius violatus        |                 1 |
+| Insecta           | Eutheria piperata         |                 1 |
+| Plantae           | Euphorbia burkartii       |                 1 |
+| Plantae           | Grindelia linearifolia    |                 1 |
+| Plantae           | Herbertia furcata         |                 1 |
+| Plantae           | Mikania sulcata           |                 1 |
+| Plantae           | Noticastrum chebataroffii |                 1 |
+| Plantae           | Pavonia glutinosa         |                 1 |
+| Plantae           | Pavonia orientalis        |                 1 |
+| Plantae           | Sisyrinchium rosengurttii |                 1 |
+| Plantae           | Vicia montevidensis       |                 1 |
 
-This means, **11 new species** for the platform were recorded in Uruguay in 2023!
+This means, 11 new species were recorded in the platform on 2023!
 
-### 2. A new species for NaturalistaUY
+## 2. **A new species for NaturalistaUY**
 
-In total we had **3209 species** in Uruguay for 2023. Here’s a sample of
+In total we have 3209 species in Uruguay for 2023. Here's a sample of
 the most recorded species per iconic taxon group.
 
 ``` r
@@ -243,37 +239,35 @@ observations_2023 %>%
   group_by(iconic_taxon_name, taxon_name) %>%
   count() %>%
   group_by(iconic_taxon_name) %>%
-  filter(n == max(n))
+  filter(n == max(n)) %>%
+  kable()
 ```
 
-    # A tibble: 15 × 3
-    # Groups:   iconic_taxon_name [14]
-       iconic_taxon_name taxon_name                    n
-       <chr>             <chr>                     <int>
-     1 Actinopterygii    Diplodus argenteus           15
-     2 Amphibia          Boana pulchella              72
-     3 Animalia          Bunodosoma cangicum          42
-     4 Arachnida         Argiope argentata            68
-     5 Aves              Furnarius rufus             108
-     6 Chromista         Pseudomicrothorax agilis      3
-     7 Fungi             Trametes sanguinea           31
-     8 Insecta           Harmonia axyridis            91
-     9 Mammalia          Hydrochoerus hydrochaeris    60
-    10 Mollusca          Pachycymbiola brasiliana     27
-    11 Plantae           Senecio crassiflorus        165
-    12 Protozoa          Fuligo septica                2
-    13 Protozoa          Reticularia lycoperdon        2
-    14 Reptilia          Salvator merianae            69
-    15 <NA>              Nostoc commune                4
+| iconic_taxon_name | taxon_name                |   n |
+|:------------------|:--------------------------|----:|
+| Actinopterygii    | Diplodus argenteus        |  15 |
+| Amphibia          | Boana pulchella           |  72 |
+| Animalia          | Bunodosoma cangicum       |  42 |
+| Arachnida         | Argiope argentata         |  68 |
+| Aves              | Furnarius rufus           | 108 |
+| Chromista         | Pseudomicrothorax agilis  |   3 |
+| Fungi             | Trametes sanguinea        |  31 |
+| Insecta           | Harmonia axyridis         |  91 |
+| Mammalia          | Hydrochoerus hydrochaeris |  60 |
+| Mollusca          | Pachycymbiola brasiliana  |  27 |
+| Plantae           | Senecio crassiflorus      | 165 |
+| Protozoa          | Fuligo septica            |   2 |
+| Protozoa          | Reticularia lycoperdon    |   2 |
+| Reptilia          | Salvator merianae         |  69 |
+| NA                | Nostoc commune            |   4 |
 
+To know how many species were recorded for the first time in Uruguay, we
+assessed the field `observations_place`. If the `taxon_id`'s
+`taxon_rank` is 'species', the observation is 'Research Grade' and it
+has only 1 `observations_place`, then we have a new species for Uruguay!
+And we actually have many 🤩
 
-To know how many haven’t been recorded before in Uruguay, we assess the
-field `observations_place`. If the `taxon_id`‘s `taxon_rank` is species,
-the observation is ’Research Grade’ and it has only 1
-`observations_place`, then we have a new species for Uruguay! And we
-actually have many 🤩
-
-Here’s a sample of species per iconic taxon group:
+Here's a sample of new species per iconic taxon group:
 
 ``` r
 observations_2023 %>%
@@ -283,27 +277,39 @@ observations_2023 %>%
   group_by(iconic_taxon_name, taxon_name) %>%
   count() %>%
   group_by(iconic_taxon_name) %>%
-  slice_head(n=3)
+  slice_head(n=3) %>%
+  kable()
 ```
 
-    # A tibble: 24 × 3
-    # Groups:   iconic_taxon_name [11]
-       iconic_taxon_name taxon_name                    n
-       <chr>             <chr>                     <int>
-     1 Actinopterygii    Aluterus monoceros            1
-     2 Actinopterygii    Austrolebias alexandri        1
-     3 Actinopterygii    Austrolebias melanoorus       1
-     4 Animalia          Potamotrygon falkneri         1
-     5 Arachnida         Acropsopilio chilensis        1
-     6 Arachnida         Akela ruricola                1
-     7 Arachnida         Creugas lisei                 1
-     8 Aves              Arundinicola leucocephala     1
-     9 Aves              Fulmarus glacialis            1
-    10 Aves              Fulmarus glacialoides         1
-    # ℹ 14 more rows
+| iconic_taxon_name | taxon_name                |   n |
+|:------------------|:--------------------------|----:|
+| Actinopterygii    | Aluterus monoceros        |   1 |
+| Actinopterygii    | Austrolebias alexandri    |   1 |
+| Actinopterygii    | Austrolebias melanoorus   |   1 |
+| Animalia          | Potamotrygon falkneri     |   1 |
+| Arachnida         | Acropsopilio chilensis    |   1 |
+| Arachnida         | Akela ruricola            |   1 |
+| Arachnida         | Creugas lisei             |   1 |
+| Aves              | Arundinicola leucocephala |   1 |
+| Aves              | Fulmarus glacialis        |   1 |
+| Aves              | Fulmarus glacialoides     |   1 |
+| Fungi             | Agaricus devoniensis      |   1 |
+| Fungi             | Cookeina speciosa         |   1 |
+| Fungi             | Hygrocybe flavescens      |   1 |
+| Insecta           | Acledra fraterna          |   1 |
+| Insecta           | Adimantus ornatissimus    |   1 |
+| Insecta           | Anisophya arreguii        |   1 |
+| Mammalia          | Chrysocyon brachyurus     |   1 |
+| Mollusca          | Pomacea scalaris          |   1 |
+| Plantae           | Amaranthus caudatus       |   1 |
+| Plantae           | Apium graveolens          |   1 |
+| Plantae           | Asplenium inaequilaterale |   1 |
+| Protozoa          | Reticularia lycoperdon    |   1 |
+| Reptilia          | Caiman yacare             |   1 |
+| Reptilia          | Tropidurus torquatus      |   1 |
 
-There were **131 new species** recorded in iNaturalist for Uruguay in 2023!
-Woooow!
+In total there were 131 new species recorded in iNaturalist for Uruguay
+in 2023! Woooow!
 
 And here are the top ten users contributing to these new records:
 
@@ -314,28 +320,25 @@ observations_2023 %>%
            observations_place==1) %>%
   group_by(user_login) %>%
   count() %>%
-  arrange(desc(n)) %>%
-  head(n=10)
+  arrange(desc(n)) %>% head(n=10) %>%
+  kable()
 ```
 
-    # A tibble: 10 × 2
-    # Groups:   user_login [10]
-       user_login          n
-       <chr>           <int>
-     1 enriquecenoz       12
-     2 santiagomailhos    11
-     3 amailhos            9
-     4 luisvescia          6
-     5 javierpiquillen     5
-     6 gusper              4
-     7 msilvera            4
-     8 lautaro_fuentes     3
-     9 m_coronel94         3
-    10 martzz              3
-
+| user_login      |   n |
+|:----------------|----:|
+| enriquecenoz    |  12 |
+| santiagomailhos |  11 |
+| amailhos        |   9 |
+| luisvescia      |   6 |
+| javierpiquillen |   5 |
+| gusper          |   4 |
+| msilvera        |   4 |
+| lautaro_fuentes |   3 |
+| m_coronel94     |   3 |
+| martzz          |   3 |
 
 Congrats!
 
-## And, that’s all !
+## And, that's all !
 
 Hope you find this useful too ✨
