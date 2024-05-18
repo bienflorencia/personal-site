@@ -14,7 +14,7 @@ projects: []
 # Date published
 date: '2024-01-28T00:00:00Z'
 # Date updated
-lastMod: '2024-01-28T00:00:00Z'
+lastMod: '2024-05-18T00:00:00Z'
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
@@ -35,8 +35,7 @@ links:
 ---
 
 > **Note**
->
-> I updated this post because I find out an easier way of doing it.
+> I updated this post because I found out an easier way of doing it.
 > You can find the previous version [here](https://github.com/bienflorencia/personal-site/blob/master/content/post/iNat_API_new_records/index.md).
 
 This time, I’m interested in detecting if any of the records uploaded to
@@ -121,8 +120,7 @@ getTaxonCount <- function(taxon_id, place_id = 7259){
 
 <div>
 
-> **Note**
->
+> **Warning**
 > If the `taxon_id` belongs to a family, order or other higher taxonomic
 > ranks, sometimes the search returns many species (all those listed for
 > that `taxon_id`). To avoid this, the function `getTaxonCount()` will
@@ -159,6 +157,8 @@ taxon_count_observations_2023 <- getTaxonCount(taxon_id = taxa_list,
                                               place_id = 7259)
 ```
 
+Here are the first 10 from the `taxa_list`:
+
     1 121850 no info
     1 taxon: Xiruana 279 observations on iNat
     2 taxon: Excirolana armata 16 observations on iNat
@@ -183,9 +183,9 @@ taxon_count_observations_2023 <- getTaxonCount(taxon_id = taxa_list,
     8   961374 Nierembergia aristata species                     9               130
     9   541510 Ctenucha rubriceps    species                    46               879
 
-We will now merge this list with our original data (the observations),
-to get for each taxon_id a number of records in the platform and in
-Uruguay.
+I will now merge this list with our original data (the observations),
+to get a number of records in the platform and in
+Uruguay for each taxon_id.
 
 ``` r
 observations_2023 <- left_join(observations_2023,
@@ -196,7 +196,7 @@ observations_2023 <- left_join(observations_2023,
 
 Finally, let’s answer our questions.
 
-## 1. **a new species for iNaturalist**, i.e., a species recorded in Uruguay in 2023 that has no previous records in the platform.
+### 1. **a new species for iNaturalist**
 
 To answer this we will assess the field `observations_iNat` and check
 that the `taxon_id`‘s `taxon_rank` is species, the observation is
@@ -230,9 +230,9 @@ observations_2023 %>%
 
 This means, **11 new species** for the platform were recorded in Uruguay in 2023!
 
-## 2. **a new species for NaturalistaUY**: i.e., a species recorded in Uruguay in 2023 that has no previous records in Uruguay.
+### 2. **a new species for NaturalistaUY*
 
-In total we have 3209 species in Uruguay for 2023. Here’s a sample of
+In total we had **3209 species** in Uruguay for 2023. Here’s a sample of
 the most recorded species per iconic taxon group.
 
 ``` r
@@ -268,7 +268,7 @@ the observation is ’Research Grade’ and it has only 1
 `observations_place`, then we have a new species for Uruguay! And we
 actually have many 🤩
 
-Here’s a sample of three species per iconic taxon group:
+Here’s a sample of species per iconic taxon group:
 
 ``` r
 observations_2023 %>%
