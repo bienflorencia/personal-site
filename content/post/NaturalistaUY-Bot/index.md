@@ -39,7 +39,7 @@ Pero ¿por dónde empezar? Lo primero, [es explorar la API de iNaturalist](https
 
 Volviendo al bot, el siguiente paso una vez que entendemos cómo funciona la API de iNaturalist es [pedir ayuda desesperadamente](https://ecoevo.social/@flograttarola/112083586968140650) a gente que haya hecho algo parecido.
 
-<iframe src="https://ecoevo.social/@flograttarola/112083586968140650/embed" class="mastodon-embed" style="max-width: 50%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
+<iframe src="https://ecoevo.social/@flograttarola/112083586968140650/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
 
 Y acá es que llega [Julio J.](https://mastodon.uy/@j3j5) al rescate, un gran botólogo (experto en bots). Un genio de la automatización de llamadas a APIs y a bases de datos online, con célebres bots como el 'IPAPBot, índice de precios del asado con picada', '[BigBo energy](https://bots.uy/BigBo_Energy), estadísticas de generación eléctrica en Uruguay' o su más reciente, '[BigBo wiki](https://bots.uy/bigbo_wiki_es), los artículos más vistos en Wikipedia en español'. Un par de viernes de llamadas virtuales (en husos horarios compatibles entre Praga y Montevideo) y mucha magia después, las primeras pruebas salieron a la luz, *powered by* [tacuruses](https://gitlab.com/j3j5/tacuruses). Una serie de llamadas a la API, datos que se extraen, un mensaje que se despliega, con un espacio más acá, otro allá, emojis varios y pum, humo verde, habemus bot.
 
