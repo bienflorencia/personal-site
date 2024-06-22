@@ -48,7 +48,7 @@ links:
     url: ttps://bienflorencia.github.io/CAPS_2024_NaturalistaUY/
 url_code: ''
 url_pdf: ''
-url_slides: 'h'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
