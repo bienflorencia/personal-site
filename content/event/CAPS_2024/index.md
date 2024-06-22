@@ -12,7 +12,7 @@ location: Virtual
 #  postcode: '94305'
 #  country: United States
 
-summary: Presentación en CAPS 2024
+summary: Poster en CAPS 2024
 abstract: ''
 
 # Talk start and end times.
