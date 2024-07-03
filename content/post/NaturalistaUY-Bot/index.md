@@ -45,11 +45,11 @@ Y acá es que llega [Julio J.](https://mastodon.uy/@j3j5) al rescate, un gran bo
 
 En definitiva, ¿qué hace el susodicho? El bot de NaturalistaUY está programado para revisar registros día a día y destacar aquel que documente la especie más rara del día. Esto lo hace calculando cuántas veces se había registrado antes esa especie en Uruguay y cuántas en iNaturalist, es decir, en la plataforma en general. Hacia adelante, también queremos poder destacar observadores, identificadores, lugares de nuestro país y proyectos.
 
+<!-- ![https://bots.uy/naturalista](bot-avatar.png) -->
+
 Así que ya sabés, ponete el recordatorio y vichá el bot de NaturalistaUY a las 10 am Uruguay para tener el registro del día. Yo que vos quedo atentx, **puede que sea un registro de una especie nueva para el país**.
 
-![https://bots.uy/naturalista](bot-avatar.png)
-
-<blockquote lang="es" cite="https://bots.uy/p/Naturalista/182954630366498816">
+<!-- <blockquote lang="es" cite="https://bots.uy/p/Naturalista/182954630366498816">
 <p><a href="https://www.naturalista.uy/observations/216596499" rel="nofollow noopener noreferrer" target="_blank">Registro del día en 🇺🇾</a><br>Esta fue la especie con menos observaciones registradas en Uruguay el sábado pasado (2024-05-18):<br><br><b>Pardela de Cabo Verde (<i>Calonectris edwardsii</i>), Aves 🦜.</b><br><br></p>
 <blockquote>Observada por <a href="https://www.naturalista.uy/people/martzz" rel="nofollow noopener noreferrer" target="_blank">martzz</a> el sábado 18 de mayo de 2024.</blockquote>
   <p><br>Esta especie es nativa de Uruguay, está amenazada y <b>¡es la primera vez que se registra en el país</b> (aunque se registró 37 veces en el resto del mundo)!</p>
@@ -58,8 +58,6 @@ Así que ya sabés, ponete el recordatorio y vichá el bot de NaturalistaUY a la
   </footer>
 </blockquote>
 
-<!-- el bot embebido
+<br> -->
 
-<iframe src="https://bots.uy/@Naturalista/182954630366498816/embed" class="mastodon-embed" style="max-width: 80%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
-
--->
+<iframe src="https://bots.uy/Naturalista/199147263778492416/embed" class="tacuruses-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://bots.uy/embed.js" async="async"></script>
