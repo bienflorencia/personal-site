@@ -60,4 +60,4 @@ Así que ya sabés, ponete el recordatorio y vichá el bot de NaturalistaUY a la
 
 <br> -->
 
-<iframe src="https://bots.uy/Naturalista/199147263778492416/embed" class="tacuruses-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://bots.uy/embed.js" async="async"></script>
+<iframe src="https://bots.uy/Naturalista/185763121258958848/embed" class="tacuruses-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://bots.uy/embed.js" async="async"></script>
