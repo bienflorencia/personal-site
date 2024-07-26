@@ -18,7 +18,7 @@ links:
   - icon: graduation-cap
     icon_pack: fa
     name: Thesis
-    url: https://eprints.lincoln.ac.uk/id/eprint/48514/1/Grattarola,%20Florencia%20%E2%80%93%20Life%20Sciences%20%E2%80%93%20March%202021.pdf
+    url: https://repository.lincoln.ac.uk/articles/thesis/Biodiversity_informatics_and_macroecological_patterns_of_biodiversity_Uruguay_as_a_model_region/24326737/1/files/43494831.pdf
 url_code: ''
 url_pdf: ''
 url_slides: ''
