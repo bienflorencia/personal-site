@@ -17,7 +17,7 @@ links:
   - icon: book
     icon_pack: fa
     name: Libro
-    url: https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/17162/1/uy24-17527.pdf
+    url: https://udelar.edu.uy/retema/wp-content/uploads/sites/30/2022/09/relaciones_sociedad-naturaleza_en_paso_centurion-comprimido-1.pdf
 url_code: ''
 url_pdf: ''
 url_slides: ''
