@@ -9,7 +9,7 @@ author_notes:
 - ""
 - ""
 date: "2024-08-05T00:00:00Z"
-doi: ""
+doi: "10.2139/ssrn.4916634"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-08-05T00:00:00Z"
@@ -35,9 +35,9 @@ tags:
 
 featured: false
 
-links:
-  - name: "URL"
-    url: "https://ssrn.com/abstract=4916634"
+#links:
+#  - name: "URL"
+#    url: "https://ssrn.com/abstract=4916634"
 url_pdf: ''
 url_code: ''
 url_dataset: ''
