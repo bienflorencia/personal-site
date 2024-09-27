@@ -45,7 +45,7 @@ featured: false
 
 links:
   - name: Poster
-    url: ttps://bienflorencia.github.io/CAPS_2024_NaturalistaUY/
+    url: https://bienflorencia.github.io/CAPS_2024_NaturalistaUY/
 url_code: ''
 url_pdf: ''
 url_slides: ''
