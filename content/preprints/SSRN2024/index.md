@@ -31,7 +31,7 @@ summary:
 
 tags:
 - Neotropics
-- canrnivore
+- macroecology
 
 featured: false
 
