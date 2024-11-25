@@ -75,4 +75,7 @@ projects: []
 This session will provide an opportunity to discuss and share RDA groups’ processes, challenges, and best practices in achieving impactful adoption of their outputs. The objective of the Outputs and Recommendations session is to also showcase the real-world impact of the work produced by the RDA groups.
 
 **RDA Groups presenters**: SHAring Rewards and Credit IG, Professionalising Data Stewardship IG, Global Open Research Commons IG, Data Discovery Paradigms IG, Artificial Intelligence and Data Visitation WG, TIGER and TIGRUS projects.
-Moderator: Shalini Kurapati, Community Development Specialist
+Moderator: Shalini Kurapati, Community Development Specialist.
+
+
+I presented our Recommendations on Open Science Rewards and Incentives. See them here: https://bienflorencia.github.io/rda-sharc-reco/.
