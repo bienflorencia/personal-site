@@ -62,8 +62,8 @@ social:
     <!-- label: Follow me on Twitter -->
     display:
       header: true
-  - icon: 'custom/bluesky'
-    icon_pack: custom
+  - icon: bluesky
+    icon_pack: fab
     link: https://bsky.app/profile/flograttarola.bsky.social
   - icon: mastodon
     icon_pack: fab
