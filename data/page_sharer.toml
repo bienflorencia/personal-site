@@ -11,9 +11,9 @@
 
 [[buttons]]
     id = "bluesky"
-    url = "https://bsky.app/intent/compose?url={url}&text={title}"
+    url = "https://bsky.app/intent/compose?text={title}%20{url}"
     title = "Bluesky"
-    icon_pack = "custom/bluesky"
+    icon_pack = "custom"
     icon = "bluesky"
     enable = true
 
@@ -37,5 +37,6 @@
   id = "whatsapp"
   url = "whatsapp://send?text={title}%20{url}"
   title = "WhatsApp"
+  icon_pack = "fab"
   icon = "whatsapp"
   enable = true
