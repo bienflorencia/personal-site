@@ -63,7 +63,7 @@ social:
     display:
       header: true
   - icon: bluesky
-    icon_pack: custom
+    icon_pack: brands
     link: https://bsky.app/profile/flograttarola.bsky.social
   - icon: mastodon
     icon_pack: fab
