@@ -10,11 +10,11 @@
   enable = true
 
 [[buttons]]
-    id = "twitter"
-    url = "https://twitter.com/intent/tweet?url={url}&text={title}"
-    title = "Twitter"
-    icon_pack = "fab"
-    icon = "twitter"
+    id = "bluesky"
+    url = "https://bsky.app/intent/compose?url={url}&text={title}"
+    title = "Bluesky"
+    icon_pack = "custom/bluesky"
+    icon = "bluesky"
     enable = true
 
 [[buttons]]
