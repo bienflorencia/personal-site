@@ -1,5 +1,5 @@
 ---
-title: Gaps between Open Science activities and actual recognition systems: Insights from an international survey
+title: "Gaps between Open Science activities and actual recognition systems: Insights from an international survey"
 
 authors:
 - admin
