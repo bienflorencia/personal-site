@@ -11,11 +11,11 @@
 
 [[buttons]]
     id = "bluesky"
-    url = "https://bsky.app/intent/compose?text={title}%20{url}"
+    url = "https://bsky.app/intent/compose?text={{$text|url}}"
     title = "Bluesky"
     icon_pack = "fa"
     icon = "bluesky"
-    enable = false
+    enable = true
 
 [[buttons]]
   id = "facebook"
