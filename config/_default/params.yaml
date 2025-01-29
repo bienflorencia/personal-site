@@ -11,8 +11,10 @@ appearance:
   font: font_custom
   font_size: L
 
-# SEO
+# bluesky
+bluesky: '@flograttarola.bsky.social'
 
+# SEO
 marketing:
   seo:
     site_type: Person
@@ -28,7 +30,6 @@ marketing:
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true

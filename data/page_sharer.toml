@@ -13,7 +13,7 @@
     id = "bluesky"
     url = "https://bsky.app/intent/compose?text={{$text|url}}"
     title = "Bluesky"
-    icon_pack = "fa"
+    icon_pack = "fab"
     icon = "bluesky"
     enable = true
 
