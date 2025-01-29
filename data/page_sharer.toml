@@ -15,7 +15,7 @@
     title = "Bluesky"
     icon_pack = "custom"
     icon = "custom/bluesky"
-    enable = false
+    enable = true
 
 [[buttons]]
   id = "facebook"
