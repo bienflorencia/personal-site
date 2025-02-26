@@ -43,8 +43,8 @@ featured: false
 #  - name: Evento Facebook
 #    url: https://www.facebook.com/events/1337449426895986
 url_code: ''
-url_pdf: 'Modelado_de_NE_y_DG.pdf'
-url_slides: ''
+url_pdf: ''
+url_slides: 'Modelado_de_NE_y_DG.pdf'
 url_video: 'https://www.youtube.com/live/F0BpYC3iE4g?feature=shared'
 
 # Markdown Slides (optional).
