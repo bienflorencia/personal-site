@@ -47,7 +47,7 @@ featured: false
 url_code: ''
 url_pdf: ''
 url_slides: 'Foro_Mujeres_Naturalistas.pdf'
-url_video: ''
+url_video: 'https://youtu.be/mE2o1Wx5-mo?feature=shared'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
