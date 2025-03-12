@@ -23,6 +23,7 @@ marketing:
     org_name: ''
     description: ''
     twitter: 'flograttarola'
+    bluesky: 'flograttarola.bsky.social'
   analytics:
     google_analytics: 'UA-154148506-1'
     baidu_tongji: ''
