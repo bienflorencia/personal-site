@@ -1,10 +1,10 @@
 ---
 title: Ciencia abierta y cultura libre en Uruguay
 
-event: "Clase en el curso "Ciencia, tecnología y sociedad: ¿para qué? y ¿con quiénes investigamos?"
+event: 'Clase en el curso "Ciencia, tecnología y sociedad: ¿para qué? y ¿con quiénes investigamos?"'
 event_url: ''
 
-location: Facultad de Ciencias Sociales, UdelaR
+location: 'Facultad de Ciencias Sociales - Universidad de la República'
 #address:
 #  street: 450 Serra Mall
 #  city: Stanford
