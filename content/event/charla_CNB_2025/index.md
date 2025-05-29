@@ -42,8 +42,8 @@ featured: false
 #  - name: Datatón
 #    url: https://www.idiv.de/en/sibteds.html
 url_code: ''
-url_pdf: 'charla_CNB_2025.pdf'
-url_slides: ''
+url_pdf: ''
+url_slides: 'charla_CNB_2025.pdf'
 url_video: ''
 
 # Markdown Slides (optional).
