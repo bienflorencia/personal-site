@@ -1,5 +1,5 @@
 ---
-title: "SPARSE 1.0 a template for databases of species inventories, with an open example of Czech birds"
+title: "Towards a new global database of regional red lists (RegRed): metadata"
 authors:
 - Ivo Kadlec
 - Adam Uličný
