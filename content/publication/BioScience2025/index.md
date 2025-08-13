@@ -35,7 +35,7 @@ publishDate: "2025-07-28T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*BioScience"
+publication: "*BioScience*"
 publication_short: ""
 
 abstract: Participatory citizen science is expanding, with iNaturalist emerging as one of the most widely used platforms globally. However, its application in research is often anecdotal. To evaluate the impact of how iNaturalist is contributing to biodiversity and conservation research, we conducted a systematic review of iNaturalist data use and compared our findings with Global Biodiversity Information Facility literature citing iNaturalist. We found that the use of iNaturalist data in peer-reviewed research has grown tenfold in the last 5 years, matching the growing increase in iNaturalist observations. Geographic and taxonomic representation in the literature generally aligns with data availability, with iNaturalist data derived from 128 countries and 638 taxonomic families being used in peer-reviewed literature. Currently, data from iNaturalist are primarily used for species distribution models and range dynamics. We highlight emerging trends in the use of iNaturalist data in the literature lending to its future potential across biodiversity sciences.
