@@ -1,5 +1,5 @@
 ---
-title: NaturalistaUY in Uruguay: a case of community science in Latin America from a critical perspective
+title: "NaturalistaUY in Uruguay: a case of community science in Latin America from a critical perspective"
 
 authors:
 - admin
