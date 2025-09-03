@@ -1,7 +1,7 @@
 ---
 title: Macroecología y la dinámica temporal de la biodiversidad a nivel global
 
-event: Seminario ISCB-RSG Uruguay: Por los barrios más remotos 2
+event: "Seminario ISCB-RSG Uruguay: Por los barrios más remotos 2"
 event_url: ''
 
 location: Virtual
