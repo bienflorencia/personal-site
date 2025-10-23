@@ -50,10 +50,10 @@ links:
   - name: Abstract
     url: https://www.livingdata2025.com/program.html?abstract=7020809
   - name: Poster
-    url: https://www.livingdata2025.com/program.html?abstract=7020809
+    url: '6960763_7020814_Grattarola_Poster.pdf'
 url_code: ''
 url_pdf: ''
-url_slides: '6798638-1_7020809_Grattarola_Oral.pdf'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
