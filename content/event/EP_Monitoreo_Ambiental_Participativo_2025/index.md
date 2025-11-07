@@ -16,12 +16,12 @@ abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-10-22T17:00:00Z'
+date: '2025-11-07T17:30:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2025-10-22T00:00:00Z'
+publishDate: '2025-11-07T00:00:00Z'
 
 authors:
   - admin
@@ -38,7 +38,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'Grattarola_Monitoreo_Ambiental_Participativo_2025.pdf'
+url_pdf: 'EP_Monitoreo_Ambiental_Participativo_2025.pdf'
 url_slides: ''
 url_video: ''
 
