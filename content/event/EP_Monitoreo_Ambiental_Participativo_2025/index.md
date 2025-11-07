@@ -1,7 +1,7 @@
 ---
 title: "NaturalistaUY: Un caso de ciencia comunitaria en América Latina desde una perspectiva crítica"
 event: "Curso: Monitoreo ambiental participativo: experiencias, desafíos y aprendizajes en Uruguay y la región"
-event_url: 'https://www.livingdata2025.com'
+event_url: ''
 
 location: Maldonado, Uruguay
 #address:
