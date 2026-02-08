@@ -1,7 +1,7 @@
 ---
 title: Temporal change and drivers of multiple facets of biodiversity at mesoscales
 
-event: The International Biogeography Society 12th Conference
+event: 12th Biennial Conference of the International Biogeography Society
 event_url: 'https://conferences.au.dk/tibs-aarhus-2026'
 
 location: Aarhus, Denmark
@@ -12,7 +12,7 @@ location: Aarhus, Denmark
 #  postcode: '94305'
 #  country: United States
 
-summary: Presentation at TIBS Biannual Conference
+summary: Presentation at TIBS Conference
 abstract: ''
 
 # Talk start and end times.
