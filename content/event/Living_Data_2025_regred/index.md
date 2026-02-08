@@ -47,7 +47,7 @@ links:
 url_code: ''
 url_pdf: ''
 url_slides: '6798638-1_7020809_Grattarola_Oral.pdf'
-url_video: ''
+url_video: 'https://youtu.be/jcSG5utMrhI?si=me30PX0DMh_L1tud&t=4540'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
