@@ -44,7 +44,7 @@ featured: false
 #    url: https://esa2023.eventscribe.net/fsPopup.asp?PresentationID=1276990&query=grattarola&Mode=presInfo
 url_code: ''
 url_pdf: ''
-url_slides: 'ISCB-RSG_Uruguay.pdf'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
