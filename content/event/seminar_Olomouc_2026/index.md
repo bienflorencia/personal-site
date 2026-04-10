@@ -65,5 +65,4 @@ projects: []
 
 ## Seminar from the Department of Zoology (Palacký University)
 
-I was invited by Vladimír Remeš to present at the Department seminar. The presentation focused in my most recent work related to assessing the temporal change of biodiversity at intermediate scales, and the potential drivers of these cahnges.
-
+I was invited by Vladimír Remeš to present at the Department seminar. The presentation focused on my most recent work assessing temporal changes in biodiversity at intermediate scales and the potential drivers of these changes.
