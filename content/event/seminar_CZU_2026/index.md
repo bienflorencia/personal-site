@@ -28,8 +28,9 @@ authors:
   - admin
 
 tags:
-  - iNaturalist
   - citizen-science
+  - iNaturalist network
+  
 
 # Is this a featured talk? (true/false)
 featured: false
