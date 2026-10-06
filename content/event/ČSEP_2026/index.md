@@ -52,7 +52,7 @@ featured: false
 #  - name: DOI
 #    url: https://doi.org/10.6084/m9.figshare.24150345
 url_code: ''
-url_pdf: 'ČSPE_2026.pdf'
+url_pdf: 'CSPE_2026.pdf'
 url_slides: ''
 url_video: ''
 
