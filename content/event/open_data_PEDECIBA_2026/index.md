@@ -3,7 +3,7 @@ title: "Datos abiertos de investigación"
 event: "Curso PEDECIBA Ciencia Abierta"
 event_url: 'https://www.pedeciba.edu.uy/es/curso/ciencia-abierta-2do-sem-2026/'
 
-location: Maldonado, Uruguay
+location: Virtual
 #address:
 #  street: 450 Serra Mall
 #  city: Stanford
